@@ -1,0 +1,19 @@
+{
+  "name": "ozwillo-site",
+  "version": "1.0.0",
+  "description": "Ozwillo site",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "i18next": "^1.10.6",
+    "i18next.yaml": "^1.6.0",
+    "jade": "^1.11.0",
+    "nconf": "^0.8.2"
+  }
+}

@@ -1,0 +1,48 @@
+nav.navbar.navbar-default.navbar-noauth
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#ozwillo-navbar', aria-expanded='false', aria-controls='navbar')
+        span.sr-only= t('menu:::toggle_navigation')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='/')
+        img(src='/static/img/logo.png', alt='Ozwillo')
+    #ozwillo-navbar.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li.dropdown
+          a.dropdown-toggle.purpleColor(href='#', data-toggle='dropdown', role='button', aria-expanded='false', aria-haspopup='true')
+            span= t('menu:::discover')
+            span.caret
+          ul.dropdown-menu(role='menu')
+            li(role='presentation')
+              a.gris(href=getPageLink('discover'))= t('menu:::discover')
+            li(role='presentation')
+              a.gris(href=getPageLink('news'))= t('menu:::news')
+            li(role='presentation')
+              a.gris(href=getPageLink('co-construct'))= t('menu:::co-construct')
+            li(role='presentation')
+              a.gris(href=getPageLink('lets-go'))= t('menu:::lets-go')
+            li(role='presentation')
+              a.gris(href=getPageLink('projects'))= t('menu:::projects')
+      ul.nav.navbar-nav.navbar-right
+        li
+          a.nocache.violetL(href=nconf.get('portal:host') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())
+            img(src='/static/img/icones.png', alt='App store icon')
+            span= t('menu:::store')
+        li
+          a.nocache.violetL(href='https://opendata.ozwillo.com/fr/')
+            img(src='/static/img/data-purple.png', alt='OpenData icon')
+            span= t('menu:::data')
+        li
+          a.nocache.violetL(href=nconf.get('portal:host') + '/my?ui_locales=' + i18n.lng())
+            img(src='/static/img/connexion-purple.png', alt='Connexion icon')
+            span= t('menu:::connexion')
+        li.dropdown
+          a.nav-link.dropdown-toggle.purpleColor(href='#', data-toggle='dropdown')
+            span= t('menu:::lang_' + i18n.lng())
+            i.caret
+          ul.dropdown-menu
+            li
+              a(href='/fr/' + t('route:::' + page, { lng: "fr" }))= t('menu:::lang_fr')
+              a(href='/en/' + t('route:::' + page, { lng: "en" }))= t('menu:::lang_en')
