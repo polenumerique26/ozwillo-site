@@ -1,4 +1,4 @@
-nav.navbar.navbar-default.navbar-noauth
+nav.navbar.navbar-default
   .container-fluid
     .navbar-header
       button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#ozwillo-navbar', aria-expanded='false', aria-controls='navbar')
@@ -28,7 +28,7 @@ nav.navbar.navbar-default.navbar-noauth
       ul.nav.navbar-nav.navbar-right
         li
           a.nocache.violetL(href=nconf.get('portal:host') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())
-            img(src='/static/img/icones.png', alt='App store icon')
+            img(src='/static/img/icone-catalogue-color.png', alt='App store icon')
             span= t('menu:::store')
         li
           a.nocache.violetL(href='https://opendata.ozwillo.com/fr/')
@@ -39,7 +39,7 @@ nav.navbar.navbar-default.navbar-noauth
             img(src='/static/img/connexion-purple.png', alt='Connexion icon')
             span= t('menu:::connexion')
         li.dropdown
-          a.nav-link.dropdown-toggle.purpleColor(href='#', data-toggle='dropdown')
+          a.dropdown-toggle.purpleColor(href='#', data-toggle='dropdown')
             span= t('menu:::lang_' + i18n.lng())
             i.caret
           ul.dropdown-menu
