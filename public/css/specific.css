@@ -41,7 +41,7 @@ a:focus, a:hover {
 *****************************************************************************************************************/
 
 .headerHome {
-    background: url(../img/BG-Home.jpg);
+    background: url(/static/img/BG-Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;

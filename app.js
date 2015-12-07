@@ -27,6 +27,9 @@ var option = {
 };
 
 i18n.backend(yamlSync);
+i18n.addPostProcessor("jade", function(val, key, opts) {
+  return require("jade").compile(val, opts)();
+});
 
 /* Express app initialization */
 
