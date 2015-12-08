@@ -54,6 +54,27 @@ i18n.init(option, function(t) {
   i18n.addRoute('/:lng/route:::home', ['en', 'fr'], app, 'get', function(req, res) {
     res.render('home');
   });
+  i18n.addRoute('/:lng/route:::discover', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('discover');
+  });
+  i18n.addRoute('/:lng/route:::news', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('news');
+  });
+  i18n.addRoute('/:lng/route:::co-construct', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('co-construct');
+  });
+  i18n.addRoute('/:lng/route:::projects', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('projects');
+  });
+  i18n.addRoute('/:lng/route:::contact', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('contact');
+  });
+  i18n.addRoute('/:lng/route:::legal_notices', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('legal_notices');
+  });
+  i18n.addRoute('/:lng/route:::terms', ['en', 'fr'], app, 'get', function(req, res) {
+    res.render('terms');
+  });
 });
 
 
