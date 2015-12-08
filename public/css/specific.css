@@ -171,7 +171,7 @@ ul.liens li {
     font-size: 18px;
     font-weight: 400;
     line-height: 40px;
-    list-style: url(../img/arrow.png);
+    list-style: url(/static/img/arrow.png);
     color: #7e4ca1;
     padding-left: 0;
     margin-left: 0;
@@ -217,7 +217,7 @@ ul.liens li {
 }
 
 .cercle {
-    background: url(../img/cercle.png);
+    background: url(/static/img/cercle.png);
     position: absolute;
     top: 0;
     z-index: 9999;
@@ -407,7 +407,7 @@ a.purpleColor:hover, a.purpleColor:focus {
 }
 
 .BG {
-    background: url(../img/BG-Home.jpg);
+    background: url(/static/img/BG-Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
@@ -415,7 +415,7 @@ a.purpleColor:hover, a.purpleColor:focus {
 }
 
 .map {
-    background: url(../img/map.png);
+    background: url(/static/img/map.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 757px;
@@ -423,7 +423,7 @@ a.purpleColor:hover, a.purpleColor:focus {
 }
 
 .sky {
-    background: url(../img/ciel.jpg);
+    background: url(/static/img/ciel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 691px;
@@ -579,7 +579,7 @@ ul.phrase li {
     padding-left: 50px;
     font-weight: 300;
     list-style: none;
-    background: url(../img/icones.png);
+    background: url(/static/img/icones.png);
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -592,7 +592,7 @@ ul.liensInter {
 ul.liensInter li {
     font-size: 16px;
     font-weight: 400;
-    list-style: url(../img/arrow.png);
+    list-style: url(/static/img/arrow.png);
     color: #7e4ca1;
     padding-left: 0;
     margin: 0 0 25px 0;
@@ -740,7 +740,7 @@ ul.infos li {
     padding-left: 30px;
     font-weight: 300;
     list-style: none;
-    background: url(../img/marker.jpg);
+    background: url(/static/img/marker.jpg);
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -750,13 +750,13 @@ ul.infos li a {
 }
 
 ul.infos.phone li {
-    background: url(../img/phone.jpg);
+    background: url(/static/img/phone.jpg);
     background-repeat: no-repeat;
     background-position: top left;
 }
 
 ul.infos.mail li {
-    background: url(../img/mail.jpg);
+    background: url(/static/img/mail.jpg);
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -867,7 +867,7 @@ a.nocache.violetL {
 }
 
 .cercle2 {
-    background: url(../img/cercle.png);
+    background: url(/static/img/cercle.png);
     position: absolute;
     top: 0;
     z-index: 999;
