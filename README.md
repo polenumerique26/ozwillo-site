@@ -1,5 +1,13 @@
 # Ozwillo website
 
+## Quick start
+
+You can start the site with this command :
+
+```shell
+npm start
+```
+
 ## Integration guide
 
 ### Converting HTML files to Jade
