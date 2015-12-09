@@ -1,1 +1,25 @@
-professional_title: span Vous êtes un <strong>professionnel</strong> d’une organisation publique ou privée
+main_title: Ozwillo est une plate-forme d'applications interactives grâce au partage de données.
+
+professional_title: span Vous êtes un <strong>professionnel</strong> d’une organisation publique ou privée ?
+professional_subtitle: Vous trouverez ici, des services citoyens et des applications qui vous sont destinés.
+professional_financialapp: Logiciels de gestion financière
+professional_eservices: Gestionnaires de démarches en ligne
+professional_hotspotwifi: Hotspot Wifi
+professional_cartography: Cartographie participative
+
+apps_already_joined: Ils ont déjà rejoint
+apps_discover: Découvrir
+apps_inprogress: En cours
+apps_opendata: Publiez et hébergez vos données en Open Data sur Ozwillo
+apps_fluxdemat: Application de dématérialisation des flux financiers (PESV2) et des actes pour contrôle de légalité
+apps_zimbra: Application open source de collaboration (messagerie-mail, partage de documents)
+apps_dokuwiki: Application de wiki open source
+apps_agrilocal: Plateforme d'achats de denrées locales pour les cantines et établissements publics
+apps_10tts: Un guide communautaire des lieux incontournables à voir dans une ville ou près d’une destination touristique
+
+store_title: span Vous êtes éditeur et voulez commercialiser <strong>votre application</strong> ?
+store_subtitle: Les librairies et outils permettant d'utiliser plus facilement la plateforme sont publiés en licence Lesser GPL.
+
+developer_title: span Vous êtes <srong>développeur</strong> ? Ozwillo vous permet de <strong>lancer</strong> votre application
+developer_subtitle: Basé sur un modèle ouvert (code source), et permettant la réutilisation des données produites par l'ensemble des applications, vos capacités seront comme décuplées.
+

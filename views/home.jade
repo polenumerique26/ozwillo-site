@@ -9,10 +9,9 @@ html(lang=i18n.lng())
     .container-fluid.headerHome
       .row
         .col-md-12
-          h1.titre
-            | Ozwillo est une plate-forme d'applications interactives grâce au partage de données.
+          h1.titre= t('home:::main_title')
         .col-md-12
-          a.btn-primary.btnRed(href=getPageLink('discover')) Explorer
+          a.btn-primary.btnRed(href=getPageLink('discover'))= t('menu:::discover')
 
     // TOP
     .row.clearfix.grey
@@ -21,25 +20,23 @@ html(lang=i18n.lng())
           .row.clearfix
             .col-md-6.column
               h2.soustitre!= t('home:::professional_title', { postProcess: "jade" })
-              p.paraHome
-                | Vous trouverez ici, des services citoyens et des applications qui vous sont destinés.
+              p.paraHome= t('home:::professional_subtitle')
               ul.liens
-                li Logiciels de gestion financière
-                li Gestionnaires de démarches en ligne
-                li Hotspot wifi
-                li Cartographie participative
-              a.btn-primary.btnViolet(href='#')
-                | Explorer
+                li= t('home:::professional_financialapp')
+                li= t('home:::professional_eservices')
+                li= t('home:::professional_hotspotwifi')
+                li= t('home:::professional_cartography')
+              a.btn-primary.btnViolet(href=getPageLink('discover'))= t('menu:::discover')
                 img(src='/static/img/arrow-white.png')
             .col-md-6.column
               img.img-responsive.image(src='/static/img/mobile.jpg')
+
     // APPS
     .row.clearfix
       .container-fluid
         .col-md-12.column
           .row.clearfix
-            h2.appli
-              | Ils ont déjà rejoint
+            h2.appli= t('home:::apps_already_joined')
               img.marge(src='/static/img/logo.png')
         // APPS
         .col-md-12.column
@@ -50,25 +47,24 @@ html(lang=i18n.lng())
                   img.appImage(src='/static/img/opendata.jpg')
                 span.cadre
                   span.titreApps Open Data
-                  p.paraApps Publiez et hébergez vos données en Open Data sur Ozwillo
-                  a.btn-primary.btnApps(href='') Découvrir
+                  p.paraApps= t('home:::apps_opendata')
+                  a.btn-primary.btnApps(href=getStoreLink('66e23b9b-65e1-5dce-a520-e1d8fed8b12a'))= t('home:::apps_discover')
             .col-md-4.column
               .apps
                 span.cercle
                   img.appImage(src='/static/img/fluxdemat.jpg')
                 span.cadre
                   span.titreApps Fluxdemat
-                  p.paraApps
-                    | Application de dématérialisation des flux financiers (PESV2) et des actes pour contrôle de légalité
-                  a.btn-primary.btnApps2(href='') En cours
+                  p.paraApps= t('home:::apps_fluxdemat')
+                  a.btn-primary.btnApps(href=getStoreLink('b3cc306f-b3e3-515f-8894-bc27f559cecb'))= t('home:::apps_discover')
             .col-md-4.column
               .apps
                 span.cercle
                   img.appImage(src='/static/img/zimbra.jpg')
                 span.cadre
                   span.titreApps Zimbra
-                  p.paraApps Application open source de collaboration : messagerie-mail, partage de documents
-                  a.btn-primary.btnApps2(href='') En cours
+                  p.paraApps= t('home:::apps_zimbra')
+                  a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
         .col-md-12.column
           .row.clearfix
             .col-md-4.column
@@ -77,27 +73,26 @@ html(lang=i18n.lng())
                   img.appImage(src='/static/img/docuwiki.jpg')
                 span.cadre
                   span.titreApps DocuWiki
-                  p.paraApps Application de wiki open source
-                  a.btn-primary.btnApps2(href='') En cours
+                  p.paraApps= t('home:::apps_dokuwiki')
+                  a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
             .col-md-4.column
               .apps
                 span.cercle
-                  img.appImage(src='/static/img/abrilocal.jpg')
+                  img.appImage(src='/static/img/agrilocal.jpg')
                 span.cadre
                   span.titreApps AgriLocal
-                  p.paraApps
-                    | Plateforme d'achats de denrées locales pour les cantines et établissements publics
-                  a.btn-primary.btnApps2(href='') En cours
+                  p.paraApps= t('home:::apps_agrilocal')
+                  a.btn-primary.btnApps(href=getStoreLink('618ab105-9d80-4c49-8326-b4855806aa92'))= t('home:::apps_discover')
             .col-md-4.column
               .apps
                 span.cercle
                   img.appImage(src='/static/img/10thingstosee.jpg')
                 span.cadre
                   span.titreApps 10 Things to see
-                  p.paraApps
-                    | Un guide communautaire des lieux incontournables à voir dans une ville ou près d’une destination touristique
-                  a.btn-primary.btnApps2(href='') En cours
+                  p.paraApps= t('home:::apps_10tts')
+                  a.btn-primary.btnApps(href=getStoreLink('379bc0c7-919c-42ee-99ef-8c4ce65c9ca4'))= t('home:::apps_discover')
     span.separationBas
+
     // Store
     .row.clearfix.grey
       .container-fluid
@@ -106,41 +101,20 @@ html(lang=i18n.lng())
             .col-md-4.column
               img.img-responsive.image(src='/static/img/store.jpg')
             .col-md-8.column
-              h2.soustitre
-                | Vous êtes éditeur et voulez
-                br
-                | commercialiser
-                span.gras votre application ?
-              p.paraHome
-                | Les librairies et outils permettant d'utiliser plus
-                br
-                | facilement la plateforme sont publiés en licence Lesser GPL.
-              a.btn-primary.btnViolet(href=getPageLink('lets-go'))
-                | Explorer
+              h2.soustitre!= t('home:::store_title', { postProcess: "jade" })
+              p.paraHome= t('home:::store_subtitle')
+              a.btn-primary.btnViolet(href=getPageLink('discover'))= t('menu:::discover')
                 img(src='/static/img/arrow-white.png')
+
     // Developpeur
     .row.clearfix
       .container-fluid
         .col-md-12.column
           .row.clearfix
             .col-md-6.column
-              h2.soustitre
-                | Vous êtes
-                span.gras développeur
-                |  ?
-                br
-                | Ozwillo vous permet de
-                br
-                span.gras lancer
-                |  votre application
-              p.paraHome
-                | Basé sur un modèle ouvert (code source), et permettant la
-                br
-                | réutilisation des données produites par l'ensemble des
-                br
-                | applications, vos capacités seront comme décuplées.
-              a.btn-primary.btnViolet(href='#')
-                | Explorer
+              h2.soustitre!= t('home:::developer_title', { postProcess: "jade" })
+              p.paraHome= t('home:::developer_subtitle')
+              a.btn-primary.btnViolet(href=getPageLink('discover'))= t('menu:::discover')
                 img(src='/static/img/arrow-white.png')
             .col-md-6.column
               img.img-responsive.image(src='/static/img/application.jpg')

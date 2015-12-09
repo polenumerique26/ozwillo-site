@@ -18,4 +18,8 @@ head
 
   - var getPageLink = function(page) {
   -    return '/' + i18n.lng() + '/' + t('route:::' + page);
-  -  }
+  - }
+
+  - var getStoreLink = function(appId) {
+  -    return nconf.get('portal:host') + '/' + i18n.lng() + '/store/application/' + appId;
+  - }
