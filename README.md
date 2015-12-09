@@ -28,7 +28,7 @@ As shown above, inside every page, declare a variable called `page` containing t
 - var page = 'home'
 ```
 
-Each page has an associated translation file for every supported language, located in *locales/lang/namespace.yml* (see below for more details about translations).
+Each page has an associated translation file for every supported language, located in *locales/lang/namespace.yml* (see below for more details about translations). If it is not yet declared, it has to be added in the namespaces declaration in the file [app.js](https://github.com/ozwillo/ozwillo-site/blob/master/app.js#L21). 
 
 ### Handling translations
 
