@@ -1,25 +1,27 @@
 title: <strong>Livrables ?!</strong> <br /> Qu’est-ce que c’est ?
-text: "Le programme de travail tout au long d’un projet européen contient la rédaction de livrables. <br />
-                      <strong>Un livrable est un document rédigé en anglais, décrivant un résultat, mesurable, tangible ou vérifiable, qui résulte de l’achèvement d’une partie du projet.</strong>
-                       <br /> <br />
-                       Au lancement du projet un tableau des livrables et défini. Il fixe le nombre et les échéances des livrables à transmettre à la commission européenne.
-                        <br /> <br />
-                      <strong> Les livrables s'organisent de la manière suivante :</strong>"
+text: "<span>Le programme de travail tout au long d’un projet européen contient la rédaction de livrables. <br />
+  <strong>Un livrable est un document rédigé en anglais, décrivant un résultat, mesurable, tangible ou vérifiable, qui
+  résulte de l’achèvement d’une partie du projet.</strong>
+  <br /> <br />
+  Au lancement du projet un tableau des livrables est défini. Il fixe le nombre et les échéances des livrables à transmettre
+  à la commission européenne.
+  <br /> <br />
+  <strong> Les livrables s'organisent de la manière suivante :</strong></span>"
 item_1: Tous les livrables commençant par le chiffre 1 correspondent à la définition et aux spécifications de l’architecture technique.
 item_2: Les livrables débutant par le chiffre 2 parlent du développement de la plateforme et des applications.
 item_3: A partir du chiffres 3, les livrables exposent le modèle économique et la gouvernance de la plateforme.
-item_4: Les sites pilotes sont eux exposés dans les livrables numéroté 4.
-item_5: Le chiffre 5, regroupe les livrables qui traitent des indicateurs et du suivi de performance.
-item_6: Et enfin les livrables chiffrés 6, tournent autour des questions de management et de stratégie de communication.
+item_4: Les sites pilotes sont eux exposés dans les livrables numérotés 4.
+item_5: Le chiffre 5 regroupe les livrables qui traitent des indicateurs et du suivi de performance.
+item_6: Et enfin les livrables chiffrés 6 tournent autour des questions de management et de stratégie de communication.
 
 delivrable_title: Les livrables de référence
 delivrable_item_1: "<br />D1.1 :<br /> Introduction"
 delivrable_item_2: "<br />D1.2 : Présentation de l'architecture"
-delivrable_item_3: "<br />D1.32 : Protection des données perso"
+delivrable_item_3: "<br />D1.32 : Protection des données personnelles"
 delivrable_item_4: "<br />D2.1 : Implémentation technique"
 delivrable_item_5: "<br />D2.2 : Guide d'utilisation"
 delivrable_item_6: "<br />D2.3 : Solutions d'authentification"
-delivrable_item_7: "<br />D3.1 : Business modèle"
+delivrable_item_7: "<br />D3.1 : Modèle économique"
 delivrable_item_8: "<br />D3.4 : Principes de gouvernance"
 delivrable_item_9: "<br />D5.1 : Indicateurs de performance"
 delivrable_item_10: "<br />D6.1 : Gestion de projets"

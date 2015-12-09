@@ -1,10 +1,10 @@
 title: <strong>Deliverable ?!</strong> <br /> What is it ?
-text: "The work program throughout a European project contains the writing of deliverables. <br />
+text: "<span>The work program throughout a European project contains the writing of deliverables. <br /><br />
       <strong> A deliverable is a document written in English, describing a result, measurable, tangible or verifiable, resulting from the completion of the project. </strong>
       <br /><br />
       When the project started a table of deliverables and defined. It determines the number of deliverables and deadlines for transmission to the European Commission.
       <br /><br />
-      <strong> The deliverables are organized as follows: </strong>"
+      <strong> The deliverables are organized as follows: </strong></span>"
 item_1: All deliverables starting with 1 being the definition and specification of the technical architecture.
 item_2: Deliverables beginning with the number 2 talk about the development of the platform and applications.
 item_3: From the figures 3, deliverables expose the economic model and governance platform.
@@ -19,8 +19,8 @@ delivrable_item_3: "<br />D1.32 : Privacy personal data"
 delivrable_item_4: "<br />D2.1 : Report implementation"
 delivrable_item_5: "<br />D2.2 : Guidelines usage"
 delivrable_item_6: "<br />D2.3 : Solutions of authentication"
-delivrable_item_7: "<br />D3.1 : Business case"
-delivrable_item_8: "<br />D3.4 : Governance"
+delivrable_item_7: "<br />D3.1 :<br/> Business case"
+delivrable_item_8: "<br />D3.4 :<br/> Governance"
 delivrable_item_9: "<br />D5.1 : Key performance indicators"
 delivrable_item_10: "<br />D6.1 : Project management"
 delivrable_item_11: "<br />D6.31 : Dissemination exploitation"
