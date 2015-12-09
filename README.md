@@ -8,7 +8,7 @@ Install nodemon :
 npm install nodemon --save
 ```
 
-You can start the site with this command :
+Then start the site :
 
 ```shell
 npm start
