@@ -1,0 +1,73 @@
+- var page = 'co-construct'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+
+    // TOP
+    .row.clearfix.BG
+      .container-fluid
+        .col-md-12.column
+          .row.clearfix
+            .col-md-12
+              h1.titreInter= t('co-construct:::main_title')
+              p.para.para2= t('co-construct:::main_subtitle_1')
+              p.paragraphe= t('co-construct:::main_subtitle_2')
+
+    // APPLIS
+    .row.clearfix.grey
+      .container-fluid
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              h2.soustitre!= t('co-construct:::apps_title', { postProcess: "jade" })
+              p.paraHome= t('co-construct:::apps_subtitle')
+              a.btn-primary.btnRedInter(href=getPageLink('contact'))= t('co-construct:::apps_contribute')
+                img(src='/static/img/arrow-white.png')
+            .col-md-6.column
+              img.img-responsive.image.right(src='/static/img/construire.png')
+
+    // Open Source
+    .row.clearfix
+      .container-fluid
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              img.img-responsive.image(src='/static/img/montgolfiere.png')
+            .col-md-6.column
+              h2.soustitre!= t('co-construct:::opensource_title', { postProcess: "jade" })
+              p.paraHome= t('co-construct:::opensource_subtitle_1')
+              p.paraHome= t('co-construct:::opensource_subtitle_2')
+              p.paraHome.gras= t('co-construct:::opensource_profits')
+              ul.liens
+                li= t('co-construct:::opensource_profit_1')
+                li= t('co-construct:::opensource_profit_2')
+                li= t('co-construct:::opensource_profit_3')
+                li= t('co-construct:::opensource_profit_4')
+
+    // Gouvernance
+    .row.clearfix.grey
+      .container-fluid
+        .col-md-12.column
+          .row.clearfix
+            h2.soustitre2!= t('co-construct:::governance_title', { postProcess: "jade" })
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              ul.phrase
+                li= t('co-construct:::governance_profit_1')
+                li= t('co-construct:::governance_profit_2')
+                li= t('co-construct:::governance_profit_3')
+                li= t('co-construct:::governance_profit_4')
+            .col-md-6.column
+              ul.phrase
+                li= t('co-construct:::governance_profit_5')
+                li= t('co-construct:::governance_profit_6')
+                li= t('co-construct:::governance_profit_7')
+        .col-md-12.column
+          p.paraHome.text-center.center-block= t('co-construct:::governance_join_1')
+          p.paraHome.text-center.center-block= t('co-construct:::governance_join_2')
+
+    include ./footer.jade
+    include ./scripts.jade

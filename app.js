@@ -11,7 +11,7 @@ var option = {
   fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
-    namespaces: ['route', 'menu', 'breadcrumb', 'home', 'footer', 'discover']
+    namespaces: ['route', 'menu', 'home', 'co-construct', 'discover', 'footer']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
