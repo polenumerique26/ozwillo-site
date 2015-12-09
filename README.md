@@ -2,6 +2,12 @@
 
 ## Quick start
 
+Install nodemon :
+
+```shell
+npm install nodemon --save
+```
+
 You can start the site with this command :
 
 ```shell
