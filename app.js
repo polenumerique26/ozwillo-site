@@ -11,7 +11,7 @@ var option = {
   fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
-    namespaces: ['route', 'menu', 'home', 'co-construct', 'discover', 'footer']
+    namespaces: ['route', 'menu', 'home', 'co-construct', 'discover', 'legal-notices', 'footer']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
@@ -69,9 +69,9 @@ i18n.init(option, function(t) {
     res.locals.host = req.get('host');
     res.render('contact');
   });
-  i18n.addRoute('/:lng/route:::legal_notices', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::legal-notices', ['en', 'fr'], app, 'get', function(req, res) {
     res.locals.host = req.get('host');
-    res.render('legal_notices');
+    res.render('legal-notices');
   });
   i18n.addRoute('/:lng/route:::terms', ['en', 'fr'], app, 'get', function(req, res) {
     res.locals.host = req.get('host');
