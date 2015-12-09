@@ -1,13 +1,6 @@
 var express = require('express'),
   i18n = require("i18next"),
-  yamlSync = require('i18next.yaml'),
-  nconf = require('nconf');
-
-/* nconf initialization */
-
-nconf.argv()
-    .env()
-    .file({ file: 'config.json' });
+  yamlSync = require('i18next.yaml');
 
 /* i18n initialization */
 
@@ -40,7 +33,6 @@ app.set('view engine', 'jade');
 
 app.use(i18n.handle);
 i18n.registerAppHelper(app);
-app.locals.nconf = nconf;
 
 app.use('/static', express.static(__dirname + '/public'));
 
@@ -49,30 +41,40 @@ app.use('/static', express.static(__dirname + '/public'));
 i18n.init(option, function(t) {
   // Add localizable routes
   i18n.addRoute('/:lng', ['en', 'fr'], app, 'get', function(req, res) {
+    // FIXME : this is verbose, find a way to declare it once for all routes
+    res.locals.host = req.get('host');
     res.render('home');
   });
   i18n.addRoute('/:lng/route:::home', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('home');
   });
   i18n.addRoute('/:lng/route:::discover', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('discover');
   });
   i18n.addRoute('/:lng/route:::news', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('news');
   });
   i18n.addRoute('/:lng/route:::co-construct', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('co-construct');
   });
   i18n.addRoute('/:lng/route:::projects', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('projects');
   });
   i18n.addRoute('/:lng/route:::contact', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('contact');
   });
   i18n.addRoute('/:lng/route:::legal_notices', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('legal_notices');
   });
   i18n.addRoute('/:lng/route:::terms', ['en', 'fr'], app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
     res.render('terms');
   });
 });

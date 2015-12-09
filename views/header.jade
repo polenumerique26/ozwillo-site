@@ -21,5 +21,9 @@ head
   - }
 
   - var getStoreLink = function(appId) {
-  -    return nconf.get('portal:host') + '/' + i18n.lng() + '/store/application/' + appId;
+  -    return getOzwilloHost('portal') + '/' + i18n.lng() + '/store/application/' + appId;
+  - }
+
+  - var getOzwilloHost = function(appName) {
+  -    return 'https://' + host.replace('www', appName);
   - }
