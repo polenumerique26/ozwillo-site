@@ -11,12 +11,12 @@ var option = {
   fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
-    namespaces: ['route', 'menu', 'home', 'co-construct', 'discover', 'legal-notices', 'footer']
+    namespaces: ['route', 'menu', 'home', 'co-construct', 'discover', 'legal-notices', 'projects', 'footer']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
   nsseparator: ':::',
-  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/']
+  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/', 'pdf/']
 };
 
 i18n.backend(yamlSync);
@@ -88,5 +88,5 @@ var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Ozwillo site listening at http://%s:%s', host, port);
 });

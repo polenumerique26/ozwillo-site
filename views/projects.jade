@@ -11,92 +11,61 @@ html(lang=i18n.lng())
         .col-md-12.column
           .row.clearfix
             .col-md-6.column
-              h2.soustitre
-                span.gras Livrables ?!
-                br
-                | Qu’est-ce que c’est ?
-              p.paraHome
-                | Le programme de travail tout au long d’un projet européen contient la rédaction de livrables.
-                br
-                span.gras
-                  | Un livrable est un document rédigé en anglais, décrivant un résultat, mesurable, tangible ou vérifiable, qui résulte de l’achèvement d’une partie du projet.
-                br
-                br
-                | Au lancement du projet un tableau des livrables et défini. Il fixe le nombre et les échéances des livrables à transmettre à la commission européenne.
-                br
-                br
-                span.gras Les livrables s'organisent de la manière suivante :
+              h2.soustitre!= t('projects:::title', { postProcess: "jade" })
+              p.paraHome!= t('projects:::text', { postProcess: "jade" })
               ul.liensInter
-                li
-                  | Tous les livrables commençant par le chiffre 1 correspondent à la définition et aux spécifications de l’architecture technique.
-                li
-                  | Les livrables débutant par le chiffre 2 parlent du développement de la plateforme et des applications.
-                li
-                  | A partir du chiffres 3, les livrables exposent le modèle économique et la gouvernance de la plateforme.
-                li Les sites pilotes sont eux exposés dans les livrables numéroté 4.
-                li
-                  | Le chiffre 5, regroupe les livrables qui traitent des indicateurs et du suivi de performance.
-                li
-                  | Et enfin les livrables chiffrés 6, tournent autour des questions de management et de stratégie de communication.
+                li= t('projects:::item_1')
+                li= t('projects:::item_2')
+                li= t('projects:::item_3')
+                li= t('projects:::item_4')
+                li= t('projects:::item_5')
+                li= t('projects:::item_6')
             .col-md-6.column.violet
-              span.intertitre Les livrables de référence
+              span.intertitre=t('projects:::delivrable_title')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D1.1_Platform-requirements_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D1.1_Platform-requirements_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D1.1 :
-                br
-                | Introduction
+                !=t('projects:::delivrable_item_1')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D1.2_Architectural-design-first-iteration_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D1.2_Architectural-design-first-iteration_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D1.2 : Présentation de l'architecture
+                !=t('projects:::delivrable_item_2')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D1.32_Privacy-requirements-personal-data-legislation-second-iteration_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D1.32_Privacy-requirements-personal-data-legislation-second-iteration_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D1.32 : Protection des données perso
+                !=t('projects:::delivrable_item_3')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D2.1_Report-implementation_vf_bd2.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D2.1_Report-implementation_vf_bd2.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D2.1 : Implémentation technique
+                !=t('projects:::delivrable_item_4')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D2.2_Guidelines-for-designing-services_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D2.2_Guidelines-for-designing-services_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D2.2 : Guide d'utilisation
+                !=t('projects:::delivrable_item_5')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D2.3_Adapted-solutions-user-identification-authentication_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D2.3_Adapted-solutions-user-identification-authentication_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D2.3 : Solutions d'authentification
+                !=t('projects:::delivrable_item_6')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D3.1_Business-case-first-iteration_vf_bd.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D3.1_Business-case-first-iteration_vf_bd.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D3.1 : Business modèle
+                !=t('projects:::delivrable_item_7')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D3.4_Governance_VF.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D3.4_Governance_VF.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D3.4 : Principes de gouvernance
+                !=t('projects:::delivrable_item_8')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D51_Initial-KPIs-Report-Requirements_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D51_Initial-KPIs-Report-Requirements_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D5.1 : Indicateurs de performance
+                !=t('projects:::delivrable_item_9')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D6.1_Management_Manual_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D6.1_Management_Manual_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D6.1 : Gestion de projets
+                !=t('projects:::delivrable_item_10')
               .col-md-3.column.white
-                a(href='https://www.ozwillo.com/images/pdf/OASIS_D6.31_Dissemination-Exploitation-of-foreground-N1_vf.pdf')
+                a(target="_blank" href='/static/pdf/OASIS_D6.31_Dissemination-Exploitation-of-foreground-N1_vf.pdf')
                   img(src='/static/img/pdf.png')
-                br
-                | D6.31 : Stratégie de communication
+                !=t('projects:::delivrable_item_11')
 
     include ./footer.jade
     include ./scripts.jade
