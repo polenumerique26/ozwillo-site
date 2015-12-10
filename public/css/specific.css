@@ -762,7 +762,7 @@ ul.infos.mail li {
 }
 
 .champ {
-    width: 300px;
+    width: 450px;
     height: 52px;
     line-height: 52px;
     border: 1px solid #eeebeb;
@@ -776,7 +776,7 @@ ul.infos.mail li {
 }
 
 .texte {
-    width: 620px;
+    width: 450px;
     height: 150px;
     border: 1px solid #eeebeb;
     background: #f9f9f9;
@@ -822,7 +822,7 @@ ul.infos.mail li {
 
 iframe {
     width: 100%;
-    height: 350px;
+    height: 420px;
 }
 
 a.nocache.violetL {

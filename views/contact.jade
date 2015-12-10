@@ -1,0 +1,49 @@
+- var page = 'contact'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+    // Titre
+    .row.clearfix.BG
+      .container
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+                h1.titreInter!= t('contact:::title')
+    // Info
+    .container
+      .row
+        .col-md-12.column
+          .row.clearfix
+            .col-md-4.column
+              ul.infos
+                li!= t('contact:::info_colunm_1')
+            .col-md-4.column
+              ul.infos.phone
+                li!= t('contact:::info_colunm_2')
+            .col-md-4.column
+              ul.infos.mail
+                li!= t('contact:::info_colunm_3')
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              form
+                span.leftCol
+                  .form-group
+                    input.champ(type='text', placeholder= t('contact:::form_input_1'), required='')
+                  .form-group
+                    input.champ(type='tel', placeholder= t('contact:::form_input_2'), required='')
+                span.rightCol
+                  .form-group
+                    input.champ(type='email', placeholder= t('contact:::form_input_3'), required='')
+                  .form-group
+                    input.champ(type='text', placeholder= t('contact:::form_input_4'))
+                .form-group
+                  textarea.texte(type='text', placeholder= t('contact:::form_input_5'), required='')
+                button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
+            .col-md-6.column
+              iframe(src= t('contact:::iframe_url'), allowfullscreen='')
+
+    include ./footer.jade
+    include ./scripts.jade
