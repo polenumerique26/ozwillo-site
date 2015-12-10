@@ -1,26 +1,142 @@
-title: <strong>Deliverable ?!</strong> <br /> What is it ?
-text: "<span>The work program throughout a European project contains the writing of deliverables. <br /><br />
-      <strong> A deliverable is a document written in English, describing a result, measurable, tangible or verifiable, resulting from the completion of the project. </strong>
-      <br /><br />
-      When the project started a table of deliverables and defined. It determines the number of deliverables and deadlines for transmission to the European Commission.
-      <br /><br />
-      <strong> The deliverables are organized as follows: </strong></span>"
-item_1: All deliverables starting with 1 being the definition and specification of the technical architecture.
-item_2: Deliverables beginning with the number 2 talk about the development of the platform and applications.
-item_3: From the figures 3, deliverables expose the economic model and governance platform.
-item_4: The pilot sites are the ones exposed in numbered 4 deliverables.
-item_5: The number 5, includes deliverables that process indicators and performance monitoring.
-item_6: And finally quantified deliverables 6, revolve around issues of management and communication strategy.
+# OASIS
+oasis_title: <span>Oasis is the name of
+  <br />the European project
+  <br />base of the platform Ozwillo.
+  </span>
+oasis_text_1: Ozwillo comes from the European OASIS project, which has created the first technical and legal brick that platform.
+oasis_text_2: "The European OASIS project was selected in 2011 by the European Commission under the Competitiveness and Innovation Programme 2007-2013 on the Call for Projects: Towards a cloud of public services."
+oasis_text_3: The eligibility requirements for this program were the formation of a consortium of four European countries, with a minimum of three pilot sites to directly validate the project concept to end-users.
+oasis_financer_title: <strong>Funders of French pilot site</strong>
+oasis_goal_title: "<strong>Primary objectives were persued:</strong>"
+oasis_goal_item_1: 1 - Adapt a dozen services Ozwillo and make accessible with a unique identifier.
+oasis_goal_item_2: 2 - Demonstrate interoperability of services, from a completely open-source development, on 5 pilot sites in 5 countries over a period of 12 months. (in progress…)
+oasis_goal_item_3: 3 - Develop a user-centric ergonomics and user-friendly, allowing the management of their personal data. (in progress…)
+oasis_goal_item_4: 4 - Facilitate ownership of online services for small municipalities responding to the objective of the European Commission to lower costs by 25% compared to current costs. (in progress…)
+oasis_goal_item_5: 5 - Validate the economic model of the platform and the legal form most appropriate to its port over time. (in progress…)
 
-delivrable_title: The reference deliverables
-delivrable_item_1: "<br />D1.1 :<br /> Introduction"
-delivrable_item_2: "<br />D1.2 : Architectural design"
-delivrable_item_3: "<br />D1.32 : Privacy personal data"
-delivrable_item_4: "<br />D2.1 : Report implementation"
-delivrable_item_5: "<br />D2.2 : Guidelines usage"
-delivrable_item_6: "<br />D2.3 : Solutions of authentication"
-delivrable_item_7: "<br />D3.1 :<br/> Business case"
-delivrable_item_8: "<br />D3.4 :<br/> Governance"
-delivrable_item_9: "<br />D5.1 : Key performance indicators"
-delivrable_item_10: "<br />D6.1 : Project management"
-delivrable_item_11: "<br />D6.31 : Dissemination exploitation"
+########################################################################################################################
+# MAP
+map_title: <span>The project<strong>unique in Europe</strong>, has combined 6 countries
+  <br />
+  <span class="little">(England, Spain, Italy, Bulgaria, Turkey and France),
+  <br />
+  with 5 pilot sites</span>
+  </span>
+
+########################################################################################################################
+# Partner
+partner_title: <span><strong>Pôle Numérique</strong><span class="little"> (Valence - Drôme 26 - France)</span>
+  <br />is the coordinator of this European project with ten partners</span >
+
+partner_column_1_title: Technical partners
+partner_column_1_item_1: <span>The Polytechnic University of Turin, the architect of the platform.</span>
+partner_column_1_item_2: <span>The French companies Atol C&D and Open Wide specialized in the design and development of dedicated IT solutions.
+  <br /><br />
+  <span class="noBold">In charge of the development of the platform and the provision of legal archiving services, electronic documents and Citizen Relationship Management.</span >
+  </span>
+partner_column_1_item_3: <span>The company Atreal (France) proposing the application suite OpenMairie.</span>
+
+partner_column_2_title: The expert consultants
+partner_column_2_item_1: <span>The Brunel University (England), computer security expert and an expert in European law for personal data and respect for private life.</span>
+partner_column_2_item_2: <span>The company Blau Advisors (Spain), responsible for leading change in the pilot sites and their evaluation.
+  <br /><br />
+  <span class="noBold">This very innovative platform highlights the ethics of a digital policy facing respecting everyone's rights (management of personal data, interoperability of services, goods Common Data ...)</span>
+  <br /><br />
+  <span class="noBold">A nimble partnerships with publishers who have agreed to adapt their software, by separating data and business rules with Community support data sharing and allows the creation of a tremendous heritage of reusable data with the new applications that will join Oasis over time.</span>
+  </span>
+
+########################################################################################################################
+# First Apps
+apps_title: <strong>First</strong> proposed applications
+apps_fr: <br /><strong>France</strong>
+  <br />Management of citizen relationship
+  <br />Participatory mapping
+  <br />Financial management and human resources
+  <br />Archiving probative value
+  <br />Hall Open
+  <br />Open data
+apps_bg: <br /><strong>Bulgaria</strong>
+  <br />Participatory mapping
+  <br />Publication of tourist events
+apps_tr: <br /><strong>Turkey</strong>
+  <br />Promoting business parks for investors
+  <br />Collection and statistical processing of economic data
+apps_it: <br /><strong>Italy</strong>
+  <br />Mapping urban planning of the cities
+  <br />Location of economic activities
+apps_es: <br /><strong>Spain</strong>
+  <br />Platform of public markets
+  <br />Environmental incident management
+  <br />Management Applications
+  <br />subsidies and social benefits
+
+########################################################################################################################
+# Deliverables
+delivrable_title: <strong>Delivered</strong><br />What is it?!?
+delivrable_text: "<span>The work program throughout a European project deliverables contains writing
+  <br /><strong>A deliverable is a document written in English, describing a result, measurable, tangible or verifiable. resulting from the completion of the project.</strong>
+  <br /><br />
+  At the project launch a table of deliverables is defined. It determines the number of deliverables and deadlines for transmission to the European Commission.
+  <br /><br />
+  <strong>The deliverables are organized as follows:</strong>
+  </span>"
+delivrable_explaination_1: All deliverables starting with the number 1 correspond to the definition and specification of the technical architecture.
+delivrable_explaination_2: Deliverables beginning with the number 2 talk about the development of the platform and applications.
+delivrable_explaination_3: From number 3, deliverables expose the economic model and governance platform.
+delivrable_explaination_4: The pilot sites are the ones exposed in numbered 4 deliverables.
+delivrable_explaination_5: The number 5 includes deliverables that process indicators and performance monitoring.
+delivrable_explaination_6: And finally quantified deliverables 6 revolve around issues of management and communication strategy.
+
+delivrable_list_title: Reference deliverables
+delivrable_item_1: "<br />D1.1<br />Introduction"
+delivrable_item_2: "<br />D1.2: Architecture Overview"
+delivrable_item_3: "<br />D1.32: Protection of personal data"
+delivrable_item_4: "<br />D2.1: Technical Implementation"
+delivrable_item_5: "<br />D2.2: User's Guide"
+delivrable_item_6: "<br />D2.3: Authentication Solutions"
+delivrable_item_7: "<br />D3.1: Economic Model"
+delivrable_item_8: "<br />D3.4: Governance Principles"
+delivrable_item_9: "<br />D5.1: Performance Indicators"
+delivrable_item_10: "<br />D6.1: Project Management"
+delivrable_item_11: "<br />D6.31: Communication Strategy"
+
+########################################################################################################################
+#OCCIWare
+occi_title: <span>The project will enable <strong>data heart of tool</strong></span>
+occi_subtitle: The OCCIware project (www.occiware.org) was selected in the 4th call for projects "Cloud Computing and Big Data" Heart of digital industry, Investments for the Future - Development of the Digital Economy.
+occi_column_1: The objective of OCCIware is to provide a formal framework and equipped to manage all types of resources "in the cloud". The OCCIware project aims to develop a formal framework and tools for modeling, design, deployment and execution of all IT resources as a service online.
+occi_column_2: We believe that the development of scientific and technical tools specific to cloud computing as a whole (IaaS, PaaS, SaaS) will significantly lower the cost of entry into the cloud market for existing software publishers, and also the development of new innovative services with high added value.
+
+########################################################################################################################
+#Demonstrator
+demonstrator_title: <span>Ozwillo will<strong>demo</strong>OCCIware</span>
+
+demonstrator_column_1_text: "<strong>What is a demonstrator at scale 1</strong>
+  <br /><br />
+  A demonstrator scale 1 is after the research phase . laboratory and prior to industrialization and marketing of which a first step is usually the realization of a prototype
+  <br /><br />
+  <strong>The realization of a demonstrator is justified:</strong>"
+demonstrator_column_1_item_1: Validate to scale, design solutions adopted in R & D on "the bench" or test equipment or demonstrators at the reduced scale
+demonstrator_column_1_item_2: Assessing performance in a close environment of a real situation and at the right scale
+demonstrator_column_1_item_3: Demonstrate the relevance of innovation and its competitive advantages in a perspective of innovation by usage, more and more often.
+
+demonstrator_column_2_text: "<span>
+  So the demonstrator is a place to perform and demonstrate technologies to optimize, validate the feasibility and performance It must involve economic partners, laboratories, several industrial and territories . for the implementation of
+  <strong>There are three main categories of demonstrators:</strong>
+  </span>"
+demonstrator_column_2_item_1: Product Demonstrator
+demonstrator_column_2_item_2: Demonstrator Process / Process
+demonstrator_column_2_item_3: Demonstrator Complex systems may itself be a land devaluation of the first two types
+
+########################################################################################################################
+# Evolution & Development
+evolutions_title: <strong>Trends</strong>, the axes of Ozwillo's <strong>development</strong>
+
+evolutions_column_1_item_1: Enriching the Application panel so that the end user finds the freedom to choose and keeps his vis-à-vis independence of any software company.
+evolutions_column_1_item_2: Developing citizen participation for better management of the public and promote the recognition of contributors citizens.
+evolutions_column_1_item_3: Extending the platform to other European territory ...
+evolutions_column_1_item_4: Develop new tools to optimize the data link and reuse. (OCCIware)
+
+evolutions_column_2_item_1: Improve user experience
+evolutions_column_2_item_2: Industrialize the platform to facilitate the arrival of new service providers
+evolutions_column_2_item_3: Create the most appropriate governance for the preservation of "common good" of data produced every day.

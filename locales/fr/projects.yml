@@ -1,5 +1,81 @@
-title: <strong>Livrables ?!</strong> <br /> Qu’est-ce que c’est ?
-text: "<span>Le programme de travail tout au long d’un projet européen contient la rédaction de livrables. <br />
+# OASIS
+oasis_title: <span>Oasis est le nom du projet
+  <br /> européen socle de la
+  <br /> plateforme Ozwillo.
+  </span>
+oasis_text_1: Ozwillo est issu du projet européen OASIS, qui a permis de créer les premières briques techniques et juridique de cette plateforme.
+oasis_text_2: "Le projet européen OASIS a été retenu en 2011 par la Commission Européenne dans le cadre du programme de Compétitivité et d’Innovation 2007-2013, sur l’Appel à Projets : Towards a cloud of public services (Vers un nuage de services publics)."
+oasis_text_3: Les conditions d’éligibilité à ce programme étaient la constitution d’un consortium de quatre pays européens, avec trois sites pilotes minimum, permettant de valider directement le concept du projet auprès des usagers finaux.
+oasis_financer_title: <strong>Financeurs du site pilote français</strong>
+oasis_goal_title: "<strong>Des premiers objectifs ont étés poursuivis :</strong>"
+oasis_goal_item_1: 1 - Adapter une douzaine de services à Ozwillo et les rendre accessible avec un identifiant unique.
+oasis_goal_item_2: 2 - Démontrer l’interopérabilité des services, à partir d’un développement complètement open-source, sur 5 sites pilotes dans 5 pays, sur une durée de 12 mois. (en cours…)
+oasis_goal_item_3: 3 - Développer une ergonomie centrée sur l'utilisateur et conviviale, permettant la gestion de ses données personnelles. (en cours)
+oasis_goal_item_4: 4 - Faciliter l’appropriation des services en ligne par les petites municipalités en répondant à l’objectif de la Commission Européenne d’une baisse des coûts de 25% par rapport aux coûts actuels. (en cours)
+oasis_goal_item_5: 5 - Valider le modèle économique de la plateforme et la forme juridique la plus adaptée à son portage sur la durée. (en cours)
+
+########################################################################################################################
+# MAP
+map_title: <span>Ce projet,<strong> unique en Europe</strong>, a associé 6 pays
+  <br />
+  <span class="little">(Angleterre, Espagne, Italie, Bulgarie, Turquie et France),
+  <br />
+  avec 5 sites pilotes</span>
+  </span>
+
+########################################################################################################################
+# Partenaire
+partner_title: <span><strong>Pôle Numérique</strong><span class="little"> (Valence - Drôme 26 - France)</span>
+  <br />est coordinateur de ce projet européen qui compte dix partenaires</span>
+partner_column_1_title: Les partenaires techniques
+partner_column_1_item_1: <span>L’Université Polytechnique de Turin, pour l’architecte de la plate-forme.</span>
+partner_column_1_item_2: <span>Les sociétés françaises Atol C&D et Open Wide spécialisées dans la conception et le développement de solutions informatiques dédiées.
+  <br />
+  <br />
+  <span class="noBold">En charge du développement de la plate-forme et de la fourniture des services d’archivage légal, de documents électroniques et de Gestion de la Relation Citoyenne.</span>
+  </span>
+partner_column_1_item_3: <span>L’entreprise Atreal (France) proposant la suite applicative OpenMairie.</span>
+
+partner_column_2_title: Les experts-consultants
+partner_column_2_item_1: <span>L’Université de Brunel (Angleterre), expert en sécurité informatique et expert en droit européen pour les données personnelles et respect de la vie privée.</span>
+partner_column_2_item_2: <span>La société Blau Advisors (Espagne), responsable de la conduite du changement sur les sites pilotes et de leur évaluation.
+  <br />
+  <br />
+  <span class="noBold">Cette plateforme très innovante met en avant l’éthique d’une politique numérique tournée vers le respect des droits de chacun (gestion des données personnelles, interopérabilité des services, biens communs de données…)</span>
+  <br />
+  <br />
+  <span class="noBold">Un partenariat agile avec des éditeurs qui ont accepté d’adapter leurs logiciels, en séparant les règles métiers des données et avec des collectivités favorables au partage de données, permet ainsi la création d’un formidable patrimoine de données réutilisables par les nouvelles applications qui viendront rejoindre Oasis au fil du temps.</span>
+  </span>
+
+########################################################################################################################
+# Premières Apps
+
+apps_title: <span>Les <strong> premières </strong> applications proposées</span>
+apps_fr: <br /><strong>France</strong>
+  <br />Gestion de la relation citoyenne
+  <br />Cartographie participative
+  <br />Gestion financière et ressources humaines
+  <br />Archivage à valeur probante
+  <br />Open mairie
+  <br />Open data
+apps_bg: <br /><strong>Bulgarie</strong>
+  <br />Cartographie participative
+  <br />Publication d'événements touristiques
+apps_tr: <br /><strong>Turquie</strong>
+  <br />Promotion des zones d'activités à destination des investisseurs
+  <br />Collecte et traitement statistique de données économique
+apps_it: <br /><strong>Italie</strong>
+  <br />Cartographie de l'urbanisme des villes
+  <br />Localisation d'activités économiques
+apps_es: <br /><strong>Espagne</strong>
+  <br />Plate-forme de marchés publics
+  <br />Gestion des incidents environnementaux
+  <br />Gestion des demandes de subventions et d'aides sociales
+
+########################################################################################################################
+# Livrables
+delivrable_title: <strong>Livrables ?!</strong><br />Qu’est-ce que c’est ?
+delivrable_text: "<span>Le programme de travail tout au long d’un projet européen contient la rédaction de livrables. <br />
   <strong>Un livrable est un document rédigé en anglais, décrivant un résultat, mesurable, tangible ou vérifiable, qui
   résulte de l’achèvement d’une partie du projet.</strong>
   <br /> <br />
@@ -7,14 +83,14 @@ text: "<span>Le programme de travail tout au long d’un projet européen contie
   à la commission européenne.
   <br /> <br />
   <strong> Les livrables s'organisent de la manière suivante :</strong></span>"
-item_1: Tous les livrables commençant par le chiffre 1 correspondent à la définition et aux spécifications de l’architecture technique.
-item_2: Les livrables débutant par le chiffre 2 parlent du développement de la plateforme et des applications.
-item_3: A partir du chiffres 3, les livrables exposent le modèle économique et la gouvernance de la plateforme.
-item_4: Les sites pilotes sont eux exposés dans les livrables numérotés 4.
-item_5: Le chiffre 5 regroupe les livrables qui traitent des indicateurs et du suivi de performance.
-item_6: Et enfin les livrables chiffrés 6 tournent autour des questions de management et de stratégie de communication.
+delivrable_explaination_1: Tous les livrables commençant par le chiffre 1 correspondent à la définition et aux spécifications de l’architecture technique.
+delivrable_explaination_2: Les livrables débutant par le chiffre 2 parlent du développement de la plateforme et des applications.
+delivrable_explaination_3: A partir du chiffres 3, les livrables exposent le modèle économique et la gouvernance de la plateforme.
+delivrable_explaination_4: Les sites pilotes sont eux exposés dans les livrables numérotés 4.
+delivrable_explaination_5: Le chiffre 5 regroupe les livrables qui traitent des indicateurs et du suivi de performance.
+delivrable_explaination_6: Et enfin les livrables chiffrés 6 tournent autour des questions de management et de stratégie de communication.
 
-delivrable_title: Les livrables de référence
+delivrable_list_title: Les livrables de référence
 delivrable_item_1: "<br />D1.1 :<br /> Introduction"
 delivrable_item_2: "<br />D1.2 : Présentation de l'architecture"
 delivrable_item_3: "<br />D1.32 : Protection des données personnelles"
@@ -26,3 +102,48 @@ delivrable_item_8: "<br />D3.4 : Principes de gouvernance"
 delivrable_item_9: "<br />D5.1 : Indicateurs de performance"
 delivrable_item_10: "<br />D6.1 : Gestion de projets"
 delivrable_item_11: "<br />D6.31 : Stratégie de communication"
+
+########################################################################################################################
+#OCCIWare
+
+occi_title: <span>Le projet qui va permettre <strong>l'outillage du coeur de données</strong></span>
+occi_subtitle: Le projet OCCIware (www.occiware.org) a été retenu au 4ème appel à projets « Cloud Computing et Big Data », Coeur de filière numérique, Investissements d’Avenir – Développement de l’Economie Numérique.
+occi_column_1: L’objectif d’OCCIware est de proposer un cadre formel et outillé pour la gestion de tous types de ressources “dans le nuage”. Le projet OCCIware vise à développer un cadre formel ainsi que les outils de modélisation, conception, déploiement et exécution de toutes ressources informatiques sous forme de service en ligne.
+occi_column_2: Nous pensons que le développement d’outils scientifiques et techniques spécifiques au cloud computing dans son ensemble (Iaas, Paas, Saas) permettront de baisser considérablement le coût d’entrée sur le marché du cloud pour les éditeurs de logiciels existants, et aussi le développement de nouveaux services innovants et à forte valeur ajoutée.
+
+########################################################################################################################
+#Démonstrateur
+demonstrator_title: <span>Ozwillo sera un <strong>démonstrateur</strong>d'OCCIware</span>
+
+demonstrator_column_1_text: "<strong>Qu'est-ce qu'un démonstrateur à l’échelle 1 ?</strong>
+  <br />
+  <br />
+  Un démonstrateur à l’échelle 1 se situe après la phase de recherche en laboratoire et avant la phase d’industrialisation et de commercialisation dont une première étape est en général la réalisation d’un prototype.
+  <br />
+  <br />
+  <strong>La réalisation d’un démonstrateur se justifie pour :</strong>"
+demonstrator_column_1_item_1: Valider à l’échelle réelle, les solutions de conception retenues en R&D sur « la paillasse » ou sur des équipements tests ou sur des démonstrateurs à l’échelle réduite
+demonstrator_column_1_item_2: Evaluer les performances dans un environnement proche d’une situation réelle et à la bonne échelle
+demonstrator_column_1_item_3: Démontrer la pertinence de l’innovation et ses avantages concurrentiels dans une perspective d’innovation par les usages, de plus en plus souvent.
+
+demonstrator_column_2_text: "<span>
+  Le démonstrateur est donc un lieu qui permet de réaliser et d’expérimenter des technologies afin de les optimiser, de valider la faisabilité et les performances. Il doit associer des partenaires économiques, des laboratoires, plusieurs industriels et des territoires pour la mise en oeuvre.
+  <strong>On peut distinguer trois grandes catégories de démonstrateurs :</strong>
+  </span>"
+demonstrator_column_2_item_1: Démonstrateur Produit
+demonstrator_column_2_item_2: Démonstrateur Procédé / Process
+demonstrator_column_2_item_3: Démonstrateur de Systèmes complexes pouvant lui-même être un terrain dévaluation des deux premiers types
+
+########################################################################################################################
+# Évolution & Développement
+
+evolutions_title: <span>Les <strong>évolutions</strong> , les axes de <strong>développement</strong> d'Ozwillo</span>
+
+evolutions_column_1_item_1: Enrichir le panel d'applications afin que l'utilisateur final retrouve la liberté de choisir et garde son indépendance vis-à-vis de tout éditeur de logiciels.
+evolutions_column_1_item_2: Développer la participation citoyenne pour une meilleure gestion du domaine public et favoriser la reconnaissance des citoyens contributeurs.
+evolutions_column_1_item_3: Étendre la plateforme à d’autres territoire européen…
+evolutions_column_1_item_4: Développer de nouveaux outils pour optimiser la liaison de données et leur réutilisation. (OCCIware)
+
+evolutions_column_2_item_1: Améliorer l’ergonomie
+evolutions_column_2_item_2: Industrialiser la plateforme pour faciliter la venue de nouveaux fournisseurs de services
+evolutions_column_2_item_3: Créer la gouvernance la plus adaptée pour la préservation du "bien commun" de données fabriqué au quotidien.

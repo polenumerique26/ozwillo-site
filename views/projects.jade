@@ -5,25 +5,112 @@ html(lang=i18n.lng())
   body
     include ./menu.jade
 
-    // Livrables
-    .container-fluid
-      .row.clearfix
+    // OASIS
+    .row.clearfix.BG
+      .container
         .col-md-12.column
           .row.clearfix
             .col-md-6.column
-              h2.soustitre!= t('projects:::title', { postProcess: "jade" })
-              p.paraHome!= t('projects:::text', { postProcess: "jade" })
+              h1.titreInter!= t('projects:::oasis_title', { postProcess: "jade" })
+            .col-md-6.column
+              img.img-responsive.image.right(src='/static/img/project.png')
+    .row.clearfix.grey
+      .container
+        .col-md-12.column
+          .row.clearfix
+            img.img-responsive.center-block(src='/static/img/oasis.jpg')
+            div(style='display:block;height:35px;width:100%;clear:both;')
+            .col-md-6.column
+              p.paraHome= t('projects:::oasis_text_1')
+              p.paraHome= t('projects:::oasis_text_2')
+              p.paraHome= t('projects:::oasis_text_3')
+              p.paraHome!= t('projects:::oasis_financer_title')
+              p.paraHome
+                img(src='/static/img/rhonealpes.jpg')
+                img(src='/static/img/ladrome.jpg')
+                img(src='/static/img/ardeche.jpg')
+            .col-md-6.column
+              p.paraHome!= t('projects:::oasis_goal_title')
               ul.liensInter
-                li= t('projects:::item_1')
-                li= t('projects:::item_2')
-                li= t('projects:::item_3')
-                li= t('projects:::item_4')
-                li= t('projects:::item_5')
-                li= t('projects:::item_6')
+                li= t('projects:::oasis_goal_item_1')
+                li= t('projects:::oasis_goal_item_2')
+                li= t('projects:::oasis_goal_item_3')
+                li= t('projects:::oasis_goal_item_4')
+                li= t('projects:::oasis_goal_item_5')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Map
+    .row.clearfix.map
+      .container
+        .col-md-12.column
+          .row.clearfix
+            h2.soustitre3!= t('projects:::map_title')
+            img.img-responsive.center-block.aligne(src='/static/img/carte.png')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Partenaire
+    .row.clearfix
+      .container
+        .col-md-12.column
+          .row.clearfix
+            h2.soustitre2!= t('projects:::partner_title')
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              h3.text-center!= t('projects:::partner_column_1_title')
+              ul.liensInter
+                li!= t('projects:::partner_column_1_item_1')
+                li!= t('projects:::partner_column_1_item_2')
+                li!= t('projects:::partner_column_1_item_3')
+            .col-md-6.column
+              h3.text-center!= t('projects:::partner_column_2_title')
+              ul.liensInter
+                li!= t('projects:::partner_column_2_item_1')
+                li!= t('projects:::partner_column_2_item_2')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Premières Apps
+    .row.clearfix.grey
+      .container
+        .col-md-12.column
+          .row.clearfix
+            h2.soustitre2!= t('projects:::apps_title')
+            .col-md-2.column.flag.text-center
+              img(src='/static/img/france.png')
+              != t('projects:::apps_fr')
+            .col-md-2.column.flag.text-center
+              img(src='/static/img/bulgarie.png')
+              != t('projects:::apps_bg')
+            .col-md-2.column.flag.text-center
+              img(src='/static/img/turquie.png')
+              != t('projects:::apps_tr')
+            .col-md-2.column.flag.text-center
+              img(src='/static/img/italie.png')
+              != t('projects:::apps_it')
+            .col-md-2.column.flag.text-center
+              img(src='/static/img/espagne.png')
+              != t('projects:::apps_es')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Livrables
+    .row.clearfix
+      .container
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              h2.soustitre!= t('projects:::delivrable_title', { postProcess: "jade" })
+              p.paraHome!= t('projects:::delivrable_text', { postProcess: "jade" })
+              ul.liensInter
+                li= t('projects:::delivrable_explaination_1')
+                li= t('projects:::delivrable_explaination_2')
+                li= t('projects:::delivrable_explaination_3')
+                li= t('projects:::delivrable_explaination_4')
+                li= t('projects:::delivrable_explaination_5')
+                li= t('projects:::delivrable_explaination_6')
             .col-md-6.column.violet
               .row
                 .col-md-12
-                  span.intertitre=t('projects:::delivrable_title')
+                  span.intertitre=t('projects:::delivrable_list_title')
               .row
                 .col-md-3.column.white
                   a(target="_blank" href='/static/pdf/OASIS_D1.1_Platform-requirements_vf.pdf')
@@ -69,6 +156,65 @@ html(lang=i18n.lng())
                   a(target="_blank" href='/static/pdf/OASIS_D6.31_Dissemination-Exploitation-of-foreground-N1_vf.pdf')
                     img(src='/static/img/pdf.png')
                   !=t('projects:::delivrable_item_11')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //OCCIWare
+    .row.clearfix
+      .container
+        .col-md-12.column
+          .row.clearfix
+            img.img-responsive.center-block.espace(src='/static/img/occiware.png')
+            h2.soustitre2!=t('projects:::occi_title')
+            p.paraViolet=t('projects:::occi_subtitle')
+        .col-md-6.column
+          .row.clearfix
+            p.paraHome.retrait=t('projects:::occi_column_1')
+        .col-md-6.column
+          .row.clearfix
+            p.paraHome.retrait=t('projects:::occi_column_2')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Démonstrateur
+    .row.clearfix.sky
+      .container
+        .col-md-12.column
+          .row.clearfix
+            h2.soustitre3!= t('projects:::demonstrator_title')
+            .col-md-6.column
+              .row.clearfix
+                p.paraHome.black.retrait2!= t('projects:::demonstrator_column_1_text')
+                ul.liensInter.retrait2
+                  li= t('projects:::demonstrator_column_1_item_1')
+                  li= t('projects:::demonstrator_column_1_item_2')
+                  li= t('projects:::demonstrator_column_1_item_3')
+            .col-md-6.column
+              .row.clearfix
+                p.paraHome.black.retrait2li!= t('projects:::demonstrator_column_2_text')
+                ul.liensInter.retrait2
+                  li= t('projects:::demonstrator_column_2_item_1')
+                  li= t('projects:::demonstrator_column_2_item_2')
+                  li= t('projects:::demonstrator_column_2_item_3')
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Évolution & Développement
+    .row.clearfix
+      .container
+        .col-md-12.column
+          .row.clearfix
+            h2.soustitre2!=t('projects:::evolutions_title')
+        .col-md-6.column
+          .row.clearfix
+            ul.liensInter.retrait2
+              li= t('projects:::evolutions_column_1_item_1')
+              li= t('projects:::evolutions_column_1_item_2')
+              li= t('projects:::evolutions_column_1_item_3')
+              li= t('projects:::evolutions_column_1_item_4')
+        .col-md-6.column
+          .row.clearfix
+            ul.liensInter.retrait2
+              li= t('projects:::evolutions_column_2_item_1')
+              li= t('projects:::evolutions_column_2_item_2')
+              li= t('projects:::evolutions_column_2_item_3')
 
     include ./footer.jade
     include ./scripts.jade
