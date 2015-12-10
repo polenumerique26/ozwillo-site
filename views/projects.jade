@@ -93,69 +93,67 @@ html(lang=i18n.lng())
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Livrables
-    .row.clearfix
-      .container
-        .col-md-12.column
-          .row.clearfix
-            .col-md-6.column
-              h2.soustitre!= t('projects:::delivrable_title', { postProcess: "jade" })
-              p.paraHome!= t('projects:::delivrable_text', { postProcess: "jade" })
-              ul.liensInter
-                li= t('projects:::delivrable_explaination_1')
-                li= t('projects:::delivrable_explaination_2')
-                li= t('projects:::delivrable_explaination_3')
-                li= t('projects:::delivrable_explaination_4')
-                li= t('projects:::delivrable_explaination_5')
-                li= t('projects:::delivrable_explaination_6')
-            .col-md-6.column.violet
-              .row
-                .col-md-12
-                  span.intertitre=t('projects:::delivrable_list_title')
-              .row
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D1.1_Platform-requirements_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_1')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D1.2_Architectural-design-first-iteration_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_2')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D1.32_Privacy-requirements-personal-data-legislation-second-iteration_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_3')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D2.1_Report-implementation_vf_bd2.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_4')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D2.2_Guidelines-for-designing-services_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_5')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D2.3_Adapted-solutions-user-identification-authentication_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_6')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D3.1_Business-case-first-iteration_vf_bd.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_7')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D3.4_Governance_VF.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_8')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D51_Initial-KPIs-Report-Requirements_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_9')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D6.1_Management_Manual_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_10')
-                .col-md-3.column.white
-                  a(target="_blank" href='/static/pdf/OASIS_D6.31_Dissemination-Exploitation-of-foreground-N1_vf.pdf')
-                    img(src='/static/img/pdf.png')
-                  !=t('projects:::delivrable_item_11')
+    .container
+      .row
+        .col-md-6
+          h2.soustitre!= t('projects:::delivrable_title', { postProcess: "jade" })
+          p.paraHome!= t('projects:::delivrable_text', { postProcess: "jade" })
+          ul.liensInter
+            li= t('projects:::delivrable_explaination_1')
+            li= t('projects:::delivrable_explaination_2')
+            li= t('projects:::delivrable_explaination_3')
+            li= t('projects:::delivrable_explaination_4')
+            li= t('projects:::delivrable_explaination_5')
+            li= t('projects:::delivrable_explaination_6')
+        .col-md-6.violet
+          .row
+            .col-md-12
+              span.intertitre=t('projects:::delivrable_list_title')
+          .row
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D1.1_Platform-requirements_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_1')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D1.2_Architectural-design-first-iteration_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_2')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D1.32_Privacy-requirements-personal-data-legislation-second-iteration_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_3')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D2.1_Report-implementation_vf_bd2.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_4')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D2.2_Guidelines-for-designing-services_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_5')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D2.3_Adapted-solutions-user-identification-authentication_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_6')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D3.1_Business-case-first-iteration_vf_bd.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_7')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D3.4_Governance_VF.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_8')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D51_Initial-KPIs-Report-Requirements_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_9')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D6.1_Management_Manual_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_10')
+            .col-md-3.column.white
+              a(target="_blank" href='/static/pdf/OASIS_D6.31_Dissemination-Exploitation-of-foreground-N1_vf.pdf')
+                img(src='/static/img/pdf.png')
+              !=t('projects:::delivrable_item_11')
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //OCCIWare
