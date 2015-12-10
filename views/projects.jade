@@ -70,10 +70,10 @@ html(lang=i18n.lng())
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Premières Apps
-    .row.clearfix.grey
-      .container
-        .col-md-12.column
-          .row.clearfix
+    .container
+      .row
+        .col-md-12
+          .row
             h2.soustitre2!= t('projects:::apps_title')
             .col-md-2.column.flag.text-center
               img(src='/static/img/france.png')
@@ -87,7 +87,7 @@ html(lang=i18n.lng())
             .col-md-2.column.flag.text-center
               img(src='/static/img/italie.png')
               != t('projects:::apps_it')
-            .col-md-2.column.flag.text-center
+            .col-md-2.column.text-center
               img(src='/static/img/espagne.png')
               != t('projects:::apps_es')
 
