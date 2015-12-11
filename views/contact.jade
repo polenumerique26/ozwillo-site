@@ -12,19 +12,21 @@ html(lang=i18n.lng())
             .col-md-6.column
                 h1.titreInter!= t('contact:::title')
     // Info
-    .container
-      .row
+    .row.clearfix
+      .container
+        // Infos contacts principal
         .col-md-12.column
           .row.clearfix
             .col-md-4.column
               ul.infos
-                li!= t('contact:::info_colunm_1')
+                li!= t('contact:::contact_1_address')
             .col-md-4.column
               ul.infos.phone
-                li!= t('contact:::info_colunm_2')
+                li!= t('contact:::contact_1_phone')
             .col-md-4.column
               ul.infos.mail
-                li!= t('contact:::info_colunm_3')
+                li!= t('contact:::contact_1_mail')
+        // Formulaire de contact
         .col-md-12.column
           .row.clearfix
             .col-md-6.column
@@ -44,6 +46,23 @@ html(lang=i18n.lng())
                 button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
             .col-md-6.column
               iframe(src= t('contact:::iframe_url'), allowfullscreen='')
+        // Infos contacts secondaire
+        .col-md-12.column
+          .row.clearfix
+            .col-md-6.column
+              ul.infos
+                li!= t('contact:::contact_2_address')
+            .col-md-6.column
+              ul.infos
+                li!= t('contact:::contact_3_address')
+          .row.clearfix
+            .col-md-6.column
+              ul.infos
+                li!= t('contact:::contact_4_address')
+            .col-md-6.column
+              ul.infos
+                li!= t('contact:::contact_5_address')
+
 
     include ./footer.jade
     include ./scripts.jade
