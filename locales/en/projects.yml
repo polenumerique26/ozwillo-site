@@ -16,7 +16,7 @@ oasis_goal_item_5: 5 - Validate the economic model of the platform and the legal
 
 ########################################################################################################################
 # MAP
-map_title: <span>The project<strong>unique in Europe</strong>, has combined 6 countries
+map_title: <span>The project <strong>unique in Europe</strong>, has combined 6 countries
   <br />
   <span class="little">(England, Spain, Italy, Bulgaria, Turkey and France),
   <br />
@@ -72,7 +72,7 @@ apps_es: <br /><strong>Spain</strong>
 
 ########################################################################################################################
 # Deliverables
-delivrable_title: <strong>Delivered</strong><br />What is it?!?
+delivrable_title: <strong>Deliverables</strong><br />What is it?!?
 delivrable_text: "<span>The work program throughout a European project deliverables contains writing
   <br /><strong>A deliverable is a document written in English, describing a result, measurable, tangible or verifiable. resulting from the completion of the project.</strong>
   <br /><br />
@@ -109,7 +109,7 @@ occi_column_2: We believe that the development of scientific and technical tools
 
 ########################################################################################################################
 #Demonstrator
-demonstrator_title: <span>Ozwillo will<strong>demo</strong>OCCIware</span>
+demonstrator_title: <span>Ozwillo will <strong>demo</strong> OCCIware</span>
 
 demonstrator_column_1_text: "<strong>What is a demonstrator at scale 1</strong>
   <br /><br />
