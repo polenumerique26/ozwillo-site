@@ -125,6 +125,13 @@ app.get('/', function (req, res) {
   res.redirect('/' + req.locale);
 });
 
+app.get('/header.xml', function (req, res) {
+  res.sendFile('xml/header.xml', { root: __dirname + '/public/' });
+});
+app.get('/footer.xml', function (req, res) {
+  res.sendFile('xml/footer.xml', { root: __dirname + '/public/' });
+});
+
 var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
