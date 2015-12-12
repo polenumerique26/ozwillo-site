@@ -1,8 +1,5 @@
 # OASIS
-oasis_title: <span>Oasis is the name of
-  <br />the European project
-  <br />base of the platform Ozwillo.
-  </span>
+oasis_title: Oasis is the name of the European project base of the platform Ozwillo
 oasis_text_1: Ozwillo comes from the European OASIS project, which has created the first technical and legal brick that platform.
 oasis_text_2: "The European OASIS project was selected in 2011 by the European Commission under the Competitiveness and Innovation Programme 2007-2013 on the Call for Projects: Towards a cloud of public services."
 oasis_text_3: The eligibility requirements for this program were the formation of a consortium of four European countries, with a minimum of three pilot sites to directly validate the project concept to end-users.
@@ -121,8 +118,9 @@ demonstrator_column_1_item_2: Assessing performance in a close environment of a 
 demonstrator_column_1_item_3: Demonstrate the relevance of innovation and its competitive advantages in a perspective of innovation by usage, more and more often.
 
 demonstrator_column_2_text: "<span>
-  So the demonstrator is a place to perform and demonstrate technologies to optimize, validate the feasibility and performance It must involve economic partners, laboratories, several industrial and territories . for the implementation of
-  <strong>There are three main categories of demonstrators:</strong>
+  So the demonstrator is a place to perform and demonstrate technologies to optimize, validate the feasibility and performance.
+  It must involve economic partners, laboratories, several industrial and territories for the implementation.
+  <br/><br/><strong>There are three main categories of demonstrators:</strong>
   </span>"
 demonstrator_column_2_item_1: Product Demonstrator
 demonstrator_column_2_item_2: Demonstrator Process / Process
