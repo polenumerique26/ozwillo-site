@@ -1,6 +1,9 @@
 var express = require('express'),
   i18n = require("i18next"),
-  yamlSync = require('i18next.yaml');
+  yamlSync = require('i18next.yaml'),
+  bodyParser = require('body-parser'),
+  nodemailer = require('nodemailer'),
+  smtpTransport = require('nodemailer-smtp-transport');
 
 /* i18n initialization */
 
@@ -23,6 +26,23 @@ i18n.backend(yamlSync);
 i18n.addPostProcessor("jade", function(val, key, opts) {
   return require("jade").compile(val, opts)();
 });
+
+/* Body parser initialization */
+
+var contactFormParser = bodyParser.urlencoded({ extended: false });
+
+/* Mailer initialization */
+
+var transporter = nodemailer.createTransport(smtpTransport({
+  host: 'your.smtp.host',
+  port: 465,
+  secure: true,
+  ignoreTLS: true,
+  auth: {
+    user: 'user',
+    pass: 'pass'
+  }
+}));
 
 /* Express app initialization */
 
@@ -68,6 +88,27 @@ i18n.init(option, function(t) {
   i18n.addRoute('/:lng/route:::contact', ['en', 'fr'], app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('contact');
+  });
+  i18n.addRoute('/:lng/route:::contact', ['en', 'fr'], app, 'post', contactFormParser, function(req, res) {
+    console.log('Sending contact email from ' + req.body.email + ' (' + req.body.subject + ')');
+    var phone = req.body.phone ? req.body.phone : '';
+    transporter.sendMail({
+      from: 'portal@ozwillo.org', // TODO : use contact@ozwillo address
+      to: 'contact@ozwillo.org',
+      replyTo: req.body.email,
+      subject: i18n.t('contact:::mail.subject', { subject: req.body.subject }),
+      text: i18n.t('contact:::mail.body', { name: req.body.name, email: req.body.email, phone: phone, message: req.body.message })
+    }, function(error, response) {
+      if (error) {
+        console.log(error);
+        res.locals.mail_sending_failed = true;
+      } else {
+        console.log('Message ' + response.messageId + ' sent');
+        res.locals.mail_sending_succeeded = true;
+      }
+      res.locals.host = req.get('host');
+      res.render('contact');
+    }.bind(res));
   });
   i18n.addRoute('/:lng/route:::legal-notices', ['en', 'fr'], app, 'get', function(req, res) {
     res.locals.host = req.get('host');

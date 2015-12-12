@@ -4,65 +4,72 @@ html(lang=i18n.lng())
   include ./header.jade
   body
     include ./menu.jade
-    // Titre
-    .row.clearfix.BG
-      .container
-        .col-md-12.column
-          .row.clearfix
-            .col-md-6.column
-                h1.titreInter!= t('contact:::title')
-    // Info
-    .row.clearfix
-      .container
-        // Infos contacts principal
-        .col-md-12.column
-          .row.clearfix
-            .col-md-4.column
-              ul.infos
-                li!= t('contact:::contact_1_address')
-            .col-md-4.column
-              ul.infos.phone
-                li!= t('contact:::contact_1_phone')
-            .col-md-4.column
-              ul.infos.mail
-                li!= t('contact:::contact_1_mail')
-        // Formulaire de contact
-        .col-md-12.column
-          .row.clearfix
-            .col-md-6.column
-              form
-                span.leftCol
-                  .form-group
-                    input.champ(type='text', placeholder= t('contact:::form_input_1'), required='')
-                  .form-group
-                    input.champ(type='tel', placeholder= t('contact:::form_input_2'), required='')
-                span.rightCol
-                  .form-group
-                    input.champ(type='email', placeholder= t('contact:::form_input_3'), required='')
-                  .form-group
-                    input.champ(type='text', placeholder= t('contact:::form_input_4'))
-                .form-group
-                  textarea.texte(type='text', placeholder= t('contact:::form_input_5'), required='')
-                button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
-            .col-md-6.column
-              iframe(src= t('contact:::iframe_url'), allowfullscreen='')
-        // Infos contacts secondaire
-        .col-md-12.column
-          .row.clearfix
-            .col-md-6.column
-              ul.infos
-                li!= t('contact:::contact_2_address')
-            .col-md-6.column
-              ul.infos
-                li!= t('contact:::contact_3_address')
-          .row.clearfix
-            .col-md-6.column
-              ul.infos
-                li!= t('contact:::contact_4_address')
-            .col-md-6.column
-              ul.infos
-                li!= t('contact:::contact_5_address')
 
+    // Titre
+    .BG
+      .container
+        .row
+          .col-md-6
+              h1.titreInter!= t('contact:::title')
+
+    #mail-result
+      if mail_sending_succeeded
+        .container.mail-result-message
+          .row
+            .col-md-12
+              .alert.alert-success.text-center= t('contact:::mail.sending_succeeded')
+      else if mail_sending_failed
+        .container.mail-result-message
+          .row
+            .col-md-12
+              .alert.alert-danger.text-center= t('contact:::mail.sending_failed')
+
+    // Info
+    .container
+      .row
+        // Infos contacts principal
+        .col-md-4.column
+          ul.infos
+            li!= t('contact:::contact_1_address')
+        .col-md-4.column
+          ul.infos.phone
+            li!= t('contact:::contact_1_phone')
+        .col-md-4.column
+          ul.infos.mail
+            li!= t('contact:::contact_1_mail')
+        // Formulaire de contact
+      .row
+        .col-md-6
+          form(onsubmit=getPageLink('contact'), method='POST')
+            span.leftCol
+              .form-group
+                input.champ(type='text', name='name', placeholder= t('contact:::form_input_1'), required='')
+              .form-group
+                input.champ(type='tel', name='tel', placeholder= t('contact:::form_input_2'))
+            span.rightCol
+              .form-group
+                input.champ(type='email', name='email', placeholder= t('contact:::form_input_3'), required='')
+              .form-group
+                input.champ(type='text', name='subject', placeholder= t('contact:::form_input_4'), required='')
+            .form-group
+              textarea.texte(type='text', name='message', placeholder= t('contact:::form_input_5'), required='')
+            button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
+        .col-md-6
+          iframe(src= t('contact:::iframe_url'), allowfullscreen='')
+      .row
+        // Infos contacts secondaire
+        .col-md-6
+          ul.infos
+            li!= t('contact:::contact_2_address')
+        .col-md-6
+          ul.infos
+            li!= t('contact:::contact_3_address')
+        .col-md-6
+          ul.infos
+            li!= t('contact:::contact_4_address')
+        .col-md-6
+          ul.infos
+            li!= t('contact:::contact_5_address')
 
     include ./footer.jade
     include ./scripts.jade
