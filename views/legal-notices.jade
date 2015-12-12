@@ -6,61 +6,58 @@ html(lang=i18n.lng())
     include ./menu.jade
 
     // TOP
-    .row.clearfix.BG
-      .container-fluid
-        .col-md-12.column
-          .row.clearfix
-            .col-md-6.column
-              h1.titreInter= t('legal-notices:::main_title')
+    .BG
+      .container
+        .row
+          .col-md-6
+            h1.titreInter= t('legal-notices:::main_title')
 
     // APPLIS
-    .row.clearfix
-      .container-fluid
-        .col-md-12.column
-          .row.clearfix
-            .col-md-12
-              h2.soustitre= t('legal-notices:::main_subtitle')
-              p.paraHome
-                span= t('legal-notices:::editor_introduction')
-                br
-                | Pôle Numérique
-                br
-                | Le Rhovalparc B.P. 15155 - 1 avenue de la Gare
-                br
-                | Allée B - ALIXAN
-                br
-                | 26958 VALENCE CEDEX 9 FRANCE
-                br
-                br
-                span= t('legal-notices:::editor_director')
-                br
-                br
-                span= t('legal-notices:::hosting_introduction')
-                br
-                | IP Garde
-                br
-                | Tour de l'Horloge
-                br
-                | 4, place Louis Armand
-                br
-                | 75012 PARIS
-                br
-                | Tel : 01 77 49 24 50
-                br
-                br
-                span.gras= t('legal-notices:::legal_notices_title')
-                br
-                span= t('legal-notices:::terms_of_use_title')
-                a(href=getPageLink('terms'))= t('legal-notices:::terms_of_use_link_name')
-                br
-                span= t('legal-notices:::terms_of_use_mention_1')
-                br
-                span= t('legal-notices:::terms_of_use_mention_2')
-                br
-                br
-                span.gras= t('legal-notices:::personal_data_title')
-                br
-                span= t('legal-notices:::personal_data_explanation')
+    .container
+      .row
+        .col-md-12
+          h2.soustitre= t('legal-notices:::main_subtitle')
+          p.paraHome
+            span= t('legal-notices:::editor_introduction')
+            br
+            | Pôle Numérique
+            br
+            | Le Rhovalparc B.P. 15155 - 1 avenue de la Gare
+            br
+            | Allée B - ALIXAN
+            br
+            | 26958 VALENCE CEDEX 9 FRANCE
+            br
+            br
+            span= t('legal-notices:::editor_director')
+            br
+            br
+            span= t('legal-notices:::hosting_introduction')
+            br
+            | IP Garde
+            br
+            | Tour de l'Horloge
+            br
+            | 4, place Louis Armand
+            br
+            | 75012 PARIS
+            br
+            | Tel : 01 77 49 24 50
+            br
+            br
+            span.gras= t('legal-notices:::legal_notices_title')
+            br
+            span= t('legal-notices:::terms_of_use_title')
+            a(href=getPageLink('terms'))= t('legal-notices:::terms_of_use_link_name')
+            br
+            span= t('legal-notices:::terms_of_use_mention_1')
+            br
+            span= t('legal-notices:::terms_of_use_mention_2')
+            br
+            br
+            span.gras= t('legal-notices:::personal_data_title')
+            br
+            span= t('legal-notices:::personal_data_explanation')
 
     include ./footer.jade
     include ./scripts.jade

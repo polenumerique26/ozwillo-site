@@ -1,25 +1,23 @@
 - var page = 'terms'
 doctype html
 html(lang=i18n.lng())
-    include ./header.jade
-    body
-        include ./menu.jade
-html
+  include ./header.jade
   body
+    include ./menu.jade
+
     // TOP
-    .row.clearfix.BG
+    .BG
       .container
-        .col-md-12.column
-          .row.clearfix
-            .col-md-6.column
-              h1.titreInter= t('terms:::title')
-    // APPLIS
-    .row.clearfix
-      .container
-        .col-md-12.column
-          .row.clearfix
-            h2.soustitre= t('terms:::subtitle')
-            p.paraHome!= t('terms:::text')
+        .row
+          .col-md-6
+            h1.titreInter= t('terms:::title')
+
+    // TERMS
+    .container
+      .row
+        .col-md-12
+          h2.soustitre= t('terms:::subtitle')
+          p.paraHome!= t('terms:::text')
 
   include ./footer.jade
   include ./scripts.jade
