@@ -41,19 +41,24 @@ html(lang=i18n.lng())
       .row
         .col-md-6
           form(onsubmit=getPageLink('contact'), method='POST')
-            span.leftCol
-              .form-group
-                input.champ(type='text', name='name', placeholder= t('contact:::form_name'), required='')
-              .form-group
-                input.champ(type='tel', name='tel', placeholder= t('contact:::form_phone'))
-            span.rightCol
-              .form-group
-                input.champ(type='email', name='email', placeholder= t('contact:::form_email'), required='')
-              .form-group
-                input.champ(type='text', name='subject', placeholder= t('contact:::form_subject'), required='')
-            .form-group
-              textarea.texte(type='text', name='message', placeholder= t('contact:::form_message'), required='')
-            button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
+            .row
+              .col-md-6
+                .form-group
+                  input.champ(type='text', name='name', placeholder= t('contact:::form_name'), required='')
+              .col-md-6
+                .form-group
+                  input.champ(type='email', name='email', placeholder= t('contact:::form_email'), required='')
+              .col-md-6
+                .form-group
+                  input.champ(type='tel', name='tel', placeholder= t('contact:::form_phone'))
+              .col-md-6
+                .form-group
+                  input.champ(type='text', name='subject', placeholder= t('contact:::form_subject'), required='')
+              .col-md-12
+                .form-group
+                  textarea.texte(type='text', name='message', placeholder= t('contact:::form_message'), required='')
+              .col-md-12
+                button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
         .col-md-6
           iframe(src= t('contact:::iframe_url'), allowfullscreen='')
       .row
