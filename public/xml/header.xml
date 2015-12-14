@@ -6,13 +6,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/fr/" img_src="/images/ui/data-on.png">Données
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=fr">Connexion</item>
-		<item href="/fr/decouvrir">Découvrir
+		<item type="locale-switch" />
+		<submenu href="/fr/decouvrir">
+			<title>Découvrir</title>
 			<item href="/fr/decouvrir">Découvrir</item>
 			<item href="/fr/actualites">Actualités</item>
 			<item href="/fr/co-construire">Co-construire</item>
 			<item href="/fr/projets">Projets</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 	<menu>
 		<locale>en</locale>
@@ -21,13 +22,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/" img_src="/images/ui/data-on.png">Data
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=en">Log in</item>
-		<item href="/en/discover">Discover
-			<item href="/en/discover">Discovering the Platform</item>
+		<item type="locale-switch" />
+		<submenu href="/en/discover">
+			<title>Discover</title>
+			<item href="/en/discover">Discover</item>
 			<item href="/en/news">News</item>
 			<item href="/en/co-construct">Co-construct</item>
 			<item href="/en/projects">Projects</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 	<menu>
 		<locale>es</locale>
@@ -36,13 +38,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/es/" img_src="/images/ui/data-on.png">Datos
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=es">Entrar</item>
-		<item href="/es/descubriendo">Descubriendo
 			<item href="/es/descubriendo">Descubriendo la plataforma</item>
+		<item type="locale-switch" />
+		<submenu href="/es/descubriendo">
+			<title>Descubriendo</title>
 			<item href="/es/noticias">Noticias</item>
 			<item href="/es/co-construccion">Co-construcción</item>
 			<item href="/es/proyectos">Proyectos</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 	<menu>
 		<locale>ca</locale>
@@ -51,13 +54,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/ca/" img_src="/images/ui/data-on.png">Dades
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=ca">Entrar</item>
-		<item href="/ca/descobrint">Descobrint
+		<item type="locale-switch" />
+		<submenu href="/ca/descobrint">
+			<title>Descobrint</title>
 			<item href="/ca/descobrint">Descobrint la plataforma</item>
 			<item href="/ca/noticies">Noticies</item>
 			<item href="/ca/co-construccio">Co-construcció</item>
 			<item href="/ca/projectes">Projectes</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 	<menu>
 		<locale>it</locale>
@@ -66,13 +70,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/it/" img_src="/images/ui/data-on.png">Dati
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=it">Entra</item>
-		<item href="/it/scoprire">Scoprire
+		<item type="locale-switch" />
+		<submenu href="/it/scoprire">
+			<title>Scoprire</title>
 			<item href="/it/scoprire">Scoprire la Piattaforma</item>
 			<item href="/it/novita">Novità</item>
 			<item href="/it/collaborativamente">Costruire collaborativamente</item>
 			<item href="/it/progetti">Progetti</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 	<menu>
 		<locale>bg</locale>
@@ -81,13 +86,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/bg/" img_src="/images/ui/data-on.png">данни
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=bg">Вход</item>
-		<item href="/bg/discover">Изучаване
+		<item type="locale-switch" />
+		<submenu href="/bg/discover">
+			<title>Изучаване</title>
 			<item href="/bg/discover">Изучаване на платформата</item>
 			<item href="/bg/novini">Новини</item>
 			<item href="/bg/suvmestna-sgrada">Съвместно изграждане</item>
 			<item href="/bg/pr-ti">Проекти</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 	<menu>
 		<locale>tr</locale>
@@ -96,12 +102,13 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/tr/" img_src="/images/ui/data-on.png">Veri
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=tr">Giriş</item>
-		<item href="/tr/kesfedin">Keşfedin
+		<item type="locale-switch" />
+		<submenu href="/tr/kesfedin">
+			<title>Keşfedin</title>
 			<item href="/tr/kesfedin">Platformu Keşfetmek</item>
 			<item href="/tr/haberler">Haberler</item>
 			<item href="/tr/birlikte-insa-etmek">Birlikte inşa etmek</item>
 			<item href="/tr/projeler">Projeler</item>
-		</item>
-		<item type="locale-switch"/>
+		</submenu>
 	</menu>
 </menuset>
