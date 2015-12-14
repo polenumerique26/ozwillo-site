@@ -68,3 +68,12 @@ Things to known about translations :
 * To translate a key containing HTML, call `t('namespace:::key', { postProcess: "jade" })` where :
  * *namespace* and *key* are the same as for simple keys
  * The HTML element containing the text must be suffixed by the *!=* characters (eg `h2!= t('home:::professional_title', { postProcess: "jade" })`)
+
+## Add a new language
+
+To add a new language :
+* Retrieve the english translations in https://github.com/ozwillo/ozwillo-site/tree/master/locales/en
+* Update the files with your language
+* [Create a new issue](https://github.com/ozwillo/ozwillo-site/issues/new) and attach the files in it
+
+
