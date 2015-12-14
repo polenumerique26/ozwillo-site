@@ -2,10 +2,10 @@
 
 ## Quick start
 
-Set NodeJS version to 0.12.7
+Set NodeJS version to 0.12.9
 
 ```shell
-nvm install 0.12.7
+nvm install 0.12.9
 ```
 
 Install NodeJS modules :
