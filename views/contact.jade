@@ -43,16 +43,16 @@ html(lang=i18n.lng())
           form(onsubmit=getPageLink('contact'), method='POST')
             span.leftCol
               .form-group
-                input.champ(type='text', name='name', placeholder= t('contact:::form_input_1'), required='')
+                input.champ(type='text', name='name', placeholder= t('contact:::form_name'), required='')
               .form-group
-                input.champ(type='tel', name='tel', placeholder= t('contact:::form_input_2'))
+                input.champ(type='tel', name='tel', placeholder= t('contact:::form_phone'))
             span.rightCol
               .form-group
-                input.champ(type='email', name='email', placeholder= t('contact:::form_input_3'), required='')
+                input.champ(type='email', name='email', placeholder= t('contact:::form_email'), required='')
               .form-group
-                input.champ(type='text', name='subject', placeholder= t('contact:::form_input_4'), required='')
+                input.champ(type='text', name='subject', placeholder= t('contact:::form_subject'), required='')
             .form-group
-              textarea.texte(type='text', name='message', placeholder= t('contact:::form_input_5'), required='')
+              textarea.texte(type='text', name='message', placeholder= t('contact:::form_message'), required='')
             button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
         .col-md-6
           iframe(src= t('contact:::iframe_url'), allowfullscreen='')
