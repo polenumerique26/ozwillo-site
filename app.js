@@ -19,7 +19,7 @@ var option = {
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
   nsseparator: ':::',
-  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/', 'pdf/']
+  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/', 'pdf/', 'xml']
 };
 
 i18n.backend(yamlSync);
@@ -124,6 +124,8 @@ i18n.init(option, function(t) {
 app.get('/', function (req, res) {
   res.redirect('/' + req.locale);
 });
+
+/* routes for header and footer files used by the portal */
 
 app.get('/header.xml', function (req, res) {
   res.sendFile('xml/header.xml', { root: __dirname + '/public/' });
