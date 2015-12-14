@@ -125,6 +125,14 @@ app.get('/', function (req, res) {
   res.redirect('/' + req.locale);
 });
 
+app.get('/twitter', function(req, res) {
+  res.redirect('https://twitter.com/ozwillo');
+});
+
+app.get('/doc', function(req, res) {
+  res.redirect('http://doc.ozwillo.com/');
+});
+
 /* routes for header and footer files used by the portal */
 
 app.get('/header.xml', function (req, res) {
