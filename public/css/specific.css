@@ -51,6 +51,10 @@ a:focus, a:hover {
     margin-top: 10px;
 }
 
+a.btn-primary {
+    margin-bottom: 30px;
+}
+
 .btn-primary img {
     margin-left: 5px;
 }
