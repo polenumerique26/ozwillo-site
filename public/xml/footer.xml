@@ -1,45 +1,36 @@
 <menuset>
   <menu>
     <locale>fr</locale>
-    <item href="/fr/oz/news">Actualités</item>
-    <item href="/fr/oz/decouvrir">Découvrir</item>
-    <item href="/fr/oz/co-construire">Co-construire</item>
-    <item href="/fr/oz/se-lancer">Se lancer</item>
+    <item href="/fr/actualites">Actualités</item>
+    <item href="/fr/decouvrir">Découvrir</item>
+    <item href="/fr/co-construire">Co-construire</item>
     <item href="/fr/contact">Contact</item>
-    <item href="/fr/oz/projets">Projets</item>
-    <item href="/fr/equipe-projet">L'équipe projet</item>
+    <item href="/fr/projets">Projets</item>
     <item href="/twitter">@Ozwillo</item>
-    <item href="/fr/guide-utilisateur">Guide utilisateur</item>
     <item href="/doc">Développeurs</item>
-    <item href="/fr/mentions-legales-confidentialite">Mentions légales</item>
+    <item href="/fr/mentions-legales">Mentions légales</item>
     <item href="/fr/cgu">CGU</item>
   </menu>
   <menu>
   	<locale>en</locale>
-  	<item href="/en/oz/news">News</item>
-    <item href="/en/oz/discover">Discovering</item>
-  	<item href="/en/oz/co-construct">Co-construct</item>
-  	<item href="/en/oz/let-s-go">Let's go</item>
+  	<item href="/en/news">News</item>
+    <item href="/en/discover">Discovering</item>
+  	<item href="/en/co-construct">Co-construct</item>
   	<item href="/en/contact">Contact</item>
-    <item href="/en/oz/projects">Projects</item>
-  	<item href="/en/project-team">Project team</item>
+    <item href="/en/projects">Projects</item>
   	<item href="/twitter">@Ozwillo</item>
-  	<item href="/en/user-guide">User guide</item>
     <item href="/doc">Developers</item>
     <item href="/en/legal-notices">Legal Notices</item>
   	<item href="/en/terms">General terms of use</item>
   </menu>
   <menu>
   	<locale>it</locale>
-  	<item href="/it/oz/novita">Novità</item>
-    <item href="/it/oz/scoprire">Scoprire</item>
-  	<item href="/it/oz/collaborativamente">Costruire collaborativamente</item>
-  	<item href="/it/oz/iniziare">Iniziare</item>
+  	<item href="/it/novita">Novità</item>
+    <item href="/it/scoprire">Scoprire</item>
+  	<item href="/it/collaborativamente">Costruire collaborativamente</item>
   	<item href="/it/contatti">Contatti</item>
-  	<item href="/it/oz/progetti">Progetti</item>
-    <item href="/it/team-di-progetto">Il team di progetto</item>
+  	<item href="/it/progetti">Progetti</item>
   	<item href="/twitter">@Ozwillo</item>
-  	<item href="/it/manuale-utente">Manuale utente</item>
     <item href="/doc">Sviluppatori</item>
     <item href="/it/avvisi-legali">Avvisi legali</item>
   	<item href="/it/termini">Termini di utilizzo</item>
@@ -47,15 +38,12 @@
   </menu>
   <menu>
   	<locale>tr</locale>
-  	<item href="/tr/oz/haberler">Haberler</item>
-    <item href="/tr/oz/kesfedin">Keşfedin</item>
-  	<item href="/tr/oz/birlikte-insa-etmek">Birlikte inşa etmek</item>
-  	<item href="/tr/oz/baslatmak">Başlatmak</item>
+  	<item href="/tr/haberler">Haberler</item>
+    <item href="/tr/kesfedin">Keşfedin</item>
+  	<item href="/tr/birlikte-insa-etmek">Birlikte inşa etmek</item>
   	<item href="/tr/iletism">İletişim</item>
-  	<item href="/tr/oz/projeler">Projeler</item>
-    <item href="/tr/proje-ekibi">Proje Ekibi</item>
+  	<item href="/tr/projeler">Projeler</item>
   	<item href="/twitter">@Ozwillo</item>
-  	<item href="/tr/kullanici-kilavuzu">Kullanıcı Kılavuzu</item>
     <item href="/doc">Geliştiriciler</item>
     <item href="/tr/yasal-uyarilar">Yasal Uyarılar</item>
   	<item href="/tr/sartlari">Kullanım Şartları</item>
@@ -63,15 +51,12 @@
   </menu>
   <menu>
     <locale>bg</locale>
-    <item href="/bg/oz/novini">Новини</item>
-    <item href="/bg/oz/discover">Изучаване</item>
-    <item href="/bg/oz/suvmestna-sgrada">Съвместно изграждане</item>
-    <item href="/bg/oz/st-rtir-n">Стартиране</item>
+    <item href="/bg/novini">Новини</item>
+    <item href="/bg/discover">Изучаване</item>
+    <item href="/bg/suvmestna-sgrada">Съвместно изграждане</item>
     <item href="/bg/vriz-i">Връзки</item>
-    <item href="/bg/oz/pr-ti">Проекти</item>
-    <item href="/bg/ekiput-na-proekta">Екипът на проекта</item>
+    <item href="/bg/pr-ti">Проекти</item>
     <item href="/twitter">@Ozwillo</item>
-    <item href="/bg/ri-v-dstv-n-p-tr-bit-lja">Ръководство на потребителя</item>
     <item href="/doc">Pазработчиците</item>
     <item href="/bg/pr-vni-b-l-z-i">Правни бележки</item>
     <item href="/bg/uslovia">Условия за ползване</item>
@@ -79,30 +64,24 @@
   </menu>
   <menu>
     <locale>es</locale>
-    <item href="/es/oz/noticias">Noticias</item>
-    <item href="/es/oz/descubriendo">Descubriendo</item>
-    <item href="/es/oz/co-construccion">Co-construcción</item>
-    <item href="/es/oz/puesta-en-marcha">Puesta en marcha</item>
+    <item href="/es/noticias">Noticias</item>
+    <item href="/es/descubriendo">Descubriendo</item>
+    <item href="/es/co-construccion">Co-construcción</item>
     <item href="/es/contactos">Contactos</item>
-    <item href="/es/oz/proyectos">Proyectos</item>
-    <item href="/es/equipo-del-proyecto">El equipo del proyecto</item>
+    <item href="/es/proyectos">Proyectos</item>
     <item href="/twitter">@Ozwillo</item>
-    <item href="/es/manuales-de-usuario">Manuales de usuario</item>
     <item href="/doc">Desarrolladores</item>
     <item href="/es/notas-legales">Notas legales</item>
     <item href="/es/condiciones">Condiciones de uso</item>
   </menu>
   <menu>
     <locale>ca</locale>
-    <item href="/ca/oz/noticies">Noticies</item>
-    <item href="/ca/oz/descobrint">Descobrint</item>
-    <item href="/ca/oz/co-construccio">Co-construcció</item>
-    <item href="/ca/oz/posada-en-marxa">Posada en marxa</item>
+    <item href="/ca/noticies">Noticies</item>
+    <item href="/ca/descobrint">Descobrint</item>
+    <item href="/ca/co-construccio">Co-construcció</item>
     <item href="/ca/contactes">Contactes</item>
-    <item href="/ca/oz/projectes">Projectes</item>
-    <item href="/ca/equip-del-projecte">L'equip del Projecte</item>
+    <item href="/ca/projectes">Projectes</item>
     <item href="/twitter">@Ozwillo</item>
-    <item href="/ca/manuals-d-usuari">Manuals d'usuari</item>
     <item href="/doc">Desenvolupadors</item>
     <item href="/ca/notes-legals">Notes Legals</item>
     <item href="/ca/condicions">Condicions d'ús</item>
