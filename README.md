@@ -2,6 +2,18 @@
 
 ## Quick start
 
+Set NodeJS version to 0.12.7
+
+```shell
+nvm install 0.12.7
+```
+
+Install NodeJS modules :
+
+```shell
+npm install
+```
+
 Install nodemon :
 
 ```shell
