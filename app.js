@@ -7,10 +7,10 @@ var express = require('express'),
 
 /* i18n initialization */
 
+var allLanguages = ['bg', 'ca', 'en', 'es', 'fr', 'it', 'tr'];
 var option = {
-  lng: 'en',
-  supportedLngs: ['en', 'fr'],
-  preload: ['en', 'fr'],
+  supportedLngs: allLanguages,
+  preload: allLanguages,
   fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
@@ -60,36 +60,36 @@ app.use('/static', express.static(__dirname + '/public'));
 
 i18n.init(option, function(t) {
   // Add localizable routes
-  i18n.addRoute('/:lng', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng', allLanguages, app, 'get', function(req, res) {
     // FIXME : this is verbose, find a way to declare it once for all routes
     res.locals.host = req.get('host');
     res.render('home');
   });
-  i18n.addRoute('/:lng/route:::home', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::home', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('home');
   });
-  i18n.addRoute('/:lng/route:::discover', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::discover', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('discover');
   });
-  i18n.addRoute('/:lng/route:::news', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::news', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('news');
   });
-  i18n.addRoute('/:lng/route:::co-construct', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::co-construct', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('co-construct');
   });
-  i18n.addRoute('/:lng/route:::projects', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::projects', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('projects');
   });
-  i18n.addRoute('/:lng/route:::contact', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::contact', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('contact');
   });
-  i18n.addRoute('/:lng/route:::contact', ['en', 'fr'], app, 'post', contactFormParser, function(req, res) {
+  i18n.addRoute('/:lng/route:::contact', allLanguages, app, 'post', contactFormParser, function(req, res) {
     console.log('Sending contact email from ' + req.body.email + ' (' + req.body.subject + ')');
     var phone = req.body.phone ? req.body.phone : '';
     transporter.sendMail({
@@ -110,11 +110,11 @@ i18n.init(option, function(t) {
       res.render('contact');
     }.bind(res));
   });
-  i18n.addRoute('/:lng/route:::legal-notices', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::legal-notices', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('legal-notices');
   });
-  i18n.addRoute('/:lng/route:::terms', ['en', 'fr'], app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/route:::terms', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('terms');
   });

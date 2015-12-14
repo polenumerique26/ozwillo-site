@@ -38,7 +38,7 @@ nav.navbar.navbar-default
             span= t('menu:::connexion')
         li.dropdown
           a.dropdown-toggle.purpleColor(href='#', data-toggle='dropdown')
-            span= t('menu:::lang_' + i18n.lng())
+            span= t('menu:::lang_' + (['fr', 'en'].indexOf(i18n.lng()) > -1 ? i18n.lng() : 'en'))
             i.caret
           ul.dropdown-menu
             li
