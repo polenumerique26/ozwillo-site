@@ -65,27 +65,27 @@ i18n.init(option, function(t) {
     res.locals.host = req.get('host');
     res.render('home');
   });
-  i18n.addRoute('/:lng/route:::home', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::home', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('home');
   });
-  i18n.addRoute('/:lng/route:::discover', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::discover', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('discover');
   });
-  i18n.addRoute('/:lng/route:::news', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::news', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('news');
   });
-  i18n.addRoute('/:lng/route:::co-construct', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::co-construct', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('co-construct');
   });
-  i18n.addRoute('/:lng/route:::projects', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::projects', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('projects');
   });
-  i18n.addRoute('/:lng/route:::contact', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::contact', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('contact');
   });
@@ -110,11 +110,11 @@ i18n.init(option, function(t) {
       res.render('contact');
     }.bind(res));
   });
-  i18n.addRoute('/:lng/route:::legal-notices', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::legal-notices', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('legal-notices');
   });
-  i18n.addRoute('/:lng/route:::terms', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::terms', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('terms');
   });
