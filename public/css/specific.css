@@ -59,6 +59,16 @@ a.btn-primary {
     margin-left: 5px;
 }
 
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
 /*****************************************************************************************************************
 ******************************************************** Accueil *************************************************
 *****************************************************************************************************************/
@@ -715,13 +725,15 @@ ul.liensInter li {
 .flag {
     font-size: 16px;
     color: #6a6767;
-    margin: 0 30px 75px 0;
+    margin: 0 0 75px 0;
     display: block;
 }
 
-.flag img {
+.flex-row .flag img {
+    height: 149px;
+    width: 148px;
+    margin: 0 auto;
     display: inline-block;
-    margin: 0 0 25px 0;
     text-align: center;
 }
 

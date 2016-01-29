@@ -71,20 +71,20 @@ html(lang=i18n.lng())
         .row
           .col-md-12
             h2.soustitre2!= t('projects:::apps_title')
-        .row
-          .col-md-2.col-sm-4.flag.text-center
+        .row.flex-row
+          .col-md-4.col-sm-6.col-xs-12.flag.text-center
             img(src='/static/img/france.png')
             span!= t('projects:::apps_fr', { postProcess: "jade" })
-          .col-md-2.col-sm-4.flag.text-center
+          .col-md-4.col-sm-6.col-xs-12.flag.text-center
             img(src='/static/img/bulgarie.png')
             span!= t('projects:::apps_bg', { postProcess: "jade" })
-          .col-md-2.col-sm-4.flag.text-center
+          .col-md-4.col-sm-6.col-xs-12.flag.text-center
             img(src='/static/img/turquie.png')
             span!= t('projects:::apps_tr', { postProcess: "jade" })
-          .col-md-2.col-sm-4.flag.text-center
+          .col-md-4.col-sm-6.col-xs-12.flag.text-center
             img(src='/static/img/italie.png')
             span!= t('projects:::apps_it', { postProcess: "jade" })
-          .col-md-2.col-sm-4.flag.text-center
+          .col-md-4.col-sm-6.col-xs-12.flag.text-center
             img(src='/static/img/espagne.png')
             span!= t('projects:::apps_es', { postProcess: "jade" })
 
@@ -105,48 +105,48 @@ html(lang=i18n.lng())
           .row
             .col-md-12
               span.intertitre=t('projects:::delivrable_list_title')
-          .row
-            .col-md-3.column.white
+          .row.flex-row
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D1.1_Platform-requirements_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_1')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D1.2_Architectural-design-first-iteration_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_2')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D1.32_Privacy-requirements-personal-data-legislation-second-iteration_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_3')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D2.1_Report-implementation_vf_bd2.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_4')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D2.2_Guidelines-for-designing-services_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_5')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D2.3_Adapted-solutions-user-identification-authentication_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_6')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D3.1_Business-case-first-iteration_vf_bd.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_7')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D3.4_Governance_VF.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_8')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D51_Initial-KPIs-Report-Requirements_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_9')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D6.1_Management_Manual_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_10')
-            .col-md-3.column.white
+            .col-md-3.col-sm-4.col-xs-6.white
               a(target="_blank" href='/static/pdf/OASIS_D6.31_Dissemination-Exploitation-of-foreground-N1_vf.pdf')
                 img(src='/static/img/pdf.png')
               !=t('projects:::delivrable_item_11')
