@@ -11,25 +11,35 @@ html(lang=i18n.lng())
         .row
           .col-md-12
             h1.titre= t('home:::main_title')
-          .col-md-12
-            a.btn-primary.btnRed(href=getPageLink('discover'))= t('menu:::discover')
 
-    // TOP
+    // Data section
+    .container
+      .row
+        .col-md-6
+          h2.soustitre= t('home:::data_title')
+          p.paraHome!= t('home:::data_description', {postProcess: "jade"})
+          a.btn-primary.btnRedInter(href='#')= t('home:::data_browse')
+            img(src='/static/img/arrow-white.png')
+        .col-md-6.hidden-xs
+          img.img-responsive.image(src='/static/img/data_moteur_FR.jpg')
+
+    // Store section
     .grey
       .container
         .row
-          .col-md-6
-            h2.soustitre!= t('home:::professional_title', { postProcess: "jade" })
-            p.paraHome= t('home:::professional_subtitle')
+          .col-md-4.hidden-xs
+            img.img-responsive.image(src='/static/img/store.jpg')
+          .col-md-8
+            h2.soustitre!= t('home:::store_title', {postProcess: "jade"})
             ul.liens
-              li= t('home:::professional_financialapp')
-              li= t('home:::professional_eservices')
-              li= t('home:::professional_hotspotwifi')
-              li= t('home:::professional_cartography')
-            a.btn-primary.btnViolet(href=getPageLink('discover'))= t('menu:::discover')
+              li= t('home:::store_professional')
+            p.paraHome= t('home:::store_professional_description')
+            ul.liens
+              li= t('home:::store_personal')
+            p.paraHome= t('home:::store_personal_description')
+            a.btn-primary.btnRedInter(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())
+              = t('home:::store_discover')
               img(src='/static/img/arrow-white.png')
-          .col-md-6.hidden-xs
-            img.img-responsive.image(src='/static/img/mobile.jpg')
 
     // APPS
     .container-fluid
@@ -90,29 +100,6 @@ html(lang=i18n.lng())
                   p.paraApps= t('home:::apps_10tts')
                   a.btn-primary.btnApps(href=getStoreLink('379bc0c7-919c-42ee-99ef-8c4ce65c9ca4'))= t('home:::apps_discover')
     span.separationBas
-
-    // Store
-    .grey
-      .container
-        .row
-          .col-md-4.hidden-xs
-            img.img-responsive.image(src='/static/img/store.jpg')
-          .col-md-8
-            h2.soustitre!= t('home:::store_title', { postProcess: "jade" })
-            p.paraHome= t('home:::store_subtitle')
-            a.btn-primary.btnViolet(href=getPageLink('discover'))= t('menu:::discover')
-              img(src='/static/img/arrow-white.png')
-
-    // Developpeur
-    .container
-      .row.clearfix
-        .col-md-6
-          h2.soustitre!= t('home:::developer_title', { postProcess: "jade" })
-          p.paraHome= t('home:::developer_subtitle')
-          a.btn-primary.btnViolet(href=getPageLink('discover'))= t('menu:::discover')
-            img(src='/static/img/arrow-white.png')
-        .col-md-6.hidden-xs
-          img.img-responsive.image(src='/static/img/application.jpg')
-
+    
     include ./footer.jade
     include ./scripts.jade
