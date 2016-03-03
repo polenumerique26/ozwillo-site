@@ -69,6 +69,12 @@ a.btn-primary {
     flex-direction: column;
 }
 
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 /*****************************************************************************************************************
 ******************************************************** Accueil *************************************************
 *****************************************************************************************************************/
@@ -191,7 +197,7 @@ a.btn-primary {
 .paraHome {
     font-size: 16px;
     color: #6a6767;
-    margin: 0px 0 31px 0;
+    margin: 0px 0 134px 0;
 }
 
 ul.liens {
@@ -262,7 +268,7 @@ ul.liens li {
 
 .cadre {
     border: 1px solid #d3d2d2;
-    min-height: 436px;
+    min-height: 385px;
     width: 400px;
     display: block;
     top: 82px;
@@ -285,7 +291,7 @@ ul.liens li {
 
 .paraApps {
     color: #848285;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 40px 66px 40px;
     text-align: center;
     display: block;
@@ -566,11 +572,9 @@ h3 {
     height: 74px;
     width: 252px;
     display: block;
-    margin: 0;
+    margin: auto;
     padding: 0;
     border-bottom: 3px solid #b30e44;
-    float: left;
-    clear: both;
 }
 
 .btnRedInter:hover {
@@ -607,13 +611,12 @@ ul.phrase {
 ul.phrase li {
     font-size: 16px;
     color: #6a6767;
-    margin: 0 0 25px 0;
-    padding-left: 50px;
+    margin: 0 0 30px 0;
     font-weight: 300;
-    list-style: none;
-    background: url(/static/img/icones.png);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: url(/static/img/icones.png) no-repeat top left;
+    list-style-type: none;
+    padding: 0 0 10px 50px;
+    vertical-align: middle;
 }
 
 ul.liensInter {

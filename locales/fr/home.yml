@@ -3,11 +3,26 @@ main_title: Ozwillo est le moteur de données qui apporte de l'intelligence aux 
 data_title: Un moteur de données liées, partageables et gouvernées
 data_description: "<p>Derrière Ozwillo se cache un puissant moteur permettant aux applications de parler entre-elles.</p>
   <p>C'est à dire que les données produites dans une application peuvent alimenter des requêtes souhaitées par d'autres.</p>
-  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>
-  <p>L'authentification est ici unique, quelque soit le service ou l'application utilisée.</p>
-  <p>Bien sûr tout cela se fait dans le respect des données privées.</p>
-  <p>Les applications déposées sur Ozwillo sont adaptées, elles respectent la charte Application Responsable d'Ozwillo et sont développées pour fonctionner et alimenter le moteur de données.</p>"
-data_browse: Parcourir les données
+  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>"
+data_browse: Découvrir les données
+
+portal_title: Un portail riche d'applications
+portal_description: "<p>Derrière Ozwillo se cache un puissant moteur permettant aux applications de parler entre-elles.</p>
+  <p>C'est à dire que les données produites dans une application peuvent alimenter des requêtes souhaitées par d'autres.</p>
+  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>"
+portal_browse: Découvrir le portail
+
+incubation_title: Un incubateur performant
+incubation_description: "<p>Derrière Ozwillo se cache un puissant moteur permettant aux applications de parler entre-elles.</p>
+  <p>C'est à dire que les données produites dans une application peuvent alimenter des requêtes souhaitées par d'autres.</p>
+  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>"
+incubation_browse: Découvrir l'incubation
+
+differentiator_title: La différence Ozwillo
+differentiator_1: une gouvernance publique / privée citoyenne
+differentiator_2: une plate-forme Open Source entièrement disponible sur <a target="blank" href="https://github.com/ozwillo">GitHub</a> et une communauté réactive
+differentiator_3: Dites-le nous une fois !
+differentiator_4: Création d’un bien commun
 
 store_title: span Un catalogue riche d'applications pour tous les publics
 store_professional: Pour les professionels d’une organisation publique ou privée

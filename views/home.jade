@@ -12,36 +12,49 @@ html(lang=i18n.lng())
           .col-md-12
             h1.titre= t('home:::main_title')
 
-    // Data section
     .container
       .row
-        .col-md-6
-          h2.soustitre= t('home:::data_title')
-          p.paraHome!= t('home:::data_description', {postProcess: "jade"})
-          a.btn-primary.btnRedInter(href='#')= t('home:::data_browse')
-            img(src='/static/img/arrow-white.png')
-        .col-md-6.hidden-xs
+        .col-md-12
           img.img-responsive.image(src='/static/img/data_moteur_FR.jpg')
 
-    // Store section
+    .container
+      .row.flex-row
+        .col-md-4.col-sm-12
+          h2.soustitre= t('home:::data_title')
+          .paraHome!= t('home:::data_description', {postProcess: "jade"})
+          .bottom-align-text
+            a.btn-primary.btnRedInter(href=getPageLink('data'))= t('home:::data_browse')
+              img(src='/static/img/arrow-white.png')
+        .col-md-4.col-sm-12
+          h2.soustitre= t('home:::portal_title')
+          .paraHome!= t('home:::portal_description', {postProcess: "jade"})
+          .bottom-align-text
+            a.btn-primary.btnRedInter(href=getPageLink('portal'))= t('home:::portal_browse')
+              img(src='/static/img/arrow-white.png')
+        .col-md-4.col-sm-12
+          h2.soustitre= t('home:::incubation_title')
+          .paraHome!= t('home:::incubation_description', {postProcess: "jade"})
+          .bottom-align-text
+            a.btn-primary.btnRedInter(href=getPageLink('incubation'))= t('home:::incubation_browse')
+              img(src='/static/img/arrow-white.png')
+
     .grey
       .container
         .row
-          .col-md-4.hidden-xs
-            img.img-responsive.image(src='/static/img/store.jpg')
-          .col-md-8
-            h2.soustitre!= t('home:::store_title', {postProcess: "jade"})
-            ul.liens
-              li= t('home:::store_professional')
-            p.paraHome= t('home:::store_professional_description')
-            ul.liens
-              li= t('home:::store_personal')
-            p.paraHome= t('home:::store_personal_description')
-            a.btn-primary.btnRedInter(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())
-              = t('home:::store_discover')
-              img(src='/static/img/arrow-white.png')
+          .col-md-12.column
+            h2.soustitre2= t('home:::differentiator_title')
+          .col-md-12
+            .row
+              .col-md-6
+                ul.phrase
+                  li= t('home:::differentiator_1')
+                  li= t('home:::differentiator_3')
+              .col-md-6
+                ul.phrase
+                  li!= t('home:::differentiator_2', {postProcess: "jade"})
+                  li= t('home:::differentiator_4')
 
-    // APPS
+
     .container-fluid
       .row.clearfix
         .col-md-12
@@ -49,57 +62,60 @@ html(lang=i18n.lng())
             img.marge(src='/static/img/logo.png')
         .col-md-12
           .row.clearfix
-            .col-md-4
+            .col-lg-4.col-sm-6.col-xs-12
               .apps
                 span.cercle
                   img.appImage(src='/static/img/opendata.jpg')
                 span.cadre
                   span.titreApps Open Data
                   p.paraApps= t('home:::apps_opendata')
-                  a.btn-primary.btnApps(href=getStoreLink('66e23b9b-65e1-5dce-a520-e1d8fed8b12a'))= t('home:::apps_discover')
-            .col-md-4
+                  .bottom-align-text
+                    a.btn-primary.btnApps(href=getStoreLink('66e23b9b-65e1-5dce-a520-e1d8fed8b12a'))= t('home:::apps_discover')
+            .col-lg-4.col-sm-6.col-xs-12
               .apps
                 span.cercle
                   img.appImage(src='/static/img/fluxdemat.jpg')
                 span.cadre
                   span.titreApps Fluxdemat
                   p.paraApps= t('home:::apps_fluxdemat')
-                  a.btn-primary.btnApps(href=getStoreLink('b3cc306f-b3e3-515f-8894-bc27f559cecb'))= t('home:::apps_discover')
-            .col-md-4
+                  .bottom-align-text
+                    a.btn-primary.btnApps(href=getStoreLink('b3cc306f-b3e3-515f-8894-bc27f559cecb'))= t('home:::apps_discover')
+            .col-lg-4.col-sm-6.col-xs-12
               .apps
                 span.cercle
                   img.appImage(src='/static/img/zimbra.jpg')
                 span.cadre
                   span.titreApps Zimbra
                   p.paraApps= t('home:::apps_zimbra')
-                  a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
-        .col-md-12
-          .row.clearfix
-            .col-md-4
+                  .bottom-align-text
+                    a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
+            .col-lg-4.col-sm-6.col-xs-12
               .apps
                 span.cercle
                   img.appImage(src='/static/img/docuwiki.jpg')
                 span.cadre
                   span.titreApps DocuWiki
                   p.paraApps= t('home:::apps_dokuwiki')
-                  a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
-            .col-md-4
+                  .bottom-align-text
+                    a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
+            .col-lg-4.col-sm-6.col-xs-12
               .apps
                 span.cercle
                   img.appImage(src='/static/img/agrilocal.jpg')
                 span.cadre
                   span.titreApps AgriLocal
                   p.paraApps= t('home:::apps_agrilocal')
-                  a.btn-primary.btnApps(href=getStoreLink('618ab105-9d80-4c49-8326-b4855806aa92'))= t('home:::apps_discover')
-            .col-md-4
+                  .bottom-align-text
+                    a.btn-primary.btnApps(href=getStoreLink('618ab105-9d80-4c49-8326-b4855806aa92'))= t('home:::apps_discover')
+            .col-lg-4.col-sm-6.col-xs-12
               .apps
                 span.cercle
                   img.appImage(src='/static/img/10thingstosee.jpg')
                 span.cadre
                   span.titreApps 10 Things to see
                   p.paraApps= t('home:::apps_10tts')
-                  a.btn-primary.btnApps(href=getStoreLink('379bc0c7-919c-42ee-99ef-8c4ce65c9ca4'))= t('home:::apps_discover')
-    span.separationBas
-    
+                  .bottom-align-text
+                    a.btn-primary.btnApps(href=getStoreLink('379bc0c7-919c-42ee-99ef-8c4ce65c9ca4'))= t('home:::apps_discover')
+
     include ./footer.jade
     include ./scripts.jade
