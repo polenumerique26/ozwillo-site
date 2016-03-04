@@ -21,19 +21,19 @@ html(lang=i18n.lng())
       .row.flex-row
         .col-md-4.col-sm-12
           h2.soustitre= t('home:::data_title')
-          .paraHome!= t('home:::data_description', {postProcess: "jade"})
+          .blockOffer!= t('home:::data_description', {postProcess: "jade"})
           .bottom-align-text
             a.btn-primary.btnRedInter(href=getPageLink('data'))= t('home:::data_browse')
               img(src='/static/img/arrow-white.png')
         .col-md-4.col-sm-12
           h2.soustitre= t('home:::portal_title')
-          .paraHome!= t('home:::portal_description', {postProcess: "jade"})
+          .blockOffer!= t('home:::portal_description', {postProcess: "jade"})
           .bottom-align-text
             a.btn-primary.btnRedInter(href=getPageLink('portal'))= t('home:::portal_browse')
               img(src='/static/img/arrow-white.png')
         .col-md-4.col-sm-12
           h2.soustitre= t('home:::incubation_title')
-          .paraHome!= t('home:::incubation_description', {postProcess: "jade"})
+          .blockOffer!= t('home:::incubation_description', {postProcess: "jade"})
           .bottom-align-text
             a.btn-primary.btnRedInter(href=getPageLink('incubation'))= t('home:::incubation_browse')
               img(src='/static/img/arrow-white.png')
