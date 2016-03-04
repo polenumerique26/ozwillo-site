@@ -14,7 +14,7 @@ var option = {
   fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
-    namespaces: ['route', 'menu', 'home', 'co-construct', 'discover', 'news', 'projects', 'legal-notices', 'contact', 'terms', 'footer']
+    namespaces: ['route', 'menu', 'home', 'co-construct', 'news', 'projects', 'legal-notices', 'contact', 'terms', 'footer']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
@@ -68,10 +68,6 @@ i18n.init(option, function(t) {
   i18n.addRoute('/:lng/:oz*?/route:::home', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('home');
-  });
-  i18n.addRoute('/:lng/:oz*?/route:::discover', allLanguages, app, 'get', function(req, res) {
-    res.locals.host = req.get('host');
-    res.render('discover');
   });
   i18n.addRoute('/:lng/:oz*?/route:::news', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');

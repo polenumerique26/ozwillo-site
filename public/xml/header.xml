@@ -3,13 +3,11 @@
 		<locale>fr</locale>
 		<item type="home" img_src="/images/ui/apps-on.png"/>
 		<item type="catalog" href="https://portal.ozwillo.com/fr/store" img_src="/images/ui/apps-on.png">Catalogue</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/fr/" img_src="/images/ui/data-on.png">Données
-		</item>
+		<item type="opendata" href="https://opendata.ozwillo.com/fr/" img_src="/images/ui/data-on.png">Données</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=fr">Connexion</item>
 		<item type="locale-switch" />
 		<submenu href="/fr/decouvrir">
 			<title>Découvrir</title>
-			<item href="/fr/decouvrir">Découvrir</item>
 			<item href="/fr/actualites">Actualités</item>
 			<item href="/fr/co-construire">Co-construire</item>
 			<item href="/fr/projets">Projets</item>
@@ -25,7 +23,6 @@
 		<item type="locale-switch" />
 		<submenu href="/en/discover">
 			<title>Discover</title>
-			<item href="/en/discover">Discover</item>
 			<item href="/en/news">News</item>
 			<item href="/en/co-construct">Co-construct</item>
 			<item href="/en/projects">Projects</item>
@@ -38,7 +35,6 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/es/" img_src="/images/ui/data-on.png">Datos
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=es">Entrar</item>
-			<item href="/es/descubriendo">Descubriendo la plataforma</item>
 		<item type="locale-switch" />
 		<submenu href="/es/descubriendo">
 			<title>Descubriendo</title>
@@ -57,7 +53,6 @@
 		<item type="locale-switch" />
 		<submenu href="/ca/descobrint">
 			<title>Descobrint</title>
-			<item href="/ca/descobrint">Descobrint la plataforma</item>
 			<item href="/ca/noticies">Noticies</item>
 			<item href="/ca/co-construccio">Co-construcció</item>
 			<item href="/ca/projectes">Projectes</item>
@@ -73,7 +68,6 @@
 		<item type="locale-switch" />
 		<submenu href="/it/scoprire">
 			<title>Scoprire</title>
-			<item href="/it/scoprire">Scoprire la Piattaforma</item>
 			<item href="/it/novita">Novità</item>
 			<item href="/it/collaborativamente">Costruire collaborativamente</item>
 			<item href="/it/progetti">Progetti</item>
@@ -89,7 +83,6 @@
 		<item type="locale-switch" />
 		<submenu href="/bg/discover">
 			<title>Изучаване</title>
-			<item href="/bg/discover">Изучаване на платформата</item>
 			<item href="/bg/novini">Новини</item>
 			<item href="/bg/suvmestna-sgrada">Съвместно изграждане</item>
 			<item href="/bg/pr-ti">Проекти</item>
@@ -105,7 +98,6 @@
 		<item type="locale-switch" />
 		<submenu href="/tr/kesfedin">
 			<title>Keşfedin</title>
-			<item href="/tr/kesfedin">Platformu Keşfetmek</item>
 			<item href="/tr/haberler">Haberler</item>
 			<item href="/tr/birlikte-insa-etmek">Birlikte inşa etmek</item>
 			<item href="/tr/projeler">Projeler</item>

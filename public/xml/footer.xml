@@ -2,7 +2,6 @@
   <menu>
     <locale>fr</locale>
     <item href="/fr/actualites">Actualités</item>
-    <item href="/fr/decouvrir">Découvrir</item>
     <item href="/fr/co-construire">Co-construire</item>
     <item href="/fr/contact">Contact</item>
     <item href="/fr/projets">Projets</item>
@@ -14,7 +13,6 @@
   <menu>
   	<locale>en</locale>
   	<item href="/en/news">News</item>
-    <item href="/en/discover">Discover</item>
   	<item href="/en/co-construct">Co-construct</item>
   	<item href="/en/contact">Contact</item>
     <item href="/en/projects">Projects</item>
@@ -26,7 +24,6 @@
   <menu>
   	<locale>it</locale>
   	<item href="/it/novita">Novità</item>
-    <item href="/it/scoprire">Scoprire</item>
   	<item href="/it/collaborativamente">Costruire collaborativamente</item>
   	<item href="/it/contatti">Contatti</item>
   	<item href="/it/progetti">Progetti</item>
@@ -34,12 +31,10 @@
     <item href="/doc">Sviluppatori</item>
     <item href="/it/avvisi-legali">Avvisi legali</item>
   	<item href="/it/termini">Termini di utilizzo</item>
-  	<item></item>
   </menu>
   <menu>
   	<locale>tr</locale>
   	<item href="/tr/haberler">Haberler</item>
-    <item href="/tr/kesfedin">Keşfedin</item>
   	<item href="/tr/birlikte-insa-etmek">Birlikte inşa etmek</item>
   	<item href="/tr/iletism">İletişim</item>
   	<item href="/tr/projeler">Projeler</item>
@@ -47,12 +42,10 @@
     <item href="/doc">Geliştiriciler</item>
     <item href="/tr/yasal-uyarilar">Yasal Uyarılar</item>
   	<item href="/tr/sartlari">Kullanım Şartları</item>
-  	<item></item>
   </menu>
   <menu>
     <locale>bg</locale>
     <item href="/bg/novini">Новини</item>
-    <item href="/bg/discover">Изучаване</item>
     <item href="/bg/suvmestna-sgrada">Съвместно изграждане</item>
     <item href="/bg/vriz-i">Връзки</item>
     <item href="/bg/pr-ti">Проекти</item>
@@ -60,12 +53,10 @@
     <item href="/doc">Pазработчиците</item>
     <item href="/bg/pr-vni-b-l-z-i">Правни бележки</item>
     <item href="/bg/uslovia">Условия за ползване</item>
-    <item></item>
   </menu>
   <menu>
     <locale>es</locale>
     <item href="/es/noticias">Noticias</item>
-    <item href="/es/descubriendo">Descubriendo</item>
     <item href="/es/co-construccion">Co-construcción</item>
     <item href="/es/contactos">Contactos</item>
     <item href="/es/proyectos">Proyectos</item>
@@ -77,7 +68,6 @@
   <menu>
     <locale>ca</locale>
     <item href="/ca/noticies">Noticies</item>
-    <item href="/ca/descobrint">Descobrint</item>
     <item href="/ca/co-construccio">Co-construcció</item>
     <item href="/ca/contactes">Contactes</item>
     <item href="/ca/projectes">Projectes</item>
@@ -85,6 +75,5 @@
     <item href="/doc">Desenvolupadors</item>
     <item href="/ca/notes-legals">Notes Legals</item>
     <item href="/ca/condicions">Condicions d'ús</item>
-    <item></item>    
   </menu>
 </menuset>
