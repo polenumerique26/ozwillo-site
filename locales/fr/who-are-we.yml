@@ -1,3 +1,43 @@
+main_title: Co-construire le bien-commun ...
+
+main_subtitle_1: Ozwillo a vocation à être un garant neutre, permettant à tout fournisseur d’applications,
+  propriétaire ou Open Source, de venir commercialiser ses services, et à tout usager de gérer ses données personnelles.
+main_subtitle_2: Tout utilisateur d’Ozwillo est aussi libre de changer de solution logicielle sans coût de sortie dû à
+  la récupération de ses données. Les données non personnelles et non-sensibles ont vocation à être réutilisables par le
+  biais d’API. Pour favoriser cette réutilisation, chaque fournisseur d’application devra travailler à la modélisation
+  de ses données, grâce à l’outillage qui sera mis à sa disposition sur Ozwillo. Ce « store » d’applications et de données
+  est une alternative aux géants de l’information. Il est le support d’un écosystème vertueux où les données sont un bien
+  commun, créateur de valeurs.
+
+opensource_title: span Pourquoi avoir choisi l’<strong>Open source</strong> ?
+opensource_subtitle_1: La plate-forme Ozwillo a été développée complètement en Open Source, car elle doit être évolutive,
+  pouvoir accueillir tout type d’applications, et rester un bien commun logiciel, qui pourra être le support de
+  multiples portails d’applications. Sa force est de permettre la liaison de données de toutes natures, issues de sources
+  privée, publique, citoyenne.
+opensource_subtitle_2: L'Open Source est un mouvement humaniste. C'est une forme de créativité, patrimoine de l'humanité,
+  un bien commun que nous enrichissons collectivement pour le bien être de tous.
+opensource_profits: "Les bénéfices de l'Open Source :"
+opensource_profit_1: La liberté de choix
+opensource_profit_2: L'ouverture
+opensource_profit_3: La dynamique d'évolution
+opensource_profit_4: Le respect des standards
+
+governance_title: span.gras Rejoindre la gouvernance d'Ozwillo
+governance_profit_1: C’est vous engager à ce que le bien commun de données créé reste un bien commun pour les générations
+  futures, et qu’il s’enrichisse constamment à chaque usage des applications.
+governance_profit_2: C’est garantir au producteur de données que ses données pourront être réutilisées dans le respect
+  de la licence qu’il a choisi.
+governance_profit_3: C’est garantir à l’individu que ses données personnelles ne seront pas utilisées ou vendues à son insu.
+governance_profit_4: C’est garantir que le code source de la plate-forme s’enrichisse des contributions et reste un bien
+  commun sous licence AGPL.
+governance_profit_5: C’est créer, maintenir et reverser les modèle de données sémantiques sous licence LGPL.
+governance_profit_6: C’est favoriser la reconnaissance des contributeurs et de leurs contributions.
+governance_profit_7: C’est injecter votre motivation dans la création d’un moteur de l’économie de la connaissance.
+governance_join_1: La structure de gouvernance est en cours de création et verra le jour début 2016, pour nous rejoindre
+  dès à présent et participer à sa définition, vous pouvez d’ores et déjà nous contacter.
+governance_join_2: La gouvernance a vocation à être distribuée, pour plus de renseignements sur ses missions, et pour
+  contribuer, contactez nous !
+
 # OASIS
 oasis_title: Oasis est le nom du projet européen socle de la plateforme Ozwillo
 oasis_text_1: Ozwillo est issu du projet européen OASIS, qui a permis de créer les premières briques techniques et juridiques
@@ -29,8 +69,7 @@ map_title: <span>Ce projet,<strong> unique en Europe</strong>, a associé 6 pays
 
 ########################################################################################################################
 # Partenaire
-partner_title: <span><strong>Pôle Numérique</strong><span class="little"> (Valence - Drôme 26 - France)</span>
-  <br />est coordinateur de ce projet européen qui compte dix partenaires</span>
+partner_title: <span><strong>Ozwillo</strong> est coordinateur de ce projet européen qui compte dix partenaires</span>
 partner_column_1_title: Les partenaires techniques
 partner_column_1_item_1: <span>L’Université Polytechnique de Turin, pour l’architecture de la plate-forme.</span>
 partner_column_1_item_2: <span>Les sociétés françaises Atol C&D et Open Wide spécialisées dans la conception et le développement de solutions informatiques dédiées.
@@ -153,3 +192,6 @@ evolutions_column_1_item_4: Développer de nouveaux outils pour optimiser la lia
 evolutions_column_2_item_1: Améliorer l’ergonomie
 evolutions_column_2_item_2: Industrialiser la plateforme pour faciliter la venue de nouveaux fournisseurs de services
 evolutions_column_2_item_3: Créer la gouvernance la plus adaptée pour la préservation du "bien commun" de données fabriqué au quotidien.
+
+
+

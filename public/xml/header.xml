@@ -6,12 +6,14 @@
 		<item type="opendata" href="https://opendata.ozwillo.com/fr/" img_src="/images/ui/data-on.png">Données</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=fr">Connexion</item>
 		<item type="locale-switch" />
-		<submenu href="/fr/decouvrir">
-			<title>Découvrir</title>
-			<item href="/fr/actualites">Actualités</item>
-			<item href="/fr/co-construire">Co-construire</item>
-			<item href="/fr/projets">Projets</item>
+		<submenu href="#">
+			<title>Offres</title>
+			<item href="/fr/offre-donnee">Données</item>
+			<item href="/fr/offre-portail">Portail</item>
+			<item href="/fr/offre-incubation">Incubation</item>
 		</submenu>
+		<item href="/fr/qui-sommes-nous">Qui sommes nous ?</item>
+		<item href="/fr/actualites">Actualités</item>
 	</menu>
 	<menu>
 		<locale>en</locale>
@@ -21,12 +23,14 @@
 		</item>
 		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=en">Log in</item>
 		<item type="locale-switch" />
-		<submenu href="/en/discover">
+		<submenu href="#">
 			<title>Discover</title>
-			<item href="/en/news">News</item>
-			<item href="/en/co-construct">Co-construct</item>
-			<item href="/en/projects">Projects</item>
+			<item href="/en/offer-data">Data</item>
+			<item href="/en/offer-portal">Portal</item>
+			<item href="/en/offer-incubation">Incubation</item>
 		</submenu>
+		<item href="/en/who-are-we">Who are we ?</item>
+		<item href="/en/news">News</item>
 	</menu>
 	<menu>
 		<locale>es</locale>
