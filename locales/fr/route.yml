@@ -1,5 +1,8 @@
 # page names as used in URLs
 home: accueil
+offer-data: offre-donnees
+offer-portal: offre-portail
+offer-incubation: offre-incubation
 news: actualites
 co-construct: co-construire
 projects: projets

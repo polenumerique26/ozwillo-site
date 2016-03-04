@@ -14,12 +14,13 @@ var option = {
   fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
-    namespaces: ['route', 'menu', 'home', 'co-construct', 'news', 'projects', 'legal-notices', 'contact', 'terms', 'footer']
+    namespaces: ['route', 'menu', 'home', 'offer-data', 'offer-portal', 'offer-incubation', 'co-construct', 'news',
+      'projects', 'legal-notices', 'contact', 'terms', 'footer']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
   nsseparator: ':::',
-  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/', 'pdf/', 'xml']
+  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/', 'pdf/', 'xml/']
 };
 
 i18n.backend(yamlSync);
@@ -68,6 +69,18 @@ i18n.init(option, function(t) {
   i18n.addRoute('/:lng/:oz*?/route:::home', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('home');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::offer-data', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('offer-data');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::offer-portal', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('offer-portal');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::offer-incubation', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('offer-incubation');
   });
   i18n.addRoute('/:lng/:oz*?/route:::news', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');

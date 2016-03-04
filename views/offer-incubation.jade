@@ -1,0 +1,15 @@
+- var page = 'offer-incubation'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+    .BG
+      .container
+        .row
+          .col-md-12
+            h1.titreInter= t('offer-incubation:::main_title')
+            p.para.para2= t('offer-incubation:::main_subtitle')
+
+    include ./footer.jade
+    include ./scripts.jade

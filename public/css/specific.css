@@ -51,6 +51,23 @@ a:focus, a:hover {
     margin-top: 10px;
 }
 
+#ozwillo-navbar ul.dropdown-menu > li > .gris {
+    color: #666 !important;
+}
+
+#ozwillo-navbar ul.dropdown-menu > li > .gris:hover {
+    color: #333 !important;
+}
+
+#ozwillo-navbar a {
+    color: #6f438e !important;
+    font-size: 1.1em;
+}
+
+#ozwillo-navbar a:hover, a:focus {
+    color: #6f438e !important;
+}
+
 a.btn-primary {
     margin-bottom: 30px;
 }
@@ -416,32 +433,8 @@ ul.liens li {
     min-height: 156px;
 }
 
-.purpleColor {
-    color: #6f438e;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
 .erase.gris {
     color: #666 !important;
-}
-
-ul.dropdown-menu > li > .gris {
-    color: #666 !important;
-}
-
-ul.dropdown-menu > li > .gris:hover {
-    color: #333 !important;
-}
-
-a.purpleColor {
-    color: #6f438e !important;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-a.purpleColor:hover, a.purpleColor:focus {
-    color: #6f438e !important;
 }
 
 .BG {
@@ -528,7 +521,6 @@ a.purpleColor:hover, a.purpleColor:focus {
     font-size: 45px;
     color: #fff;
     margin: 50px 0 50px 0;
-    display: inline-block;
 }
 
 .soustitre2 {
