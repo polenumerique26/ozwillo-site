@@ -15,28 +15,36 @@ html(lang=i18n.lng())
     .container
       .row
         .col-md-12
-          img.img-responsive.image(src='/static/img/data_moteur_FR_horizontal.jpeg')
+          img.img-responsive.image(src='/static/img/accueil_offre_ozwillo.png')
 
     .container
-      .row.flex-row
+      .row.iconOffers
+        .col-md-4.col-sm-12
+          img.img-responsive.center-block(src='/static/img/ico_Data.png')
+        .col-md-4.col-sm-12
+          img.img-responsive.center-block(src='/static/img/ico_Portail.png')
+        .col-md-4.col-sm-12
+          img.img-responsive.center-block(src='/static/img/ico_Incubateur.png')
+      .row.flex-row.text-center
         .col-md-4.col-sm-12
           h2.soustitre= t('home:::data_title')
-          .blockOffer!= t('home:::data_description', {postProcess: "jade"})
-          .bottom-align-text
-            a.btn-primary.btnRedInter(href=getPageLink('data'))= t('home:::data_browse')
-              img(src='/static/img/arrow-white.png')
         .col-md-4.col-sm-12
           h2.soustitre= t('home:::portal_title')
-          .blockOffer!= t('home:::portal_description', {postProcess: "jade"})
-          .bottom-align-text
-            a.btn-primary.btnRedInter(href=getPageLink('portal'))= t('home:::portal_browse')
-              img(src='/static/img/arrow-white.png')
         .col-md-4.col-sm-12
           h2.soustitre= t('home:::incubation_title')
-          .blockOffer!= t('home:::incubation_description', {postProcess: "jade"})
+      .row.flex-row.text-center
+        .col-md-4.col-sm-12
+          .blockOffer= t('home:::data_description')
           .bottom-align-text
-            a.btn-primary.btnRedInter(href=getPageLink('incubation'))= t('home:::incubation_browse')
-              img(src='/static/img/arrow-white.png')
+            a.btn-primary.btnRedInter(href=getPageLink('offer-data'))= t('home:::data_browse')
+        .col-md-4.col-sm-12
+          .blockOffer= t('home:::portal_description')
+          .bottom-align-text
+            a.btn-primary.btnRedInter(href=getPageLink('offer-portal'))= t('home:::portal_browse')
+        .col-md-4.col-sm-12
+          .blockOffer= t('home:::incubation_description')
+          .bottom-align-text
+            a.btn-primary.btnRedInter(href=getPageLink('offer-incubation'))= t('home:::incubation_browse')
 
     .grey
       .container
@@ -47,13 +55,12 @@ html(lang=i18n.lng())
             .row
               .col-md-6
                 ul.phrase
-                  li= t('home:::differentiator_1')
-                  li= t('home:::differentiator_3')
+                  li.cc= t('home:::differentiator_1')
+                  li.tiers-confiance= t('home:::differentiator_3')
               .col-md-6
                 ul.phrase
-                  li!= t('home:::differentiator_2', {postProcess: "jade"})
-                  li= t('home:::differentiator_4')
-
+                  li.gouvernance= t('home:::differentiator_2')
+                  li.opensource= t('home:::differentiator_4')
 
     .container-fluid
       .row.clearfix

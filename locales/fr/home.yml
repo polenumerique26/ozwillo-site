@@ -1,28 +1,28 @@
 main_title: Ozwillo est le moteur de données qui apporte de l'intelligence aux applications.
 
-data_title: Un moteur de données liées, partageables et gouvernées
-data_description: "<p>Derrière Ozwillo se cache un puissant moteur permettant aux applications de parler entre-elles.</p>
-  <p>C'est à dire que les données produites dans une application peuvent alimenter des requêtes souhaitées par d'autres.</p>
-  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>"
-data_browse: Découvrir les données
+data_title: Publier, visualiser, exploiter vos données
+data_description: Ouvrir et publier vos données, gérer du BigData, lier et partager vos données
+data_browse: Découvrir l'offre Données
 
-portal_title: Un portail riche d'applications
-portal_description: "<p>Derrière Ozwillo se cache un puissant moteur permettant aux applications de parler entre-elles.</p>
-  <p>C'est à dire que les données produites dans une application peuvent alimenter des requêtes souhaitées par d'autres.</p>
-  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>"
-portal_browse: Découvrir le portail
+portal_title: Gérer et proposer vos applications au travers d'un portail personnalisé
+portal_description: Rendre vos applications et services accessibles à vos utilisateurs en quelques clics au travers
+  d'un portail personnalisé
+portal_browse: Découvrir l'offre Portail
 
-incubation_title: Un incubateur performant
-incubation_description: "<p>Derrière Ozwillo se cache un puissant moteur permettant aux applications de parler entre-elles.</p>
-  <p>C'est à dire que les données produites dans une application peuvent alimenter des requêtes souhaitées par d'autres.</p>
-  <p>Ozwillo permet à toutes ces données de se compléter, se comprendre parce qu'elles sont « modélisées » (comme étiquetées de la même manière).</p>"
-incubation_browse: Découvrir l'incubation
+incubation_title: Dynamiser vos projets en développant des applications intelligentes
+incubation_description: Bénéficier des données partagées pour développer des applications communicantes et
+  les proposer sur un catalogue européen
+incubation_browse: Découvrir l'offre Incubation
 
-differentiator_title: La différence Ozwillo
-differentiator_1: une gouvernance publique / privée citoyenne
-differentiator_2: une plate-forme Open Source entièrement disponible sur <a target="blank" href="https://github.com/ozwillo">GitHub</a> et une communauté réactive
-differentiator_3: Dites-le nous une fois !
-differentiator_4: Création d’un bien commun
+differentiator_title: Les engagements d'Ozwillo
+differentiator_1: Ozwillo crée les conditions pour la création d'un bien commun de données partagées et de communautés
+  d'utilisateurs pouvant les réutiliser et les enrichir
+differentiator_2: Ce bien commun de données est doté d'une gouvernance ouverte dans laquelle sont représentés acteurs
+  publics et privés, citoyens, utilisateurs et fournisseurs de services
+differentiator_3: Ozwillo est un tiers de confiance, garant du bien commun de données et de son usage, du respect des
+  droits sur les données et d'une libre concurrence sur les applications proposées
+differentiator_4: La plateforme Ozwillo, constituée du moteur de données, du portail et de son système de sécurité
+  est publiée en Open Source sur GitHub et ouverte à la contribution
 
 store_title: span Un catalogue riche d'applications pour tous les publics
 store_professional: Pour les professionels d’une organisation publique ou privée
