@@ -5,21 +5,20 @@ html(lang=i18n.lng())
   body
     include ./menu.jade
 
-    // TOP
-    .container-fluid.BG
+    .container-fluid.header
       .row
-        .col-md-6
-          h1.titreInter= t('news:::main_title')
+        .col-md-12
+          h1= t('news:::main_title')
 
     .container-fluid
       .row
         .col-md-9
           .row
             // HEAD NEWS ON FULL WIDTH
-            .col-md-12.column.news
-              h2.titreActu OZWILLO PRÉSENTÉ AU COLLOQUE “L'IMPACT DU NUMÉRIQUE SUR LE DÉVELOPPEMENT ÉCONOMIQUE LOCAL”
-              p.auteurs Publié le 14 Septembre 2015
-              p.paraActu
+            .col-md-12.news
+              h2.news OZWILLO PRÉSENTÉ AU COLLOQUE “L'IMPACT DU NUMÉRIQUE SUR LE DÉVELOPPEMENT ÉCONOMIQUE LOCAL”
+              p.news-date Publié le 14 Septembre 2015
+              p.news-desc
                 | Le colloque sur “l’impact du numérique sur le développement économique local” organisé jeudi 10 septembre
                 | 2015 par la FNCCR et la mission Ecoter a donné un panorama des raisons pour lesquelles le numérique peine
                 | encore en France à bien se déployer dans les politiques publiques. L'occasion pour Sophie Houzet,
@@ -28,26 +27,26 @@ html(lang=i18n.lng())
 
           // LEFT HAND NEWS COLUMN
           .row
-            .col-md-6.column
-              h2.titreActu2 OPENLAB ÉCOSYSTÈME NUMÉRIQUE DES TERRITOIRES
-              p.auteurs Publié le 16 Octobre 2015
-              p.paraActu
+            .col-md-6
+              h2.news-column OPENLAB ÉCOSYSTÈME NUMÉRIQUE DES TERRITOIRES
+              p.news-date Publié le 16 Octobre 2015
+              p.news-desc
                 | Ozwillo présenté le 16 octobre 2015, lors de la matinée créative autour de l'écosystème numérique des
                 | territoires, dans le cadre de
                 a(href='http://www.modernisation.gouv.fr/la-semaine-de-linnovation-publique/programme/programme-2015/openlab-ecosysteme-numerique-des-territoires') la semaine de l'innovation publique, open lab écosystème numérique.
                 |  Le Pôle Numérique contribue à la réflexion et a apporté son expertise sur le partage de la donnée avec
                 | Ozwillo lors de cette journée.
 
-              h2.titreActu2 UNE VIDÉO POUR MONTRER L'AVANT / APRÈS OZWILLO SUR LA VIE D'UNE MAMAN
-              p.auteurs Publié le 15 Septembre 2015
+              h2.news-column UNE VIDÉO POUR MONTRER L'AVANT / APRÈS OZWILLO SUR LA VIE D'UNE MAMAN
+              p.news-date Publié le 15 Septembre 2015
               iframe(width='400', height='200', src='https://www.youtube.com/embed/ifQwjnKhKGo', frameborder='0', allowfullscreen='')
 
-              h2.titreActu2 PRÉSENTATION D'OZWILLO À CLOUDWEEK PARIS ET À L'ATELIER OPEN DATA E-BOURGOGNE
-                p.auteurs Publié le 25 Juillet 2015
+              h2.news-column PRÉSENTATION D'OZWILLO À CLOUDWEEK PARIS ET À L'ATELIER OPEN DATA E-BOURGOGNE
+                p.news-date Publié le 25 Juillet 2015
                 iframe(src='https://www.slideshare.net/slideshow/embed_code/key/250ryQ6Z7YTQL9', width='476', height='400', frameborder='0', marginwidth='0', marginheight='0', scrolling='no')
 
-              h2.titreActu2 DES COMMUNS ET DES HOMMES
-                p.auteurs Publié le 1er Juillet 2015
+              h2.news-column DES COMMUNS ET DES HOMMES
+                p.news-date Publié le 1er Juillet 2015
                 blockquote.twitter-tweet(lang='fr')
                   p(lang='fr', dir='ltr')
                     | Des communs et des hommes #biencommun
@@ -58,16 +57,16 @@ html(lang=i18n.lng())
 
             // RIGHT HAND NEWS COLUMN
             .col-md-6
-              h2.titreActu2 LES ENJEUX DE L'OPEN DATA
-              p.auteurs Publié le 24 Septembre 2015
-              p.paraActu
+              h2.news-column LES ENJEUX DE L'OPEN DATA
+              p.news-date Publié le 24 Septembre 2015
+              p.news-desc
                 | Le support utilisé lors des 3 sessions « 1h pour » organisées au Pôle Numérique et en visio avec Biovallée,
                 | à l'atelier à Die et à Asoft Nyons, à propos d'Open data :
               iframe(src='//fr.slideshare.net/slideshow/embed_code/key/sYTauV4pULGer4', width='425', height='355', frameborder='0', marginwidth='0', marginheight='0', scrolling='no', style='border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;', allowfullscreen='')
 
-              h2.titreActu2 10THINGSTOSEE DÉBARQUE SUR OZWILLO
-              p.auteurs Publié le 28 Août 2015
-              blockquote.twitter-tweet(lang='fr')
+              h2.news-column 10THINGSTOSEE DÉBARQUE SUR OZWILLO
+              p.news-date Publié le 28 Août 2015
+              blockquote(lang='fr')
                 p(lang='fr', dir='ltr')
                   | Des communs et des hommes #biencommun
                   a(href='https://twitter.com/Ozwillo') @Ozwillo
@@ -78,7 +77,7 @@ html(lang=i18n.lng())
         // TWITTER TIMELINE
         .col-md-3.grey
           .tweets
-            a.twitter-timeline(href='https://twitter.com/Ozwillo', data-widget-id='570896372849999872') Tweets de @Ozwillo
+            a(href='https://twitter.com/Ozwillo', data-widget-id='570896372849999872') Tweets de @Ozwillo
             script.
               !function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';

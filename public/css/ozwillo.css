@@ -1,0 +1,333 @@
+/*****************************************************************************************************************
+********************************* HTML elements and utilities styles *********************************************
+*****************************************************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+    font-weight: 300 !important;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1 {
+    font-size: 46px;
+    color: #fff;
+    margin: 80px 0 80px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    color: #000;
+    margin: 78px 0 56px 0;
+    display: block;
+    text-align: center;
+}
+
+h2.violet {
+    color: #6F438E;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+}
+
+blockquote {
+    margin: 2em;
+    font-size: 1em;
+    background-color: lightgray;
+    border: 3px solid gray;
+    font-style: italic;
+}
+
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*****************************************************************************************************************
+************************************************** Buttons *******************************************************
+*****************************************************************************************************************/
+
+a.btn-primary {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 74px;
+    height: 74px;
+    width: 252px;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.btn-primary img {
+    margin-left: 5px;
+}
+
+.btn-red {
+    background-color: #e8165b;
+    border-bottom: 3px solid #b30e44;
+}
+
+.btn-red:hover, .btn-red:focus {
+    background-color: #b30e44;
+    border-bottom: 3px solid #b30e44;
+}
+
+.btn-blue {
+    background-color: #337ab7;
+    border-bottom: 3px solid #2e6da4;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+    background-color: #2e6da4;
+    border-bottom: 3px solid #2e6da4;
+}
+
+/*****************************************************************************************************************
+************************************************** Navbar ********************************************************
+*****************************************************************************************************************/
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-brand > img {
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+#ozwillo-navbar {
+    margin-top: 10px;
+}
+
+#ozwillo-navbar ul.dropdown-menu > li > .gris {
+    color: #666 !important;
+}
+
+#ozwillo-navbar ul.dropdown-menu > li > .gris:hover {
+    color: #333 !important;
+}
+
+#ozwillo-navbar a {
+    color: #6f438e !important;
+    font-size: 0.9em;
+}
+
+#ozwillo-navbar a > img {
+    margin: 0 5px 0 0;
+}
+
+#ozwillo-navbar a:hover, a:focus {
+    color: #6f438e !important;
+}
+
+/*****************************************************************************************************************
+*************************************************** Footer *******************************************************
+*****************************************************************************************************************/
+
+.footer {
+    background: #dfcae2;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-bordure {
+    border-bottom: 1px solid #b294c0;
+}
+
+.footer-logo {
+    width: auto;
+    height: auto;
+    margin: 0 0 25px 0;
+}
+
+.footer-links {
+    margin-top: 35px;
+    float: right;
+}
+
+.footer-link {
+    color: #454446;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 0 0 25px;
+    text-transform: uppercase;
+}
+
+.logo-twitter {
+    width: auto;
+    height: auto;
+    margin: 25px 0 0 0;
+}
+
+/*****************************************************************************************************************
+********************************************* Common site styles *************************************************
+*****************************************************************************************************************/
+
+div.grey {
+    background-color: #faf8f8;
+    min-height: 300px;
+}
+
+img.logo-inline {
+    margin: -17px 0 0 10px;
+}
+
+.logo-list {
+    margin-bottom: 2em;
+}
+
+/*****************************************************************************************************************
+******************************************************** Accueil *************************************************
+*****************************************************************************************************************/
+
+.header {
+    background: url(/static/img/BG-Home.jpg) no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.img-offer {
+    margin: 78px 0 0 0;
+    display: inline-block;
+}
+
+h2.title-offer {
+    font-size: 30px;
+    margin: 40px 0 39px 0;
+    display: inline-block;
+}
+
+.block-offer {
+    font-size: 16px;
+    color: #6a6767;
+    margin: 0 0 134px 0;
+}
+
+.icon-offers {
+    margin-top: 5em;
+}
+
+ul.commitment {
+    padding-left: 20px;
+    margin-bottom: 39px;
+    width: 550px;
+}
+
+ul.commitment li {
+    font-size: 16px;
+    color: #6a6767;
+    margin: 0 0 30px 0;
+    font-weight: 300;
+    list-style-type: none;
+    padding: 0 0 10px 50px;
+    vertical-align: middle;
+}
+
+ul.commitment li.cc {
+    background: url(/static/img/ico_cc.png) no-repeat top left;
+}
+
+ul.commitment li.gouvernance {
+    background: url(/static/img/ico_gouvernance.png) no-repeat top left;
+}
+
+ul.commitment li.tiers-confiance {
+    background: url(/static/img/ico_tiers-confiance.png) no-repeat top left;
+}
+
+ul.commitment li.opensource {
+    background: url(/static/img/ico_opensource.png) no-repeat top left;
+}
+
+/*****************************************************************************************************************
+******************************************************** News ****************************************************
+*****************************************************************************************************************/
+
+h2.news {
+    font-size: 36px;
+    color: #6f438e;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+
+h2.news-column {
+    font-size: 24px;
+    color: #6f438e;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+
+div.news {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3dfdf;
+}
+
+p.news-date {
+    font-size: 12px;
+    color: #a39f9f;
+    margin: 0 0 15px 0;
+}
+
+p.news-desc {
+    color: #524d4d;
+    font-size: 17px;
+    margin: 15px 0 15px 0;
+}
+
+div.tweets {
+    width: 270px;
+    height: auto;
+    margin: 25px auto 25px auto;
+}
+
+/*****************************************************************************************************************
+*************************************************** Who are we ? *************************************************
+*****************************************************************************************************************/
+
+div.side-pane {
+    background-color: lightgray;
+    border: 2px solid gray;
+    padding: 5px;
+}

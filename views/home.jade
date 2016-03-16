@@ -6,19 +6,19 @@ html(lang=i18n.lng())
     include ./menu.jade
 
     // Titre
-    .headerHome
+    .header
       .container
         .row
           .col-md-12
-            h1.titre= t('home:::main_title')
+            h1= t('home:::main_title')
 
     .container
       .row
         .col-md-12
-          img.img-responsive.image(src='/static/img/accueil_offre_ozwillo.png')
+          img.img-responsive.img-offer(src='/static/img/accueil_offre_ozwillo.png')
 
     .container
-      .row.iconOffers
+      .row.icon-offers
         .col-md-4.col-sm-12
           img.img-responsive.center-block(src='/static/img/ico_Data.png')
         .col-md-4.col-sm-12
@@ -27,102 +27,63 @@ html(lang=i18n.lng())
           img.img-responsive.center-block(src='/static/img/ico_Incubateur.png')
       .row.flex-row.text-center
         .col-md-4.col-sm-12
-          h2.soustitre= t('home:::data_title')
+          h2.title-offer= t('home:::data_title')
         .col-md-4.col-sm-12
-          h2.soustitre= t('home:::portal_title')
+          h2.title-offer= t('home:::portal_title')
         .col-md-4.col-sm-12
-          h2.soustitre= t('home:::incubation_title')
+          h2.title-offer= t('home:::incubation_title')
       .row.flex-row.text-center
         .col-md-4.col-sm-12
-          .blockOffer= t('home:::data_description')
+          .block-offer= t('home:::data_description')
           .bottom-align-text
-            a.btn-primary.btnRedInter(href=getPageLink('offer-data'))= t('home:::data_browse')
+            a.btn-primary.btn-red(href=getPageLink('offer-data'))= t('home:::data_browse')
         .col-md-4.col-sm-12
-          .blockOffer= t('home:::portal_description')
+          .block-offer= t('home:::portal_description')
           .bottom-align-text
-            a.btn-primary.btnRedInter(href=getPageLink('offer-portal'))= t('home:::portal_browse')
+            a.btn-primary.btn-red(href=getPageLink('offer-portal'))= t('home:::portal_browse')
         .col-md-4.col-sm-12
-          .blockOffer= t('home:::incubation_description')
+          .block-offer= t('home:::incubation_description')
           .bottom-align-text
-            a.btn-primary.btnRedInter(href=getPageLink('offer-incubation'))= t('home:::incubation_browse')
+            a.btn-primary.btn-red(href=getPageLink('offer-incubation'))= t('home:::incubation_browse')
 
     .grey
       .container
         .row
-          .col-md-12.column
-            h2.soustitre2= t('home:::differentiator_title')
+          .col-md-12
+            h2= t('home:::differentiator_title')
           .col-md-12
             .row
               .col-md-6
-                ul.phrase
+                ul.commitment
                   li.cc= t('home:::differentiator_1')
                   li.tiers-confiance= t('home:::differentiator_3')
               .col-md-6
-                ul.phrase
+                ul.commitment
                   li.gouvernance= t('home:::differentiator_2')
                   li.opensource= t('home:::differentiator_4')
 
     .container-fluid
-      .row.clearfix
+      .row
         .col-md-12
-          h2.appli= t('home:::apps_already_joined')
-            img.marge(src='/static/img/logo.png')
-        .col-md-12
-          .row.clearfix
-            .col-lg-4.col-sm-6.col-xs-12
-              .apps
-                span.cercle
-                  img.appImage(src='/static/img/opendata.jpg')
-                span.cadre
-                  span.titreApps Open Data
-                  p.paraApps= t('home:::apps_opendata')
-                  .bottom-align-text
-                    a.btn-primary.btnApps(href=getStoreLink('66e23b9b-65e1-5dce-a520-e1d8fed8b12a'))= t('home:::apps_discover')
-            .col-lg-4.col-sm-6.col-xs-12
-              .apps
-                span.cercle
-                  img.appImage(src='/static/img/fluxdemat.jpg')
-                span.cadre
-                  span.titreApps Fluxdemat
-                  p.paraApps= t('home:::apps_fluxdemat')
-                  .bottom-align-text
-                    a.btn-primary.btnApps(href=getStoreLink('b3cc306f-b3e3-515f-8894-bc27f559cecb'))= t('home:::apps_discover')
-            .col-lg-4.col-sm-6.col-xs-12
-              .apps
-                span.cercle
-                  img.appImage(src='/static/img/zimbra.jpg')
-                span.cadre
-                  span.titreApps Zimbra
-                  p.paraApps= t('home:::apps_zimbra')
-                  .bottom-align-text
-                    a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
-            .col-lg-4.col-sm-6.col-xs-12
-              .apps
-                span.cercle
-                  img.appImage(src='/static/img/docuwiki.jpg')
-                span.cadre
-                  span.titreApps DocuWiki
-                  p.paraApps= t('home:::apps_dokuwiki')
-                  .bottom-align-text
-                    a.btn-primary.btnApps2(href='javascript:void(0);')= t('home:::apps_inprogress')
-            .col-lg-4.col-sm-6.col-xs-12
-              .apps
-                span.cercle
-                  img.appImage(src='/static/img/agrilocal.jpg')
-                span.cadre
-                  span.titreApps AgriLocal
-                  p.paraApps= t('home:::apps_agrilocal')
-                  .bottom-align-text
-                    a.btn-primary.btnApps(href=getStoreLink('618ab105-9d80-4c49-8326-b4855806aa92'))= t('home:::apps_discover')
-            .col-lg-4.col-sm-6.col-xs-12
-              .apps
-                span.cercle
-                  img.appImage(src='/static/img/10thingstosee.jpg')
-                span.cadre
-                  span.titreApps 10 Things to see
-                  p.paraApps= t('home:::apps_10tts')
-                  .bottom-align-text
-                    a.btn-primary.btnApps(href=getStoreLink('379bc0c7-919c-42ee-99ef-8c4ce65c9ca4'))= t('home:::apps_discover')
+          h2.violet= t('home:::apps_already_joined')
+            img.logo-inline(src='/static/img/logo.png')
+      .row.flex-row
+        .col-md-3.logo-list
+          img(src='/static/img/Atol.jpg')
+        .col-md-3.logo-list
+          img(src='/static/img/blau_advisors.png')
+        .col-md-3.logo-list
+          img(src='/static/img/FNCCR.jpg')
+        .col-md-3.logo-list
+          img(src='/static/img/groupe-archer.jpg')
+        .col-md-3.logo-list
+          img(src='/static/img/sictiam.png')
+        .col-md-3.logo-list
+          img(src='/static/img/openwide.jpg')
+        .col-md-3.logo-list
+          img(src='/static/img/DH.jpg')
+        .col-md-3.logo-list
+          img(src='/static/img/ibaysoft.png')
 
     include ./footer.jade
     include ./scripts.jade

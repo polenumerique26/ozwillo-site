@@ -1,28 +1,28 @@
 // FOOTER
-footer.page-row
+footer
   .container-fluid
-    .row.clearfix.footer
-      .col-md-12.bordure
-        .row.clearfix
+    .row.footer
+      .col-md-12.footer-bordure
+        .row
           .col-md-3
-            .logo-footer
+            .footer-logo
               img(src='/static/img/logo-footer.png')
           .col-md-9
-            .right.top
-              a.greyLink(href=getPageLink('news'))= t('menu:::news')
-              a.greyLink(href=getPageLink('who-are-we'))= t('menu:::who-are-we')
-              a.greyLink(href=getPageLink('contact'))= t('footer:::contact')
-              a.greyLink(href='http://doc.ozwillo.com/')= t('footer:::developers')
-              a.greyLink(href=getPageLink('legal-notices'))= t('footer:::legal-notices')
-              a.greyLink(href=getPageLink('terms'))= t('footer:::terms')
+            .footer-links
+              a.footer-link(href=getPageLink('news'))= t('menu:::news')
+              a.footer-link(href=getPageLink('who-are-we'))= t('menu:::who-are-we')
+              a.footer-link(href=getPageLink('contact'))= t('footer:::contact')
+              a.footer-link(href='http://doc.ozwillo.com/')= t('footer:::developers')
+              a.footer-link(href=getPageLink('legal-notices'))= t('footer:::legal-notices')
+              a.footer-link(href=getPageLink('terms'))= t('footer:::terms')
       .col-md-12
-        .row.clearfix
+        .row
           .col-md-3
             .logo-twitter
               a(href='https://twitter.com/ozwillo')
                 img(src='/static/img/twitter.jpg')
           .col-md-9
-            .right.top.top-footer
+            .footer-links
               a(href=getPageLink('projects'))
                 img(src='/static/img/cip.jpg')
               a(href=getPageLink('projects'))

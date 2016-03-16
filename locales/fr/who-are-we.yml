@@ -1,197 +1,68 @@
-main_title: Co-construire le bien-commun ...
+main_title: Qui sommes-nous ?
 
-main_subtitle_1: Ozwillo a vocation à être un garant neutre, permettant à tout fournisseur d’applications,
-  propriétaire ou Open Source, de venir commercialiser ses services, et à tout usager de gérer ses données personnelles.
-main_subtitle_2: Tout utilisateur d’Ozwillo est aussi libre de changer de solution logicielle sans coût de sortie dû à
-  la récupération de ses données. Les données non personnelles et non-sensibles ont vocation à être réutilisables par le
-  biais d’API. Pour favoriser cette réutilisation, chaque fournisseur d’application devra travailler à la modélisation
-  de ses données, grâce à l’outillage qui sera mis à sa disposition sur Ozwillo. Ce « store » d’applications et de données
-  est une alternative aux géants de l’information. Il est le support d’un écosystème vertueux où les données sont un bien
-  commun, créateur de valeurs.
+community_title: Une communauté d'acteurs représentative de la société civile
+community_desc: "<p>
+  À l'issue du projet Européen au cours duquel a été développée la plateforme, utilisateurs, développeurs, fournisseurs
+  de services et nouveaux partenaires se sont regroupés en association pour lui conférer une gouvernance neutre et ouverte.</p>
+  <p>Créee le 5 février 2016, l'association a vocation à valoriser la plateforme Ozwillo, à promouvoir les applications
+  communicantes qui la rejoignent et à créer les conditions favorables à l'innovation.</p>
+  <p>Elle vise le partage des connaissances en permettant la liaison de tous types de modèles de données et de données
+  au profit de ses membres et de ses non-membres.</p>
+  <p>Elle garantit une exploitation neutre et loyale de la plate-forme Ozwillo, et favorise le développement de liens
+  entre tous les utilisateurs et contributeurs.</p>
+  <p>Véritable tiers de confiance, elle vise à la préservation de biens communs numériques, selon les fondements suivants,
+  propres à engager un cercle très vertueux :</p>
+  <ul>
+    <li>Une fabrique à biens communs, neutre, loyale, favorisant la créativité, l'innovation (système);</li>
+    <li>Une gouvernance garante des biens communs et favorisant l'auto-organisation du système;</li>
+    <li>Inspire la confiance car la gouvernance est un ensemble représentant la société;</li>
+    <li>Reste à but d'intérêt collectif et enclenche un cercle très vertueux;</li>
+    <li>Reconnait toutes formes de contributions;</li>
+    <li>Ozwillo est une association de préfiguration, qui a vocation dans un délai donné à réunir les conditions de mise
+      en place d'une structure juridique pérenne destinée à valoriser ses acquis.</li>
+  </ul>"
 
-opensource_title: span Pourquoi avoir choisi l’<strong>Open source</strong> ?
-opensource_subtitle_1: La plate-forme Ozwillo a été développée complètement en Open Source, car elle doit être évolutive,
-  pouvoir accueillir tout type d’applications, et rester un bien commun logiciel, qui pourra être le support de
-  multiples portails d’applications. Sa force est de permettre la liaison de données de toutes natures, issues de sources
-  privée, publique, citoyenne.
-opensource_subtitle_2: L'Open Source est un mouvement humaniste. C'est une forme de créativité, patrimoine de l'humanité,
-  un bien commun que nous enrichissons collectivement pour le bien être de tous.
-opensource_profits: "Les bénéfices de l'Open Source :"
-opensource_profit_1: La liberté de choix
-opensource_profit_2: L'ouverture
-opensource_profit_3: La dynamique d'évolution
-opensource_profit_4: Le respect des standards
+ozwillo_status: Statuts de l'association
+ozwillo_membership_grid: Grille d'adhésion
+why_ozwillo: "<p><strong>Pourquoi « Ozwillo » ?</strong></p>
+  <ul>
+    <li>Un nom prononçable dans toutes les langues;</li>
+    <li>« Oz » pour oser le partage de données, oser le bien commun;</li>
+    <li>« will » pour évoquer notre volonté, notre futur;</li>
+    <li>Le dernier «o» pour signifier l'ouverture.</li>
+  </ul>
+  <p>Ozwillo c'est la magie d'un nouveau monde qui s'ouvre à vous !</p>"
 
-governance_title: span.gras Rejoindre la gouvernance d'Ozwillo
-governance_profit_1: C’est vous engager à ce que le bien commun de données créé reste un bien commun pour les générations
-  futures, et qu’il s’enrichisse constamment à chaque usage des applications.
-governance_profit_2: C’est garantir au producteur de données que ses données pourront être réutilisées dans le respect
-  de la licence qu’il a choisi.
-governance_profit_3: C’est garantir à l’individu que ses données personnelles ne seront pas utilisées ou vendues à son insu.
-governance_profit_4: C’est garantir que le code source de la plate-forme s’enrichisse des contributions et reste un bien
-  commun sous licence AGPL.
-governance_profit_5: C’est créer, maintenir et reverser les modèle de données sémantiques sous licence LGPL.
-governance_profit_6: C’est favoriser la reconnaissance des contributeurs et de leurs contributions.
-governance_profit_7: C’est injecter votre motivation dans la création d’un moteur de l’économie de la connaissance.
-governance_join_1: La structure de gouvernance est en cours de création et verra le jour début 2016, pour nous rejoindre
-  dès à présent et participer à sa définition, vous pouvez d’ores et déjà nous contacter.
-governance_join_2: La gouvernance a vocation à être distribuée, pour plus de renseignements sur ses missions, et pour
-  contribuer, contactez nous !
+governance_title: Rejoindre la gouvernance
+governance_desc_part1: "<p>Peuvent être admises au sein de l'association en qualité de membres, les personnes physiques
+  en leur nom, ou au titre de la représentation d'une personne morale, dès lors qu'elles partagent les valeurs de
+  l'association et qu'elles apportent une compétence avérée au fonctionnement de l'association.</p>
+  <p>L'association représente l'ensemble de la société civile et est garante d'un projet de société basé sur la création
+  de biens communs numériques, réutilisables, dans une optique d'accessibilité et de préservation des richesses numériques.</p>"
+governance_desc_quote: "<blockquote><p>« Les biens numériques ne sont plus soustractibles. L'usage par l'un ne remet nullement en cause
+  l'usage par l'autre, car la reproduction d'un bien numérique (un fichier de musique, un document sur le réseau, une
+  page web, ...) a un coût marginal qui tend vers zéro. On pourrait en déduire que ces Communs sont « inépuisables »,
+  et qu'une abondance numérique est venue. Or si l'on considère les Communs comme un espace de gouvernance, on remarque
+  au contraire que ces nouveaux Communs de la connaissance sont fragiles ».</p></blockquote>
+  <footer><cite>Source : Gouvernance des biens communs, pour une nouvelle approche des ressources naturelles,
+  Elinor Osrom</cite></footer>"
+governance_desc_part2: "<p>Le fonctionnement de l'association est basé sur les valeurs qui caractérisent la Société des
+  Connaissances:</p>
+  <ul>
+    <li>L'humain est au cœur du système;</li>
+    <li>L'ouverture devient une clé fondamentale pour créer, innover;</li>
+    <li>Les formes de management et de gouvernance deviennent transversales;</li>
+    <li>Les modèles économiques évoluent vers des modes « gagnant-gagnant», circulaires, ...</li>
+  </ul>
+  <p>En conséquence, l'association OZWILLO ne favorise aucune forme de prosélytisme politique et ne peut être présidée
+  par un élu dans le cadre de ses fonctions électives.</p>"
+governance_members: Les membres
+governance_membership_bulletin: Bulletin d'adhésion
 
-# OASIS
-oasis_title: Oasis est le nom du projet européen socle de la plateforme Ozwillo
-oasis_text_1: Ozwillo est issu du projet européen OASIS, qui a permis de créer les premières briques techniques et juridiques
-  de cette plateforme.
-oasis_text_2: "Le projet européen OASIS a été retenu en 2011 par la Commission Européenne dans le cadre du programme de
-  Compétitivité et d’Innovation 2007-2013, sur l’Appel à Projets : Towards a cloud of public services (vers un nuage de services publics)."
-oasis_text_3: Les conditions d’éligibilité à ce programme étaient la constitution d’un consortium de quatre pays européens,
-  avec trois sites pilotes minimum, permettant de valider directement le concept du projet auprès des usagers finaux.
-oasis_financer_title: <strong>Financeurs du site pilote français</strong>
-oasis_goal_title: "<strong>Des premiers objectifs ont été poursuivis :</strong>"
-oasis_goal_item_1: 1 - Adapter une douzaine de services à Ozwillo et les rendre accessible avec un identifiant unique.
-oasis_goal_item_2: 2 - Démontrer l’interopérabilité des services, à partir d’un développement complètement open-source,
-  sur 5 sites pilotes dans 5 pays, sur une durée de 12 mois.
-oasis_goal_item_3: 3 - Développer une ergonomie centrée sur l'utilisateur et conviviale, permettant la gestion de ses
-  données personnelles (en cours).
-oasis_goal_item_4: 4 - Faciliter l’appropriation des services en ligne par les petites municipalités en répondant à
-  l’objectif de la Commission Européenne d’une baisse des coûts de 25% par rapport aux coûts actuels (en cours).
-oasis_goal_item_5: 5 - Valider le modèle économique de la plateforme et la forme juridique la plus adaptée à son portage
-  sur la durée.
-
-########################################################################################################################
-# MAP
-map_title: <span>Ce projet,<strong> unique en Europe</strong>, a associé 6 pays
-  <br />
-  <span class="little">(Angleterre, Espagne, Italie, Bulgarie, Turquie et France),
-  <br />
-  avec 5 sites pilotes</span>
-  </span>
-
-########################################################################################################################
-# Partenaire
-partner_title: <span><strong>Ozwillo</strong> est coordinateur de ce projet européen qui compte dix partenaires</span>
-partner_column_1_title: Les partenaires techniques
-partner_column_1_item_1: <span>L’Université Polytechnique de Turin, pour l’architecture de la plate-forme.</span>
-partner_column_1_item_2: <span>Les sociétés françaises Atol C&D et Open Wide spécialisées dans la conception et le développement de solutions informatiques dédiées.
-  <br />
-  <br />
-  <span class="noBold">En charge du développement de la plate-forme et de la fourniture des services d’archivage légal, de documents électroniques et de Gestion de la Relation Citoyenne.</span>
-  </span>
-partner_column_1_item_3: <span>L’entreprise Atreal (France) proposant la suite applicative OpenMairie.</span>
-
-partner_column_2_title: Les experts-consultants
-partner_column_2_item_1: <span>L’Université de Brunel (Angleterre), expert en sécurité informatique et expert en droit européen pour les données personnelles et respect de la vie privée.</span>
-partner_column_2_item_2: <span>La société Blau Advisors (Espagne), responsable de la conduite du changement sur les sites pilotes et de leur évaluation.
-  <br />
-  <br />
-  <span class="noBold">Cette plateforme très innovante met en avant l’éthique d’une politique numérique tournée vers le respect des droits de chacun (gestion des données personnelles, interopérabilité des services, biens communs de données, …)</span>
-  <br />
-  <br />
-  <span class="noBold">Un partenariat agile avec des éditeurs qui ont accepté d’adapter leurs logiciels, en séparant les règles métiers des données et avec des collectivités favorables au partage de données, permet ainsi la création d’un formidable patrimoine de données réutilisables par les nouvelles applications qui viendront rejoindre Ozwillo au fil du temps.</span>
-  </span>
-
-########################################################################################################################
-# Premières Apps
-
-apps_title: <span>Les <strong> premières </strong> applications proposées</span>
-apps_fr: span <br /><strong>France</strong>
-  <br />Gestion de la relation citoyenne
-  <br />Cartographie participative
-  <br />Gestion financière et ressources humaines
-  <br />Archivage à valeur probante
-  <br />Open mairie
-  <br />Open data
-apps_bg: span <br /><strong>Bulgarie</strong>
-  <br />Cartographie participative
-  <br />Publication d'événements touristiques
-apps_tr: span <br /><strong>Turquie</strong>
-  <br />Promotion des zones d'activités à destination des investisseurs
-  <br />Collecte et traitement statistique de données économiques
-apps_it: span <br /><strong>Italie</strong>
-  <br />Cartographie de l'urbanisme des villes
-  <br />Localisation d'activités économiques
-apps_es: span <br /><strong>Espagne</strong>
-  <br />Plate-forme de marchés publics
-  <br />Gestion des incidents environnementaux
-  <br />Gestion des demandes de subventions et d'aides sociales
-
-########################################################################################################################
-# Livrables
-delivrable_title: <strong>Livrables ?!</strong><br />Qu’est-ce que c’est ?
-delivrable_text: "<span>Le programme de travail tout au long d’un projet européen contient la rédaction de livrables. <br />
-  <strong>Un livrable est un document rédigé en anglais, décrivant un résultat, mesurable, tangible ou vérifiable, qui
-  résulte de l’achèvement d’une partie du projet.</strong>
-  <br /> <br />
-  Au lancement du projet un tableau des livrables est défini. Il fixe le nombre et les échéances des livrables à transmettre
-  à la commission européenne.
-  <br /> <br />
-  <strong> Les livrables s'organisent de la manière suivante :</strong></span>"
-delivrable_explaination_1: Tous les livrables commençant par le chiffre 1 correspondent à la définition et aux spécifications de l’architecture technique.
-delivrable_explaination_2: Les livrables débutant par le chiffre 2 parlent du développement de la plateforme et des applications.
-delivrable_explaination_3: A partir du chiffres 3, les livrables exposent le modèle économique et la gouvernance de la plateforme.
-delivrable_explaination_4: Les sites pilotes sont eux exposés dans les livrables numérotés 4.
-delivrable_explaination_5: Le chiffre 5 regroupe les livrables qui traitent des indicateurs et du suivi de performance.
-delivrable_explaination_6: Et enfin les livrables chiffrés 6 tournent autour des questions de management et de stratégie de communication.
-
-delivrable_list_title: Les livrables de référence
-delivrable_item_1: "<br />D1.1 :<br /> Introduction"
-delivrable_item_2: "<br />D1.2 : Présentation de l'architecture"
-delivrable_item_3: "<br />D1.32 : Protection des données personnelles"
-delivrable_item_4: "<br />D2.1 : Implémentation technique"
-delivrable_item_5: "<br />D2.2 : Guide d'utilisation"
-delivrable_item_6: "<br />D2.3 : Solutions d'authentification"
-delivrable_item_7: "<br />D3.1 : Modèle économique"
-delivrable_item_8: "<br />D3.4 : Principes de gouvernance"
-delivrable_item_9: "<br />D5.1 : Indicateurs de performance"
-delivrable_item_10: "<br />D6.1 : Gestion de projets"
-delivrable_item_11: "<br />D6.31 : Stratégie de communication"
-
-########################################################################################################################
-#OCCIWare
-
-occi_title: <span>Le projet qui va permettre <strong>l'outillage du coeur de données</strong></span>
-occi_subtitle: Le projet OCCIware (www.occiware.org) a été retenu au 4ème appel à projets « Cloud Computing et Big Data », Coeur de filière numérique, Investissements d’Avenir – Développement de l’Economie Numérique.
-occi_column_1: L’objectif d’OCCIware est de proposer un cadre formel et outillé pour la gestion de tous types de ressources “dans le nuage”. Le projet OCCIware vise à développer un cadre formel ainsi que les outils de modélisation, conception, déploiement et exécution de toutes ressources informatiques sous forme de service en ligne.
-occi_column_2: Nous pensons que le développement d’outils scientifiques et techniques spécifiques au cloud computing dans son ensemble (Iaas, Paas, Saas) permettront de baisser considérablement le coût d’entrée sur le marché du cloud pour les éditeurs de logiciels existants, et aussi le développement de nouveaux services innovants et à forte valeur ajoutée.
-
-########################################################################################################################
-#Démonstrateur
-demonstrator_title: <span>Ozwillo sera un <strong>démonstrateur</strong> d'OCCIware</span>
-
-demonstrator_column_1_text: "<strong>Qu'est-ce qu'un démonstrateur à l’échelle 1 ?</strong>
-  <br />
-  <br />
-  Un démonstrateur à l’échelle 1 se situe après la phase de recherche en laboratoire et avant la phase d’industrialisation et de commercialisation dont une première étape est en général la réalisation d’un prototype.
-  <br />
-  <br />
-  <strong>La réalisation d’un démonstrateur se justifie pour :</strong>"
-demonstrator_column_1_item_1: Valider à l’échelle réelle, les solutions de conception retenues en R&D sur « la paillasse » ou sur des équipements tests ou sur des démonstrateurs à l’échelle réduite
-demonstrator_column_1_item_2: Evaluer les performances dans un environnement proche d’une situation réelle et à la bonne échelle
-demonstrator_column_1_item_3: Démontrer la pertinence de l’innovation et ses avantages concurrentiels dans une perspective d’innovation par les usages, de plus en plus souvent.
-
-demonstrator_column_2_text: "<span>
-  Le démonstrateur est donc un lieu qui permet de réaliser et d’expérimenter des technologies afin de les optimiser,
-  de valider la faisabilité et les performances. Il doit associer des partenaires économiques, des laboratoires, plusieurs
-  industriels et des territoires pour la mise en oeuvre.
-  <br/><br/><strong>On peut distinguer trois grandes catégories de démonstrateurs :</strong>
-  </span>"
-demonstrator_column_2_item_1: Démonstrateur Produit
-demonstrator_column_2_item_2: Démonstrateur Procédé / Process
-demonstrator_column_2_item_3: "Démonstrateur de Systèmes complexes pouvant lui-même être un terrain d'évaluation des deux premiers types"
-
-########################################################################################################################
-# Évolution & Développement
-
-evolutions_title: <span>Les <strong>évolutions</strong>, les axes de <strong>développement</strong> d'Ozwillo</span>
-
-evolutions_column_1_item_1: Enrichir le panel d'applications afin que l'utilisateur final retrouve la liberté de choisir et garde son indépendance vis-à-vis de tout éditeur de logiciels.
-evolutions_column_1_item_2: Développer la participation citoyenne pour une meilleure gestion du domaine public et favoriser la reconnaissance des citoyens contributeurs.
-evolutions_column_1_item_3: Étendre la plateforme à d’autres territoires européens
-evolutions_column_1_item_4: Développer de nouveaux outils pour optimiser la liaison de données et leur réutilisation (OCCIware)
-
-evolutions_column_2_item_1: Améliorer l’ergonomie
-evolutions_column_2_item_2: Industrialiser la plateforme pour faciliter la venue de nouveaux fournisseurs de services
-evolutions_column_2_item_3: Créer la gouvernance la plus adaptée pour la préservation du "bien commun" de données fabriqué au quotidien.
-
-
-
+cooperative_title: Vers la création d'une coopérative d'intérêt collectif (SCIC)
+cooperative_desc: "<p>L'association, tout en assurant l'exploitation de la plateforme Ozwillo, prépare sa transformation
+  en Société Coopérative d'Intérêt Collectif (S.C.I.C) dans les meilleurs délais.</p>
+  <p>L'association se transformera en société coopérative sans changement de personne morale.</p>
+  <p>Vous êtes investisseurs, donateurs, vous pouvez d'ores et déjà contribuer à la constitution du capital de la SCIC,
+  investir dans des titres participatifs.</p>"
+cooperative_contact: Contactez-nous
