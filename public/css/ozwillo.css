@@ -331,3 +331,93 @@ div.side-pane {
     border: 2px solid gray;
     padding: 5px;
 }
+
+/*****************************************************************************************************************
+*************************************************** Contact ******************************************************
+*****************************************************************************************************************/
+
+.mail-result-message {
+    margin-top: 20px;
+}
+
+.infos {
+    font-size: 16px;
+    color: #6a6767;
+    margin: 75px 0 75px 0;
+    display: block;
+}
+
+ul.infos {
+    padding-left: 20px;
+    margin-bottom: 39px;
+}
+
+span.lt {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    clear: both;
+    display: block;
+}
+
+ul.infos li {
+    padding-left: 30px;
+    list-style: none;
+    background: url(/static/img/marker.jpg) no-repeat top left;
+}
+
+ul.infos li a {
+    color: #8765ac;
+}
+
+ul.infos.phone li {
+    background: url(/static/img/phone.jpg) no-repeat top left;
+}
+
+ul.infos.mail li {
+    background: url(/static/img/mail.jpg) no-repeat top left;
+}
+
+.champ {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #eeebeb;
+    background: #f9f9f9;
+    color: #646262;
+    font-size: 16px;
+    border-radius: 0;
+    margin: 0 20px 0 0;
+    display: block;
+    padding: 0 0 0 20px;
+}
+
+.texte {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #eeebeb;
+    background: #f9f9f9;
+    color: #646262;
+    font-size: 16px;
+    border-radius: 0;
+    margin: 0 20px 0 0;
+    display: block;
+    clear: both;
+    padding: 10px 0 0 20px;
+}
+
+.btn-submit {
+    background-color: #e8165b;
+    border-bottom: 3px solid #b30e44;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+    background-color: #b30e44;
+    border-bottom: 3px solid #b30e44;
+    color: #fff;
+}

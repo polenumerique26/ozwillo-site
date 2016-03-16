@@ -1,4 +1,4 @@
-title: Contactez-nous<br /><span class="little2">Tous les champs précédés d'un * sont obligatoires.</span>
+title: Contactez-nous
 
 contact_1_address: <span class="lt">Adresse</span>
   Pôle Numérique
@@ -45,6 +45,7 @@ form_phone: Téléphone
 form_email: Email *
 form_subject: Sujet *
 form_message: Description *
+form_required_notice: Tous les champs précédés d'un * sont obligatoires.
 
 iframe_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.738287602689!2d4.976973500000001!3d44.989627399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5516b94af28c9%3A0xb9c2d0eaaf8c775a!2zUMO0bGUgTnVtw6lyaXF1ZQ!5e0!3m2!1sfr!2sfr!4v1442850023556"
 

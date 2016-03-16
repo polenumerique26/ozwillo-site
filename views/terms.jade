@@ -5,19 +5,17 @@ html(lang=i18n.lng())
   body
     include ./menu.jade
 
-    // TOP
-    .BG
+    .header
       .container
         .row
-          .col-md-6
-            h1.titreInter= t('terms:::title')
+          .col-md-12
+            h1= t('terms:::title')
 
     // TERMS
     .container
       .row
         .col-md-12
-          h2.soustitre= t('terms:::subtitle')
-          p.paraHome!= t('terms:::text')
+          p(style='margin-top:78px')!= t('terms:::text')
 
   include ./footer.jade
   include ./scripts.jade

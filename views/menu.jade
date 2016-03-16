@@ -22,20 +22,22 @@ nav.navbar.navbar-default
             li(role='presentation')
               a(href=getPageLink('offer-incubation'))= t('menu:::offer-incubation')
         li
-          a.nocache.violetL(href=getPageLink('news'))= t('menu:::news')
+          a(href=getPageLink('who-are-we'))= t('menu:::who-are-we')
         li
-          a.nocache.violetL(href=getPageLink('who-are-we'))= t('menu:::who-are-we')
+          a(href=getPageLink('news'))= t('menu:::news')
+        li
+          a(href=getPageLink('contact'))= t('menu:::contact')
       ul.nav.navbar-nav.navbar-right
         li
-          a.nocache.violetL(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())
+          a(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())
             img(src='/static/img/icone-catalogue-color.png', alt='App store icon')
             span= t('menu:::store')
         li
-          a.nocache.violetL(href=getOzwilloHost('opendata') + '/' + i18n.lng())
+          a(href=getOzwilloHost('opendata') + '/' + i18n.lng())
             img(src='/static/img/data-purple.png', alt='OpenData icon')
             span= t('menu:::data')
         li
-          a.nocache.violetL(href=getOzwilloHost('portal') + '/my?ui_locales=' + i18n.lng())
+          a(href=getOzwilloHost('portal') + '/my?ui_locales=' + i18n.lng())
             img(src='/static/img/connexion-purple.png', alt='Connexion icon')
             span= t('menu:::connexion')
         li.dropdown

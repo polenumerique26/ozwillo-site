@@ -6,11 +6,11 @@ html(lang=i18n.lng())
     include ./menu.jade
 
     // Titre
-    .BG
+    .header
       .container
         .row
-          .col-md-6
-              h1.titreInter!= t('contact:::title')
+          .col-md-12
+              h1= t('contact:::title')
 
     #mail-result
       if mail_sending_succeeded
@@ -28,13 +28,13 @@ html(lang=i18n.lng())
     .container
       .row
         // Infos contacts principal
-        .col-md-4.column
+        .col-md-4
           ul.infos
             li!= t('contact:::contact_1_address')
-        .col-md-4.column
+        .col-md-4
           ul.infos.phone
             li!= t('contact:::contact_1_phone')
-        .col-md-4.column
+        .col-md-4
           ul.infos.mail
             li!= t('contact:::contact_1_mail')
         // Formulaire de contact
@@ -42,6 +42,8 @@ html(lang=i18n.lng())
         .col-md-6
           form(onsubmit=getPageLink('contact'), method='POST')
             .row
+              .col-md-12
+                small= t('contact:::form_required_notice')
               .col-md-6
                 .form-group
                   input.champ(type='text', name='name', placeholder= t('contact:::form_name'), required='')
@@ -58,7 +60,7 @@ html(lang=i18n.lng())
                 .form-group
                   textarea.texte(type='text', name='message', placeholder= t('contact:::form_message'), required='')
               .col-md-12
-                button.btn.btn-default.bt-submit.btnRedSubmit(type='submit')= t('contact:::button')
+                button.btn.btn-primary.btn-submit(type='submit')= t('contact:::button')
         .col-md-6
           iframe(src= t('contact:::iframe_url'), allowfullscreen='')
       .row

@@ -6,18 +6,17 @@ html(lang=i18n.lng())
     include ./menu.jade
 
     // TOP
-    .BG
+    .header
       .container
         .row
-          .col-md-6
-            h1.titreInter= t('legal-notices:::main_title')
+          .col-md-12
+            h1= t('legal-notices:::main_title')
 
     // APPLIS
     .container
       .row
         .col-md-12
-          h2.soustitre= t('legal-notices:::main_subtitle')
-          p.paraHome
+          p(style='margin-top:78px')
             span= t('legal-notices:::editor_introduction')
             br
             | Pôle Numérique
@@ -45,7 +44,7 @@ html(lang=i18n.lng())
             | Tel : 01 77 49 24 50
             br
             br
-            span.gras= t('legal-notices:::legal_notices_title')
+            strong= t('legal-notices:::legal_notices_title')
             br
             span= t('legal-notices:::terms_of_use_title')
             a(href=getPageLink('terms'))= t('legal-notices:::terms_of_use_link_name')
@@ -55,7 +54,7 @@ html(lang=i18n.lng())
             span= t('legal-notices:::terms_of_use_mention_2')
             br
             br
-            span.gras= t('legal-notices:::personal_data_title')
+            strong= t('legal-notices:::personal_data_title')
             br
             span= t('legal-notices:::personal_data_explanation')
 
