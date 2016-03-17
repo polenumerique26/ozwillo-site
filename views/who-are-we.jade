@@ -13,42 +13,39 @@ html(lang=i18n.lng())
 
     .container
       .row
-        .col-md-9
-          h2.violet= t('who-are-we:::community_title')
+        .col-md-12
+          h2= t('who-are-we:::community_title')
       .row
         .col-md-9
-          p!= t('who-are-we:::community_desc', {postProcess: "jade"})
+          div!= t('who-are-we:::community_desc', {postProcess: "jade"})
         .col-md-3
           a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_status.pdf')= t('who-are-we:::ozwillo_status')
           a.btn.btn-sm.btn-page(href=getPageLink('members'))= t('who-are-we:::governance_members')
           .side-pane!= t('who-are-we:::why_ozwillo')
-          img.img-responsive.center-block(src='/static/img/logo_ICT-PSP.fw.png')
-          img.img-responsive.center-block(src='/static/img/Logo_EU.jpg')
-
-    .grey
-      .container
-        .row
-          .col-md-9
-            h2.violet= t('who-are-we:::governance_title')
-        .row
-          .col-md-9
-            p!= t('who-are-we:::governance_desc_part1', {postProcess: "jade"})
-            blockquote.governance
-              p= t('who-are-we:::governance_desc_quote')
-            footer
-              cite= t('who-are-we:::governance_desc_quote_cite')
-            p!= t('who-are-we:::governance_desc_part2', {postProcess: "jade"})
-          .col-md-3
-            a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_membership_grid.pdf')= t('who-are-we:::ozwillo_membership_grid')
-            a.btn.btn-sm.btn-file(href='/static/pdf/governance_membership_bulletin.pdf')= t('who-are-we:::governance_membership_bulletin')
 
     .container
       .row
-        .col-md-9
-          h2.violet= t('who-are-we:::cooperative_title')
+        .col-md-12
+          h2= t('who-are-we:::governance_title')
       .row
         .col-md-9
-          p!= t('who-are-we:::cooperative_desc', {postProcess: "jade"})
+          div!= t('who-are-we:::governance_desc_part1', {postProcess: "jade"})
+          blockquote.governance
+            div= t('who-are-we:::governance_desc_quote')
+            footer
+              cite= t('who-are-we:::governance_desc_quote_cite')
+          div!= t('who-are-we:::governance_desc_part2', {postProcess: "jade"})
+        .col-md-3
+          a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_membership_grid.pdf')= t('who-are-we:::ozwillo_membership_grid')
+          a.btn.btn-sm.btn-file(href='/static/pdf/governance_membership_bulletin.pdf')= t('who-are-we:::governance_membership_bulletin')
+
+    .container
+      .row
+        .col-md-12
+          h2= t('who-are-we:::cooperative_title')
+      .row
+        .col-md-9
+          div!= t('who-are-we:::cooperative_desc', {postProcess: "jade"})
         .col-md-3
           a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('who-are-we:::cooperative_contact')
 

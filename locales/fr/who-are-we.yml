@@ -1,10 +1,9 @@
 main_title: Qui sommes-nous ?
 
 community_title: Une communauté d'acteurs représentative de la société civile
-community_desc: "<p>
-  À l'issue du projet Européen au cours duquel a été développée la plateforme, utilisateurs, développeurs, fournisseurs
+community_desc: "<p>À l'issue du projet Européen au cours duquel a été développée la plateforme, utilisateurs, développeurs, fournisseurs
   de services et nouveaux partenaires se sont regroupés en association pour lui conférer une gouvernance neutre et ouverte.</p>
-  <p>Créee le 5 février 2016, l'association a vocation à valoriser la plateforme Ozwillo, à promouvoir les applications
+  <p>Créée le 5 février 2016, l'association a vocation à valoriser la plateforme Ozwillo, à promouvoir les applications
   communicantes qui la rejoignent et à créer les conditions favorables à l'innovation.</p>
   <p>Elle vise le partage des connaissances en permettant la liaison de tous types de modèles de données et de données
   au profit de ses membres et de ses non-membres.</p>
@@ -18,9 +17,9 @@ community_desc: "<p>
     <li>Inspire la confiance car la gouvernance est un ensemble représentant la société;</li>
     <li>Reste à but d'intérêt collectif et enclenche un cercle très vertueux;</li>
     <li>Reconnait toutes formes de contributions;</li>
-    <li>Ozwillo est une association de préfiguration, qui a vocation dans un délai donné à réunir les conditions de mise
-      en place d'une structure juridique pérenne destinée à valoriser ses acquis.</li>
-  </ul>"
+  </ul>
+  <p>Ozwillo est une association de préfiguration, qui a vocation dans un délai donné à réunir les conditions de mise
+      en place d'une structure juridique pérenne destinée à valoriser ses acquis.</p>"
 
 ozwillo_status: Statuts de l'association
 ozwillo_membership_grid: Grille d'adhésion
@@ -47,14 +46,14 @@ governance_desc_quote: "« Les biens numériques ne sont plus soustractibles. L'
 governance_desc_quote_cite: "Source : Gouvernance des biens communs, pour une nouvelle approche des ressources naturelles,
   Elinor Osrom"
 governance_desc_part2: "<p>Le fonctionnement de l'association est basé sur les valeurs qui caractérisent la Société des
-  Connaissances:</p>
+  Connaissances :</p>
   <ul>
     <li>L'humain est au cœur du système;</li>
     <li>L'ouverture devient une clé fondamentale pour créer, innover;</li>
     <li>Les formes de management et de gouvernance deviennent transversales;</li>
     <li>Les modèles économiques évoluent vers des modes « gagnant-gagnant», circulaires, ...</li>
   </ul>
-  <p>En conséquence, l'association OZWILLO ne favorise aucune forme de prosélytisme politique et ne peut être présidée
+  <p>En conséquence, l'association Ozwillo ne favorise aucune forme de prosélytisme politique et ne peut être présidée
   par un élu dans le cadre de ses fonctions électives.</p>"
 governance_members: Les membres
 governance_membership_bulletin: Bulletin d'adhésion

@@ -23,15 +23,11 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
-    color: #000;
     margin: 78px 0 56px 0;
     display: block;
-    text-align: center;
-}
-
-h2.violet {
-    color: #6F438E;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F0EEEF;
+    padding-bottom: 0.5em;
 }
 
 a:focus, a:hover {
@@ -323,16 +319,16 @@ div.tweets {
 *****************************************************************************************************************/
 
 div.side-pane {
-    background-color: lightgray;
-    border: 2px solid gray;
+    background-color: #F9F8F7;
+    border: 2px solid #F0EEEF;
     padding: 5px;
 }
 
 blockquote.governance {
     margin: 2em;
     font-size: 1em;
-    background-color: lightgray;
-    border: 3px solid gray;
+    background-color: #F9F8F7;
+    border: 2px solid #F0EEEF;
     font-style: italic;
 }
 
