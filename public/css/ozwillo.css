@@ -70,15 +70,6 @@ iframe {
 ********************************************* Common site styles *************************************************
 *****************************************************************************************************************/
 
-div.grey {
-    background-color: #faf8f8;
-    min-height: 300px;
-}
-
-img.logo-inline {
-    margin: -17px 0 0 10px;
-}
-
 .header {
     background: url(/static/img/Bandeau_H200.png) no-repeat;
     max-height: 200px;
@@ -309,6 +300,11 @@ p.news-desc {
     color: #524d4d;
     font-size: 17px;
     margin: 15px 0 15px 0;
+}
+
+div.grey {
+    background-color: #faf8f8;
+    min-height: 300px;
 }
 
 div.tweets {

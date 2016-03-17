@@ -46,27 +46,25 @@ html(lang=i18n.lng())
           .bottom-align-text
             a.btn.btn-lg.btn-page(href=getPageLink('offer-incubation'))= t('home:::incubation_browse')
 
-    .grey
-      .container
-        .row
-          .col-md-12
-            h2= t('home:::differentiator_title')
-          .col-md-12
-            .row
-              .col-md-6
-                ul.commitment
-                  li.cc= t('home:::differentiator_1')
-                  li.tiers-confiance= t('home:::differentiator_3')
-              .col-md-6
-                ul.commitment
-                  li.gouvernance= t('home:::differentiator_2')
-                  li.opensource= t('home:::differentiator_4')
-
-    .container-fluid
+    .container
       .row
         .col-md-12
-          h2.violet= t('home:::apps_already_joined')
-            img.logo-inline(src='/static/img/logo.png')
+          h2.text-center= t('home:::differentiator_title')
+        .col-md-12
+          .row
+            .col-md-6
+              ul.commitment
+                li.cc= t('home:::differentiator_1')
+                li.tiers-confiance= t('home:::differentiator_3')
+            .col-md-6
+              ul.commitment
+                li.gouvernance= t('home:::differentiator_2')
+                li.opensource= t('home:::differentiator_4')
+
+    .container
+      .row
+        .col-md-12
+          h2.text-center= t('home:::apps_already_joined')
       .row.flex-row
         .col-md-3.col-xs-6
           .thumbnail
