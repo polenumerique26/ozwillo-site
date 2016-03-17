@@ -10,7 +10,7 @@ html(lang=i18n.lng())
       .container
         .row
           .col-md-12
-              h1= t('contact:::title')
+            h1= t('contact:::title')
 
     #mail-result
       if mail_sending_succeeded
@@ -26,6 +26,9 @@ html(lang=i18n.lng())
 
     // Info
     .container
+      .row
+        .col-md-12
+          h2.contact= t('contact:::headquarter')
       .row
         // Infos contacts principal
         .col-md-4
@@ -63,6 +66,9 @@ html(lang=i18n.lng())
                 button.btn.btn-primary.btn-submit(type='submit')= t('contact:::button')
         .col-md-6
           iframe(src= t('contact:::iframe_url'), allowfullscreen='')
+      .row
+        .col-md-12
+          h2.contact= t('contact:::local_agencies')
       .row
         // Infos contacts secondaire
         .col-md-6

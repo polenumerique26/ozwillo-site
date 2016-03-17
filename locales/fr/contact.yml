@@ -1,12 +1,16 @@
 title: Contactez-nous
 
+headquarter: siège
+
 contact_1_address: <span class="lt">Adresse</span>
-  Pôle Numérique
-  <br />1 av de la gare, Le Rhovalparc
-  <br />26958 Valence, Cedex 9
+  Ozwillo
+  <br />16 rue Paul Henri Spaak
+  <br />26000 Valence
   <br />France</span>
-contact_1_phone: <span class="lt">Téléphone</span>+33 4 75 83 50 58
+contact_1_phone: <span class="lt">Téléphone</span>+33 (0)6 53 00 26
 contact_1_mail: <span class="lt">Email</span><a href="mailto:contact@ozwillo.org">contact@ozwillo.org</a>
+
+local_agencies: contacts locaux
 
 contact_2_address: <span class="lt">Adresse</span>
   Blau Advisors stactegic parteners
@@ -47,7 +51,7 @@ form_subject: Sujet *
 form_message: Description *
 form_required_notice: Tous les champs précédés d'un * sont obligatoires.
 
-iframe_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.738287602689!2d4.976973500000001!3d44.989627399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5516b94af28c9%3A0xb9c2d0eaaf8c775a!2zUMO0bGUgTnVtw6lyaXF1ZQ!5e0!3m2!1sfr!2sfr!4v1442850023556"
+iframe_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.99010839015!2d4.928447715457548!3d44.92353667909843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f557af9a791903%3A0xf38155b64a5143ea!2s16+Rue+Paul+Henri+Charles+Spaak%2C+26000+Valence%2C+France!5e0!3m2!1sfr!2sus!4v1458239017205"
 
 button: Envoyer
 
