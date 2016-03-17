@@ -39,13 +39,13 @@ governance_desc_part1: "<p>Peuvent être admises au sein de l'association en qua
   l'association et qu'elles apportent une compétence avérée au fonctionnement de l'association.</p>
   <p>L'association représente l'ensemble de la société civile et est garante d'un projet de société basé sur la création
   de biens communs numériques, réutilisables, dans une optique d'accessibilité et de préservation des richesses numériques.</p>"
-governance_desc_quote: "<blockquote><p>« Les biens numériques ne sont plus soustractibles. L'usage par l'un ne remet nullement en cause
+governance_desc_quote: "« Les biens numériques ne sont plus soustractibles. L'usage par l'un ne remet nullement en cause
   l'usage par l'autre, car la reproduction d'un bien numérique (un fichier de musique, un document sur le réseau, une
   page web, ...) a un coût marginal qui tend vers zéro. On pourrait en déduire que ces Communs sont « inépuisables »,
   et qu'une abondance numérique est venue. Or si l'on considère les Communs comme un espace de gouvernance, on remarque
-  au contraire que ces nouveaux Communs de la connaissance sont fragiles ».</p></blockquote>
-  <footer><cite>Source : Gouvernance des biens communs, pour une nouvelle approche des ressources naturelles,
-  Elinor Osrom</cite></footer>"
+  au contraire que ces nouveaux Communs de la connaissance sont fragiles »"
+governance_desc_quote_cite: "Source : Gouvernance des biens communs, pour une nouvelle approche des ressources naturelles,
+  Elinor Osrom"
 governance_desc_part2: "<p>Le fonctionnement de l'association est basé sur les valeurs qui caractérisent la Société des
   Connaissances:</p>
   <ul>

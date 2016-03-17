@@ -45,14 +45,6 @@ iframe {
     height: 350px;
 }
 
-blockquote {
-    margin: 2em;
-    font-size: 1em;
-    background-color: lightgray;
-    border: 3px solid gray;
-    font-style: italic;
-}
-
 .flex-row.row {
     display: flex;
     flex-wrap: wrap;
@@ -334,6 +326,14 @@ div.side-pane {
     background-color: lightgray;
     border: 2px solid gray;
     padding: 5px;
+}
+
+blockquote.governance {
+    margin: 2em;
+    font-size: 1em;
+    background-color: lightgray;
+    border: 3px solid gray;
+    font-style: italic;
 }
 
 /*****************************************************************************************************************

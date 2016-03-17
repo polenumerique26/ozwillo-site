@@ -33,7 +33,10 @@ html(lang=i18n.lng())
         .row
           .col-md-9
             p!= t('who-are-we:::governance_desc_part1', {postProcess: "jade"})
-            p!= t('who-are-we:::governance_desc_quote', {postProcess: "jade"})
+            blockquote.governance
+              p= t('who-are-we:::governance_desc_quote')
+            footer
+              cite= t('who-are-we:::governance_desc_quote_cite')
             p!= t('who-are-we:::governance_desc_part2', {postProcess: "jade"})
           .col-md-3
             a.btn-primary.btn-red(href=getPageLink('members'))= t('who-are-we:::governance_members')
