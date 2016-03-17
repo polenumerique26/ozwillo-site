@@ -15,7 +15,7 @@ var option = {
   detectLngFromPath: 0,
   ns: {
     namespaces: ['route', 'menu', 'home', 'offer-data', 'offer-portal', 'offer-incubation', 'news',
-      'who-are-we', 'legal-notices', 'contact', 'footer']
+      'association', 'legal-notices', 'contact', 'footer']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
@@ -82,9 +82,9 @@ i18n.init(option, function(t) {
     res.locals.host = req.get('host');
     res.render('offer-incubation');
   });
-  i18n.addRoute('/:lng/:oz*?/route:::who-are-we', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::association', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
-    res.render('who-are-we');
+    res.render('association');
   });
   i18n.addRoute('/:lng/:oz*?/route:::news', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
