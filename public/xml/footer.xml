@@ -9,7 +9,6 @@
     <item href="/doc">Développeurs</item>
     <item href="/fr/contact">Contact</item>
     <item href="/fr/mentions-legales">Mentions légales</item>
-    <item href="/fr/cgu">CGU</item>
   </menu>
   <menu>
   	<locale>en</locale>
@@ -21,7 +20,6 @@
     <item href="/doc">Developers</item>
     <item href="/en/contact">Contact</item>
     <item href="/en/legal-notices">Legal Notices</item>
-  	<item href="/en/terms">General terms of use</item>
   </menu>
   <menu>
   	<locale>it</locale>
@@ -32,7 +30,6 @@
     <item href="/doc">Sviluppatori</item>
     <item href="/it/contatti">Contatti</item>
     <item href="/it/avvisi-legali">Avvisi legali</item>
-  	<item href="/it/termini">Termini di utilizzo</item>
   </menu>
   <menu>
   	<locale>tr</locale>
@@ -43,7 +40,6 @@
     <item href="/doc">Geliştiriciler</item>
     <item href="/tr/iletism">İletişim</item>
     <item href="/tr/yasal-uyarilar">Yasal Uyarılar</item>
-  	<item href="/tr/sartlari">Kullanım Şartları</item>
   </menu>
   <menu>
     <locale>bg</locale>
@@ -54,7 +50,6 @@
     <item href="/doc">Pазработчиците</item>
     <item href="/bg/vriz-i">Връзки</item>
     <item href="/bg/pr-vni-b-l-z-i">Правни бележки</item>
-    <item href="/bg/uslovia">Условия за ползване</item>
   </menu>
   <menu>
     <locale>es</locale>
@@ -65,7 +60,6 @@
     <item href="/doc">Desarrolladores</item>
     <item href="/es/contactos">Contactos</item>
     <item href="/es/notas-legales">Notas legales</item>
-    <item href="/es/condiciones">Condiciones de uso</item>
   </menu>
   <menu>
     <locale>ca</locale>
@@ -76,6 +70,5 @@
     <item href="/doc">Desenvolupadors</item>
     <item href="/ca/contactes">Contactes</item>
     <item href="/ca/notes-legals">Notes Legals</item>
-    <item href="/ca/condicions">Condicions d'ús</item>
   </menu>
 </menuset>
