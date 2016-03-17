@@ -88,42 +88,43 @@ img.logo-inline {
 ************************************************** Buttons *******************************************************
 *****************************************************************************************************************/
 
-a.btn-primary {
-    margin-bottom: 15px;
-}
-
-.btn-primary {
+.btn {
     font-size: 20px;
     color: #fff;
-    text-align: center;
-    line-height: 74px;
-    height: 74px;
+    border-radius: 0;
     width: 252px;
     display: block;
     margin: auto;
+}
+
+.btn-lg {
+    line-height: 74px;
+    height: 74px;
     padding: 0;
 }
 
-.btn-primary img {
-    margin-left: 5px;
+a.btn {
+    margin-bottom: 15px;
 }
 
-.btn-red {
+.btn-page {
     background-color: #e8165b;
     border-bottom: 3px solid #b30e44;
 }
 
-.btn-red:hover, .btn-red:focus {
+.btn-page:hover, .btn-page:focus {
+    color: #fff;
     background-color: #b30e44;
     border-bottom: 3px solid #b30e44;
 }
 
-.btn-blue {
+.btn-file {
     background-color: #337ab7;
     border-bottom: 3px solid #2e6da4;
 }
 
-.btn-blue:hover, .btn-blue:focus {
+.btn-file:hover, .btn-file:focus {
+    color: #fff;
     background-color: #2e6da4;
     border-bottom: 3px solid #2e6da4;
 }

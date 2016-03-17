@@ -19,8 +19,8 @@ html(lang=i18n.lng())
         .col-md-9
           p!= t('who-are-we:::community_desc', {postProcess: "jade"})
         .col-md-3
-          a.btn-primary.btn-blue(href='/static/pdf/ozwillo_status.pdf')= t('who-are-we:::ozwillo_status')
-          a.btn-primary.btn-blue(href='/static/pdf/ozwillo_membership_grid.pdf')= t('who-are-we:::ozwillo_membership_grid')
+          a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_status.pdf')= t('who-are-we:::ozwillo_status')
+          a.btn.btn-sm.btn-page(href=getPageLink('members'))= t('who-are-we:::governance_members')
           .side-pane!= t('who-are-we:::why_ozwillo')
           img.img-responsive.center-block(src='/static/img/logo_ICT-PSP.fw.png')
           img.img-responsive.center-block(src='/static/img/Logo_EU.jpg')
@@ -39,8 +39,8 @@ html(lang=i18n.lng())
               cite= t('who-are-we:::governance_desc_quote_cite')
             p!= t('who-are-we:::governance_desc_part2', {postProcess: "jade"})
           .col-md-3
-            a.btn-primary.btn-red(href=getPageLink('members'))= t('who-are-we:::governance_members')
-            a.btn-primary.btn-blue(href='/static/pdf/governance_membership_bulletin.pdf')= t('who-are-we:::governance_membership_bulletin')
+            a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_membership_grid.pdf')= t('who-are-we:::ozwillo_membership_grid')
+            a.btn.btn-sm.btn-file(href='/static/pdf/governance_membership_bulletin.pdf')= t('who-are-we:::governance_membership_bulletin')
 
     .container
       .row
@@ -50,7 +50,7 @@ html(lang=i18n.lng())
         .col-md-9
           p!= t('who-are-we:::cooperative_desc', {postProcess: "jade"})
         .col-md-3
-          a.btn-primary.btn-red(href=getPageLink('contact'))= t('who-are-we:::cooperative_contact')
+          a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('who-are-we:::cooperative_contact')
 
     include ./footer.jade
     include ./scripts.jade
