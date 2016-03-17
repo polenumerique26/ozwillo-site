@@ -2,13 +2,11 @@
 ********************************* HTML elements and utilities styles *********************************************
 *****************************************************************************************************************/
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
-    font-weight: 300 !important;
-    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -236,7 +234,6 @@ h2.title-offer {
 }
 
 .block-offer {
-    font-size: 16px;
     color: #6a6767;
     margin: 0 0 134px 0;
 }
@@ -252,10 +249,8 @@ ul.commitment {
 }
 
 ul.commitment li {
-    font-size: 16px;
     color: #6a6767;
     margin: 0 0 30px 0;
-    font-weight: 300;
     list-style-type: none;
     padding: 0 0 10px 50px;
     vertical-align: middle;
