@@ -67,23 +67,31 @@ html(lang=i18n.lng())
         .col-md-12
           h2.violet= t('home:::apps_already_joined')
             img.logo-inline(src='/static/img/logo.png')
-      .row.flex-row
-        .col-md-3.logo-list
-          img(src='/static/img/Atol.jpg')
-        .col-md-3.logo-list
-          img(src='/static/img/blau_advisors.png')
-        .col-md-3.logo-list
-          img(src='/static/img/FNCCR.jpg')
-        .col-md-3.logo-list
-          img(src='/static/img/groupe-archer.jpg')
-        .col-md-3.logo-list
-          img(src='/static/img/sictiam.png')
-        .col-md-3.logo-list
-          img(src='/static/img/openwide.jpg')
-        .col-md-3.logo-list
-          img(src='/static/img/DH.jpg')
-        .col-md-3.logo-list
-          img(src='/static/img/ibaysoft.png')
+      .row
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/Atol.jpg', alt='Logo Atol C&D')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/blau_advisors.png', alt='Logo Blau Adivors')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/FNCCR.jpg', alt='Logo FNCCR')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/groupe-archer.jpg', alt='Logo Groupe Archer')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/sictiam.png', alt='Logo SICTIAM')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/openwide.jpg', alt='Logo Open Wide')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/DH.jpg', alt='Logo David Holding')
+        .col-md-3.col-xs-6.logo-list
+          .thumbnail
+            img(src='/static/img/ibaysoft.png', alt='Logo Ibaysoft')
 
     include ./footer.jade
     include ./scripts.jade
