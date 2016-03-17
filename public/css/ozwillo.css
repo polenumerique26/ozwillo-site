@@ -16,10 +16,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 46px;
+    font-size: 44px;
     color: #fff;
-    margin: 80px 0 80px 0;
-    text-align: center;
+    margin: 60px 0 60px 0;
 }
 
 h2 {
@@ -78,6 +77,11 @@ div.grey {
 
 img.logo-inline {
     margin: -17px 0 0 10px;
+}
+
+.header {
+    background: url(/static/img/Bandeau_H200.png) no-repeat;
+    max-height: 200px;
 }
 
 /*****************************************************************************************************************
@@ -217,10 +221,8 @@ a.btn {
 ******************************************************** Accueil *************************************************
 *****************************************************************************************************************/
 
-.header {
-    background: url(/static/img/BG-Home.jpg) no-repeat;
-    background-size: cover;
-    min-height: 200px;
+h1.home {
+    text-align: center;
 }
 
 .img-offer {
@@ -229,9 +231,10 @@ a.btn {
 }
 
 h2.title-offer {
-    font-size: 30px;
     margin: 40px 0 39px 0;
     display: inline-block;
+    border: none;
+    text-transform: none;
 }
 
 .block-offer {
