@@ -1,9 +1,96 @@
 - var page = 'governance'
 doctype html
 html(lang=i18n.lng())
-   include ./header.jade
-   body
-      include ./menu.jade
-      // page content goes here
-      include ./footer.jade
-      include ./scripts.jade
+  include ./header.jade
+  body
+    include ./menu.jade
+
+    .header
+      .container
+        .row
+          .col-md-12
+            h1= t('governance:::main_title')
+
+    .container
+      .row
+        .col-md-12
+          p.community-intro= t('governance:::introduction')
+      .row
+        .col-md-12
+          h2= t('governance:::board')
+      .row.flex-row.governance
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/Herve-Rasclard_def.jpg', alt='Photo Hervé Rasclard')
+            .caption
+              p.governance-name Hervé Rasclard
+              p.governance-title= t('governance:::ceo')
+              p.governance-desc= t('governance:::ceo_desc')
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/sophie_Houzet_def.jpg', alt='Photo Sophie Houzet')
+            .caption
+              p.governance-name Sophie Houzet
+              p.governance-title= t('governance:::executive')
+              p.governance-desc= t('governance:::executive_desc')
+      .row.flex-row.governance
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/Alfons_Bataller_def.jpg', alt='Photo Alfons Bateller')
+            .caption
+              p.governance-name Alfons Bateller
+              p.governance-title= t('governance:::vice_president')
+              p.governance-desc= t('governance:::vice_president_desc')
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/Francis_Khun_def.jpg', alt='Photo Francis Kuhn')
+            .caption
+              p.governance-name Francis Kuhn
+              p.governance-title= t('governance:::secretary')
+              p.governance-desc= t('governance:::secretary_desc')
+      .row.flex-row.governance
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/Yannick-Louvet_def.jpg', alt='Photo Yannick Louvet')
+            .caption
+              p.governance-name Yannick Louvet
+              p.governance-title= t('governance:::treasurer')
+              p.governance-desc= t('governance:::treasurer_desc')
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/patrick_benichou.jpg', alt='Photo Patrick Bénichou')
+            .caption
+              p.governance-name Patrick Bénichou
+              p.governance-title= t('governance:::pbenichou')
+              p.governance-desc= t('governance:::pbenichou_desc')
+      .row.flex-row.governance
+        .col-md-6
+          .thumbnail.right-caption
+            img(src='/static/img/daniel_belon.jpg', alt='Photo Daniel Belon')
+            .caption
+              p.governance-name Daniel Belon
+              p.governance-title= t('governance:::dbelon')
+              p.governance-desc= t('governance:::dbelon_desc')
+      .row
+        .col-md-12
+          h2= t('governance:::members')
+        .col-md-5.col-md-offset-1
+          h3= t('governance:::corporation_members')
+          dl
+            dt Jean-Claude Blachier
+            dd Pôle Numérique
+            dt Christophe Chevalier
+            dd Groupe Archer
+            dt John Doe
+            dd Communes de Vallaurie
+            dt Thierry Bénita
+            dd atReal
+        .col-md-5
+          h3= t('governance:::physical_members')
+          dl
+            dt Jean-Claude Millet
+            dt Benoit Orihuela
+            dt Bruno Thuillier
+
+  include ./footer.jade
+    include ./scripts.jade
