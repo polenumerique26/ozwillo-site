@@ -189,17 +189,16 @@ a.btn {
     margin: 0 0 25px 0;
 }
 
-.footer-links {
-    margin-top: 35px;
+.footer-logos {
+    margin-top: 25px;
     float: right;
 }
 
 .footer-link {
     color: #454446;
     font-size: 13px;
-    font-weight: 700;
-    margin: 0 0 0 25px;
-    text-transform: uppercase;
+    margin: 0 0 5px 25px;
+    display: block;
 }
 
 .logo-twitter {

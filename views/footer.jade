@@ -4,16 +4,27 @@ footer
     .row.footer
       .col-md-12.footer-bordure
         .row
-          .col-md-3
+          .col-md-4
             .footer-logo
               img(src='/static/img/logo-footer.png')
-          .col-md-9
-            .footer-links
-              a.footer-link(href=getPageLink('news'))= t('menu:::news')
-              a.footer-link(href=getPageLink('who-are-we'))= t('menu:::who-are-we')
-              a.footer-link(href=getPageLink('contact'))= t('menu:::contact')
-              a.footer-link(href='http://doc.ozwillo.com/')= t('footer:::developers')
-              a.footer-link(href=getPageLink('legal-notices'))= t('footer:::legal-notices')
+          .col-md-2
+            a.footer-link(href=getPageLink('association'))= t('menu:::association')
+            a.footer-link(href=getPageLink('governance'))= t('menu:::governance')
+            a.footer-link(href=getPageLink('community'))= t('menu:::community')
+            a.footer-link(href=getPageLink('team'))= t('menu:::team')
+          .col-md-2
+            a.footer-link(href=getPageLink('offer-data'))= t('menu:::offer-data')
+            a.footer-link(href=getPageLink('offer-portal'))= t('menu:::offer-portal')
+            a.footer-link(href=getPageLink('offer-incubation'))= t('menu:::offer-incubation')
+          .col-md-2
+            a.footer-link(href=getPageLink('common-good'))= t('menu:::common-good')
+            a.footer-link(href=getPageLink('technology'))= t('menu:::technology')
+            a.footer-link(href=getPageLink('genesis'))= t('menu:::genesis')
+            a.footer-link(href=getPageLink('contributions'))= t('menu:::contributions')
+          .col-md-2
+            a.footer-link(href=getPageLink('news'))= t('menu:::news')
+            a.footer-link(href=getPageLink('contact'))= t('menu:::contact')
+            a.footer-link(href=getPageLink('legal-notices'))= t('menu:::legal-notices')
       .col-md-12
         .row
           .col-md-3
@@ -21,12 +32,12 @@ footer
               a(href='https://twitter.com/ozwillo')
                 img(src='/static/img/twitter.jpg')
           .col-md-9
-            .footer-links
-              a(href=getPageLink('projects'))
+            .footer-logos
+              a(href=getPageLink('genesis'))
                 img(src='/static/img/cip.jpg')
-              a(href=getPageLink('projects'))
+              a(href=getPageLink('genesis'))
                 img(src='/static/img/eu.jpg')
-              a(href=getPageLink('projects'))
+              a(href=getPageLink('genesis'))
                 img(src='/static/img/investir.jpg')
-              a(href=getPageLink('projects'))
+              a(href=getPageLink('genesis'))
                 img(src='/static/img/RP.jpg')

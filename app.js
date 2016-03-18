@@ -15,12 +15,13 @@ var option = {
   detectLngFromPath: 0,
   ns: {
     namespaces: ['route', 'menu', 'home', 'offer-data', 'offer-portal', 'offer-incubation', 'news',
-      'association', 'legal-notices', 'contact', 'footer']
+      'association', 'governance', 'community', 'team', 'common-good', 'technology', 'genesis', 'contributions',
+      'legal-notices', 'contact']
   },
   resGetPath: 'locales/__lng__/__ns__.yml',
   keyseparator: '::',
   nsseparator: ':::',
-  ignoreRoutes: ['css/', 'fonts/', 'img/', 'js/', 'pdf/', 'xml/']
+  ignoreRoutes: ['css/', 'img/', 'js/', 'pdf/', 'xml/']
 };
 
 i18n.backend(yamlSync);
@@ -85,6 +86,34 @@ i18n.init(option, function(t) {
   i18n.addRoute('/:lng/:oz*?/route:::association', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
     res.render('association');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::governance', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('governance');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::community', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('community');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::team', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('team');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::common-good', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('common-good');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::technology', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('technology');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::genesis', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('genesis');
+  });
+  i18n.addRoute('/:lng/:oz*?/route:::contributions', allLanguages, app, 'get', function(req, res) {
+    res.locals.host = req.get('host');
+    res.render('contributions');
   });
   i18n.addRoute('/:lng/:oz*?/route:::news', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');

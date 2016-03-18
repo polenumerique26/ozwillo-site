@@ -1,9 +1,20 @@
 # page names as used in URLs
 home: accueil
+
 offer-data: offre-donnees
 offer-portal: offre-portail
 offer-incubation: offre-incubation
-news: actualites
+
 association: association
+governance: gouvernance
+community: communaute
+team: equipe
+
+common-good: bien-commun
+technology: technologie
+genesis: genese
+contributions: contributions
+
+news: actualites
 contact: contact
 legal-notices: mentions-legales
