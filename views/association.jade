@@ -19,7 +19,7 @@ html(lang=i18n.lng())
         .col-md-9
           div!= t('association:::community_desc', {postProcess: "jade"})
         .col-md-3
-          a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_status.pdf')= t('association:::ozwillo_status')
+          a.btn.btn-sm.btn-file(href='/static/pdf/Statuts_Association_Ozwillo.pdf')= t('association:::ozwillo_status')
           a.btn.btn-sm.btn-page(href=getPageLink('members'))= t('association:::governance_members')
           .side-pane!= t('association:::why_ozwillo')
 
@@ -36,8 +36,8 @@ html(lang=i18n.lng())
               cite= t('association:::governance_desc_quote_cite')
           div!= t('association:::governance_desc_part2', {postProcess: "jade"})
         .col-md-3
-          a.btn.btn-sm.btn-file(href='/static/pdf/ozwillo_membership_grid.pdf')= t('association:::ozwillo_membership_grid')
-          a.btn.btn-sm.btn-file(href='/static/pdf/governance_membership_bulletin.pdf')= t('association:::governance_membership_bulletin')
+          a.btn.btn-sm.btn-file(href='/static/pdf/Ozwillo_Membership_Fee_2016.xlsx')= t('association:::ozwillo_membership_grid')
+          a.btn.btn-sm.btn-file(href='/static/pdf/Bulletin_Adhesion_Ozwillo.pdf')= t('association:::governance_membership_bulletin')
 
     .container
       .row
