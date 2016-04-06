@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "body-parser": "^1.14.2",
+    "compression": "^1.6.1",
     "express": "^4.13.4",
     "i18next": "^1.10.6",
     "i18next.yaml": "^1.6.0",

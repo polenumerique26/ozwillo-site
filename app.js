@@ -3,7 +3,8 @@ var express = require('express'),
   yamlSync = require('i18next.yaml'),
   bodyParser = require('body-parser'),
   nodemailer = require('nodemailer'),
-  smtpTransport = require('nodemailer-smtp-transport');
+  smtpTransport = require('nodemailer-smtp-transport'),
+  compress = require('compression');
 
 /* i18n initialization */
 
@@ -49,6 +50,8 @@ var transporter = nodemailer.createTransport(smtpTransport({
 /* Express app initialization */
 
 var app = express();
+
+app.use(compress());
 
 app.set('views', './views');
 app.set('view engine', 'jade');
