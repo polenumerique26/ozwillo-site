@@ -1,2 +1,37 @@
-main_title: Offre sur la donnée
-main_subtitle: De la donnée fraiche !
+main_title: Les solutions Données
+main_subtitle: À chaque projet sa solution
+
+opendata_title: Open Data
+opendata_subtitle: Votre plateforme personnalisée en quelques clics
+opendata_items:
+  "<ul>
+    <li>Pas d'installation requise</li>
+    <li>Support de tous formats de données</li>
+    <li>Outils riches de visualisation</li>
+    <li>APIs d'accès aux données</li>
+    <li>Référencement des données sur Etalab</li>
+  </ul>"
+
+bigdata_title: Big Data
+bigdata_subtitle: Une architecture pour traiter tout volume de données
+bigdata_items:
+  "<ul>
+    <li>Infrastructure conçue pour monter à l'échelle</li>
+    <li>Intégration de gros volume de données</li>
+    <li>APIs sécurisées de gestion des données</li>
+    <li>Exploitation illimitée</li>
+    <li>Monitoring et analyse des données</li>
+  </ul>"
+
+smartdata_title: Smart Data
+smartdata_subtitle: Donner du sens à vos données
+smartdata_items:
+  "<ul>
+    <li>Données temp réel</li>
+    <li>Liaison des données entre elles et avec des référentiels</li>
+    <li>Gestion des droits sur les données</li>
+    <li>Partage et contribution de données entre applications</li>
+    <li>APIs sécurisées d'accès aux données</li>
+  </ul>"
+
+contact_us: Nous contacter
