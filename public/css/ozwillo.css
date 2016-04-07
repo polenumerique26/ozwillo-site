@@ -110,6 +110,12 @@ div.list-items {
     margin-top: 1em;
 }
 
+div.list-items p.items-header {
+    font-weight: bold;
+    color: #6f438e;
+    margin-bottom: 1em;
+}
+
 div.list-items ul {
     padding-left: 16px;
     margin-bottom: 2em;

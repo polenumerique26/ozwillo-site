@@ -5,12 +5,47 @@ html(lang=i18n.lng())
   body
     include ./menu.jade
 
-    .BG
+    .header
       .container
         .row
           .col-md-12
-            h1.titreInter= t('offer-portal:::main_title')
-            p.para.para2= t('offer-portal:::main_subtitle')
+            h1.with-subtitle= t('offer-portal:::main_title')
+            .main-subtitle= t('offer-portal:::main_subtitle')
+    
+    .container.offer
+      .row
+        .col-md-6
+          h2= t('offer-portal:::customized_title')
+          div= t('offer-portal:::customized_subtitle')
+          div.list-items
+            p.items-header= t('offer-portal:::customized_applications')
+            != t('offer-portal:::customized_applications_items')
+          div.list-items
+            p.items-header= t('offer-portal:::customized_data')
+            != t('offer-portal:::customized_data_items')
+            a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-portal:::contact_us')
+        .col-md-6
+          img.img-responsive.img-block-illustration(src='/static/img/Image_portail_personnalise.png', alt='Illustration Portail personnalisé')
+    
+    .img-background
+      .container.offer
+        .row
+          .col-md-6
+            img.img-responsive.img-block-illustration(src='/static/img/Image_portail_communautaire.png', alt='Illustration Portail communautaire')
+          .col-md-6.with-background
+            h2.text-right= t('offer-portal:::community_title')
+            div.text-right= t('offer-portal:::community_subtitle')
+            .row
+              .col-md-6.col-md-offset-6
+                div.list-items
+                  p.items-header= t('offer-portal:::community_development')
+                  != t('offer-portal:::community_development_items')
+            .row
+              .col-md-6.col-md-offset-6
+                div.list-items
+                  p.items-header= t('offer-portal:::community_use')
+                  != t('offer-portal:::community_use_items')
+                  a.btn.btn-sm.btn-page.pull-right(href=getPageLink('contact'))= t('offer-portal:::contact_us')
 
     include ./footer.jade
     include ./scripts.jade

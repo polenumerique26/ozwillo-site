@@ -1,3 +1,38 @@
-main_title: Offre sur le portail
-main_subtitle: Un très joli portail
+main_title: Les solutions Portail
+main_subtitle: À chaque projet sa solution
+
+customized_title: Portail personnalisé
+customized_subtitle: Créez votre écosystème d'applications et de données
+customized_applications: "Vos applications :"
+customized_applications_items:
+  "<ul>
+    <li>Regroupées dans un portail dédié personnalisé</li>
+    <li>Accessibles instantanément à vos utilisateurs et sans installation locale</li>
+  </ul>"
+customized_data: "Vos données :"
+customized_data_items:
+  "<ul>
+    <li>Liées sémantiquement à des référentiels</li>
+    <li>Réutilisables par toute nouvelle application</li>
+  </ul>"
+
+community_title: Portail communautaire
+community_subtitle: Rendez vos applications intelligentes
+community_development: "En développement :"
+community_development_items:
+  "<ul>
+    <li>Un système d'authentification et une gestion utilisateurs unifiés</li>
+    <li>Un réseau social réutilisable</li>
+    <li>Des données liées, partagées et réutilisables</li>
+  </ul>"
+
+community_use: "En utilisation :"
+community_use_items:
+  "<ul>
+    <li>Publication dans un catalogue multilingue</li>
+    <li>Une infrastructure scalable selon vos besoins</li>
+  </ul>"
+
+contact_us: Nous contacter
+
 
