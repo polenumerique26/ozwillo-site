@@ -32,20 +32,16 @@ html(lang=i18n.lng())
         .row
           .col-md-6
             img.img-responsive.img-block-illustration(src='/static/img/Image_portail_communautaire.png', alt='Illustration Portail communautaire')
-          .col-md-6.with-background
-            h2.text-right= t('offer-portal:::community_title')
-            div.text-right= t('offer-portal:::community_subtitle')
-            .row
-              .col-md-6.col-md-offset-6
-                div.list-items
-                  p.items-header= t('offer-portal:::community_development')
-                  != t('offer-portal:::community_development_items')
-            .row
-              .col-md-6.col-md-offset-6
-                div.list-items
-                  p.items-header= t('offer-portal:::community_use')
-                  != t('offer-portal:::community_use_items')
-                  a.btn.btn-sm.btn-page.pull-right(href=getPageLink('contact'))= t('offer-portal:::contact_us')
+          .col-md-5.col-md-offset-1.with-background
+            h2= t('offer-portal:::community_title')
+            div= t('offer-portal:::community_subtitle')
+            div.list-items
+              p.items-header= t('offer-portal:::community_development')
+              != t('offer-portal:::community_development_items')
+            div.list-items
+              p.items-header= t('offer-portal:::community_use')
+              != t('offer-portal:::community_use_items')
+            a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-portal:::contact_us')
 
     include ./footer.jade
     include ./scripts.jade
