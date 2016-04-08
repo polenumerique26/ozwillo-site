@@ -251,7 +251,7 @@ a.footer-link {
 @media (max-width: 768px) {
     a.footer-link {
         font-size: 1em;
-        line-height: 20px;
+        line-height: 25px;
     }
 }
 
