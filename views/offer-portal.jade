@@ -14,7 +14,7 @@ html(lang=i18n.lng())
     
     .container.offer
       .row
-        .col-md-6
+        .col-md-6.col-sm-12
           h2= t('offer-portal:::customized_title')
           div= t('offer-portal:::customized_subtitle')
           div.list-items
@@ -24,15 +24,15 @@ html(lang=i18n.lng())
             p.items-header= t('offer-portal:::customized_data')
             != t('offer-portal:::customized_data_items')
             a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-portal:::contact_us')
-        .col-md-6
+        .col-md-6.hidden-sm.hidden-xs
           img.img-responsive.img-block-illustration(src='/static/img/Image_portail_personnalise.png', alt='Illustration Portail personnalisé')
     
     .img-background
       .container.offer
         .row
-          .col-md-6
+          .col-md-6.hidden-sm.hidden-xs
             img.img-responsive.img-block-illustration(src='/static/img/Image_portail_communautaire.png', alt='Illustration Portail communautaire')
-          .col-md-5.col-md-offset-1.with-background
+          .col-md-5.col-md-offset-1.col-sm-12with-background
             h2= t('offer-portal:::community_title')
             div= t('offer-portal:::community_subtitle')
             div.list-items

@@ -14,20 +14,20 @@ html(lang=i18n.lng())
 
     .container.offer
       .row
-        .col-md-6
+        .col-md-6.col-sm-12
           h2= t('offer-data:::opendata_title')
           div= t('offer-data:::opendata_subtitle')
           div.list-items!= t('offer-data:::opendata_items')
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
-        .col-md-6
+        .col-md-6.hidden-sm.hidden-xs
           img.img-responsive.img-block-illustration(src='/static/img/Image_opendata.png', alt='Illustration Open Data')
 
     .img-background
       .container.offer
         .row
-          .col-md-6
+          .col-md-6.hidden-sm.hidden-xs
             img.img-responsive.img-block-illustration(src='/static/img/Image_bigdata.png', alt='Illustration Open Data')
-          .col-md-6.with-background
+          .col-md-6.col-sm-12.with-background
             h2.text-right= t('offer-data:::bigdata_title')
             div.text-right= t('offer-data:::bigdata_subtitle')
             div.list-items.pull-right
@@ -36,12 +36,12 @@ html(lang=i18n.lng())
 
     .container.offer
       .row
-        .col-md-6
+        .col-md-6.col-sm-12
           h2= t('offer-data:::smartdata_title')
           div= t('offer-data:::smartdata_subtitle')
           div.list-items!= t('offer-data:::smartdata_items')
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
-        .col-md-6
+        .col-md-6.hidden-sm.hidden-xs
           img.img-responsive.img-block-illustration(src='/static/img/Image_smartdata.png', alt='Illustration Open Data')
 
     include ./footer.jade
