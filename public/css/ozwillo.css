@@ -232,7 +232,7 @@ a.btn {
 .footer-logo {
     width: auto;
     height: auto;
-    margin: 0 0 25px 0;
+    margin-bottom: 25px;
 }
 
 .footer-logos {
@@ -240,11 +240,19 @@ a.btn {
     float: right;
 }
 
-.footer-link {
+
+a.footer-link {
     color: #454446;
     font-size: 0.8em;
     margin: 0 0 5px 25px;
     display: block;
+}
+
+@media (max-width: 768px) {
+    a.footer-link {
+        font-size: 1em;
+        line-height: 20px;
+    }
 }
 
 .logo-twitter {
