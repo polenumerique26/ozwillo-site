@@ -52,12 +52,6 @@ dt {
     flex-direction: column;
 }
 
-.bottom-align-text {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 /*****************************************************************************************************************
 *********************************************** TWBS overrides ***************************************************
 *****************************************************************************************************************/
@@ -272,32 +266,34 @@ h1.home {
 }
 
 h2.title-offer {
-    margin: 40px 0 39px 0;
-    display: inline-block;
+    margin: 40px 0 0 0;
     border: none;
     text-transform: none;
+    height: 3em;
 }
 
 .block-offer {
     color: #6a6767;
-    margin: 0 0 134px 0;
+    margin: 0 0 7em 0;
+    height: 2em;
 }
 
 .icon-offers {
     margin-top: 5em;
+    min-height: 100px;
+    max-height: 100px;
 }
 
 ul.commitment {
     padding-left: 20px;
     margin-bottom: 39px;
-    width: 550px;
 }
 
 ul.commitment li {
     color: #6a6767;
     margin: 0 0 30px 0;
     list-style-type: none;
-    padding: 0 0 10px 50px;
+    padding: 0 50px 10px 50px;
     vertical-align: middle;
 }
 

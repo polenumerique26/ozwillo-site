@@ -18,32 +18,24 @@ html(lang=i18n.lng())
           img.img-responsive.img-offer(src='/static/img/accueil_offre_ozwillo.png')
 
     .container
-      .row.icon-offers
+      .row
         .col-md-4.col-sm-12
-          img.img-responsive.center-block(src='/static/img/ico_Data.png')
-        .col-md-4.col-sm-12
-          img.img-responsive.center-block(src='/static/img/ico_Portail.png')
-        .col-md-4.col-sm-12
-          img.img-responsive.center-block(src='/static/img/ico_Incubateur.png')
-      .row.flex-row.text-center
-        .col-md-4.col-sm-12
-          h2.title-offer= t('home:::data_title')
-        .col-md-4.col-sm-12
-          h2.title-offer= t('home:::portal_title')
-        .col-md-4.col-sm-12
-          h2.title-offer= t('home:::incubation_title')
-      .row.flex-row.text-center
-        .col-md-4.col-sm-12
-          .block-offer= t('home:::data_description')
+          img.img-responsive.center-block.icon-offers(src='/static/img/ico_Data.png')
+          h2.title-offer.text-center= t('home:::data_title')
+          .block-offer.text-center= t('home:::data_description')
           .bottom-align-text
             a.btn.btn-lg.btn-page(href=getPageLink('offer-data'))= t('home:::data_browse')
         .col-md-4.col-sm-12
-          .block-offer= t('home:::portal_description')
+          img.img-responsive.center-block.icon-offers(src='/static/img/ico_Portail.png')
+          h2.title-offer.text-center= t('home:::portal_title')
+          .block-offer.text-center= t('home:::portal_description')
           .bottom-align-text
             a.btn.btn-lg.btn-page(href=getPageLink('offer-portal'))= t('home:::portal_browse')
         .col-md-4.col-sm-12
-          .block-offer= t('home:::incubation_description')
-          .bottom-align-text
+          img.img-responsive.center-block.icon-offers(src='/static/img/ico_Incubateur.png')
+          h2.title-offer.text-center= t('home:::incubation_title')
+          .block-offer.text-center= t('home:::incubation_description')
+          div
             a.btn.btn-lg.btn-page(href=getPageLink('offer-incubation'))= t('home:::incubation_browse')
 
     .container
