@@ -4,12 +4,43 @@ html(lang=i18n.lng())
   include ./header.jade
   body
     include ./menu.jade
-    .BG
+
+    .header
       .container
         .row
           .col-md-12
-            h1.titreInter= t('offer-incubation:::main_title')
-            p.para.para2= t('offer-incubation:::main_subtitle')
+            h1.with-subtitle= t('offer-incubation:::main_title')
+            .main-subtitle= t('offer-incubation:::main_subtitle')
+
+    .container.offer
+      .row
+        .col-md-6
+          h2= t('offer-incubation:::support_title')
+          div= t('offer-incubation:::support_subtitle')
+          div.list-items!= t('offer-incubation:::support_items')
+          a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-incubation:::contact_us')
+        .col-md-6
+          img.img-responsive.img-block-illustration(src='/static/img/Image_incubateur_1.png', alt='Illustration support incubateur')
+    
+    .img-background
+      .container.offer
+        .row
+          .col-md-6
+            div
+          .col-md-6.with-background
+            h2.pull-right= t('offer-incubation:::event_title')
+            div.pull-right= t('offer-incubation:::event_subtitle')
+            .row
+              .col-md-8.col-md-offset-4
+                div.list-items
+                  p.items-header= t('offer-incubation:::event_before')
+                  != t('offer-incubation:::event_before_items')
+            .row
+              .col-md-8.col-md-offset-4
+                div.list-items
+                  p.items-header= t('offer-incubation:::event_after')
+                  != t('offer-incubation:::event_after_items')
+                a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-incubation:::contact_us')
 
     include ./footer.jade
     include ./scripts.jade

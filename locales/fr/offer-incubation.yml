@@ -1,3 +1,40 @@
-main_title: Offre sur l'incubation
-main_subtitle: Tout ce qu'il faut pour réussir !
+main_title: Les solutions Incubateur
+main_subtitle: Vous avez un projet, nous avons les données
+
+support_title: De l'idée à la commercialisation
+support_subtitle: Sécuriser le succès de votre application
+support_items:
+  "<ul>
+     <li>Aide à la définition du périmètre de votre projet</li>
+     <li>Recherche de partenaires techniques</li>
+     <li>Co-rédaction du cahier des charges</li>
+     <li>Co-investissement</li>
+     <li>Accompagnement au développement en mode agile</li>
+     <li>Co-création de votre modèle économique</li>
+     <li>Communauté de béta-testeurs</li>
+   </ul>
+  "
+
+event_title: Support de vos évènements
+event_subtitle: Vous avez les idées, nous avons les données
+event_before: "Pendant l'évènement :"
+event_before_items:
+  "<ul>
+     <li>Mise à disposition d'une plateforme de données</li>
+     <li>Interfaces développeurs avec outils de création d'APIs</li>
+     <li>Intégration simple de tous nouveaux jeux de données</li>
+     <li>Support technique pendant l'évènement</li>
+   </ul>
+  "
+event_after: "Après l'évènement :"
+event_after_items:
+  "<ul>
+     <li>Briques logicielles</li>
+     <li>Liaison des données à des référentiels</li>
+     <li>Publication des applications sur catalogue</li>
+   </ul>
+  "
+
+contact_us: Nous contacter
+
 
