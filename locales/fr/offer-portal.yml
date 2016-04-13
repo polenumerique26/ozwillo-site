@@ -1,38 +1,46 @@
-main_title: Les solutions Portail
+main_title: Les Solutions Portail
 main_subtitle: À chaque projet sa solution
 
-customized_title: Portail personnalisé
-customized_subtitle: Créez votre écosystème d'applications et de données
+community_market_portal_type: Portail Ozwillo
+community_market_title: Commercialiser vos applications
+community_market_subtitle: Déposez vos applications sur le portail commun et rendez-les communicantes
+community_market_items:
+  "<ul>
+    <li>Un système d'authentification et une gestion unifiée de vos utilisateurs</li>
+    <li>Des données liées partagées et réutilisables sur Ozwillo</li>
+    <li>Publication de votre application dans un catalogue multilingue international</li>
+    <li>Une infrastructure scalable selon vos besoins</li>
+    <li>Des partenaires potentiels pour commercialisation à l'étranger</li>
+  </ul>"
+
+community_apps_portal_type: Portail Ozwillo
+community_apps_title: Découvrir les applications déjà communicantes
+community_apps_items:
+  "<ul>
+    <li>Des applications utilisables en 3 clics</li>
+    <li>Un espace personnel pour gérer vos applications</li>
+    <li>Une période d'essai gratuite de 30 jours</li>
+    <li>Un abonnement en ligne</li>
+    <li>Vos données réutilisables sans coût supplémentaire</li>
+  </ul>"
+
+customized_portal_type: Portail personnalisé
+customized_title: Créer votre propre portail d'applications
+customized_subtitle: Rendez vos applications communicantes
 customized_applications: "Vos applications :"
 customized_applications_items:
   "<ul>
     <li>Regroupées dans un portail dédié personnalisé</li>
-    <li>Accessibles instantanément à vos utilisateurs et sans installation locale</li>
+    <li>Accessibles à vos utilisateurs en quelques clics et sans installation locale</li>
   </ul>"
 customized_data: "Vos données :"
 customized_data_items:
   "<ul>
-    <li>Liées sémantiquement à des référentiels</li>
+    <li>Modélisées pour être liables entre elles</li>
     <li>Réutilisables par toute nouvelle application</li>
   </ul>"
 
-community_title: Portail communautaire
-community_subtitle: Rendez vos applications intelligentes
-community_development: "En développement :"
-community_development_items:
-  "<ul>
-    <li>Un système d'authentification et une gestion utilisateurs unifiés</li>
-    <li>Un réseau social réutilisable</li>
-    <li>Des données liées, partagées et réutilisables</li>
-  </ul>"
-
-community_use: "En utilisation :"
-community_use_items:
-  "<ul>
-    <li>Publication dans un catalogue multilingue</li>
-    <li>Une infrastructure scalable selon vos besoins</li>
-  </ul>"
-
 contact_us: Nous contacter
+go_to_portal: Accès au portail
 
 

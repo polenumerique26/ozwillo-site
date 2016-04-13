@@ -434,7 +434,7 @@ p.community-intro {
 }
 
 /*****************************************************************************************************************
-**************************************************** Offers*******************************************************
+**************************************************** Offers ******************************************************
 *****************************************************************************************************************/
 
 div.offer h2 {
@@ -455,6 +455,29 @@ div.offer div.addon, div.offer div.subtitle {
     background: url(/static/img/block-background.jpg) no-repeat;
     background-size: cover;
     padding-bottom: 25px;
+}
+
+div.offer-portal div.portal-type {
+    margin-top: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #bdbdbd;
+}
+
+div.img-background div.offer-portal div.portal-type {
+    color: inherit;
+}
+
+div.offer-portal h2 {
+    margin-top: 0;
+}
+
+div.offer-portal img.img-block-illustration {
+    margin-top: 0;
+}
+
+div.offer-portal img.country-icon {
+    margin-left: 2em;
 }
 
 /*****************************************************************************************************************
