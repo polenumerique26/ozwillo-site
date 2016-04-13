@@ -1,37 +1,42 @@
-main_title: Les solutions Données
+main_title: Les solutions Data
 main_subtitle: À chaque projet sa solution
 
 opendata_title: Open Data
-opendata_subtitle: Votre plateforme personnalisée en quelques clics
+opendata_subtitle: Publier vos fichiers de données
 opendata_items:
   "<ul>
-    <li>Pas d'installation requise</li>
-    <li>Support de tous formats de données</li>
-    <li>Outils riches de visualisation</li>
-    <li>APIs d'accès aux données</li>
-    <li>Référencement des données sur Etalab</li>
+    <li>Plateforme personnalisée en quelques clics</li>
+    <li>Référencement automatique sur Etalab</li>
+    <li>Accueil de tout type de fichier de données</li>
+    <li>Outils variés de visualisation</li>
+    <li>Pas d'installation requise sur vos serveurs</li>
+    <li>APIs pour la réutilisation de vos données</li>
   </ul>"
+opendata_addon_1: Mise en conformité avec la loi Lemaire
 
 bigdata_title: Big Data
-bigdata_subtitle: Une architecture pour traiter tout volume de données
+bigdata_subtitle: Stocker et exploiter vos gros volumes de données
 bigdata_items:
   "<ul>
-    <li>Infrastructure conçue pour monter à l'échelle</li>
-    <li>Intégration de gros volume de données</li>
-    <li>APIs sécurisées de gestion des données</li>
-    <li>Exploitation illimitée</li>
-    <li>Monitoring et analyse des données</li>
+    <li>Intégration facile de vos données modélisées</li>
+    <li>Contrôle de l'accès à vos données</li>
+    <li>API générique de gestion des données</li>
+    <li>Exploitation illimitée en temps réel</li>
+    <li>Outils de monitoring de vos données</li>
+    <li>Infrastructure scalable et adaptée à vos besoins</li>
   </ul>"
+bigdata_addon_1: Sanctuariser vos données
 
 smartdata_title: Smart Data
-smartdata_subtitle: Donner du sens à vos données
+smartdata_subtitle: Lier et donner du sens à vos données
 smartdata_items:
   "<ul>
-    <li>Données temp réel</li>
-    <li>Liaison des données entre elles et avec des référentiels</li>
-    <li>Gestion des droits sur les données</li>
-    <li>Partage et contribution de données entre applications</li>
-    <li>APIs sécurisées d'accès aux données</li>
+    <li>Liaison et partage de vos données entre vos applications</li>
+    <li>Liaison de vos données à des référentiels partagés (codes INSEE, NAF, ISO, ...)</li>
+    <li>Création et liaison de vos modèles de données sémantiques</li>
+    <li>Gestion fine des droits sur vos données</li>
+    <li>API générique et outils de requêtes complexes</li>
   </ul>"
+smartdata_addon_1: Socle de votre Smart Territoire
 
 contact_us: Nous contacter

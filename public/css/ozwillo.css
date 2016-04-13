@@ -446,6 +446,11 @@ div.offer div.offer-right {
     text-align: right;
 }
 
+div.offer div.addon, div.offer div.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
 .img-background {
     background: url(/static/img/block-background.jpg) no-repeat;
     background-size: cover;
