@@ -76,18 +76,17 @@ html(lang=i18n.lng())
 
         // TWITTER TIMELINE
         .col-md-3.grey
-          .tweets
-            a(href='https://twitter.com/Ozwillo', data-widget-id='570896372849999872') Tweets de @Ozwillo
-            script.
-              !function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                if (!d.getElementById(id)) {
-                  js = d.createElement(s);
-                  js.id = id;
-                  js.src = p + "://platform.twitter.com/widgets.js";
-                  fjs.parentNode.insertBefore(js, fjs);
-                }
-              }(document, "script", "twitter-wjs");
+          a(class='twitter-timeline', href='https://twitter.com/Ozwillo', data-widget-id='722033822687195136') Tweets de @Ozwillo
+          script.
+            !function(d,s,id){
+              var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+              if(!d.getElementById(id)){
+                js=d.createElement(s);
+                js.id=id;
+                js.src=p+"://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);
+              }
+            }(document,"script","twitter-wjs");
 
     include ./footer.jade
     include ./scripts.jade

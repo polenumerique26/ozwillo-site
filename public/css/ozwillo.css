@@ -361,13 +361,6 @@ p.news-desc {
 
 div.grey {
     background-color: #faf8f8;
-    min-height: 300px;
-}
-
-div.tweets {
-    width: 270px;
-    height: auto;
-    margin: 25px auto 25px auto;
 }
 
 /*****************************************************************************************************************
