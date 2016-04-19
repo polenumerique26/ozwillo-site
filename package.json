@@ -5,7 +5,7 @@
   "homepage": "https://www.ozwillo.com",
   "main": "app.js",
   "engines": {
-    "node": "5.5.0"
+    "node": "5.6.0"
   },
   "scripts": {
     "start": "nodemon .",
