@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    margin: 78px 0 56px 0;
+    margin: 3em 0 2em 0;
     display: block;
     text-transform: uppercase;
     border-bottom: 2px solid #F0EEEF;
@@ -484,7 +484,6 @@ div.offer-portal img.country-icon {
 .map {
     background: url(/static/img/map.png) no-repeat;
     background-size: cover;
-    min-height: 757px;
     padding-bottom: 25px;
 }
 

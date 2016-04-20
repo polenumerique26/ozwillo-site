@@ -18,13 +18,13 @@ html(lang=i18n.lng())
           h2= t('genesis:::oasis_title')
           img.img-responsive.center-block(src='/static/img/oasis.jpg')
       .row(style='margin-top:2em')
-        .col-md-5.col-md-offset-1
+        .col-sm-5.col-sm-offset-1
           div.list-items
             p.items-header= t('genesis:::oasis_origin_title')
           p= t('genesis:::oasis_text_1')
           p!= t('genesis:::oasis_text_2')
           p= t('genesis:::oasis_text_3')
-        .col-md-5
+        .col-sm-5
           div.list-items
             p.items-header!= t('genesis:::oasis_pillars_title')
             ul
@@ -53,12 +53,12 @@ html(lang=i18n.lng())
         .col-md-12
           h3.text-center!= t('genesis:::partner_title')
       .row
-        .col-md-5.col-md-offset-1.list-items
+        .col-sm-5.col-sm-offset-1.list-items
           ul
             li!= t('genesis:::partner_column_1_item_1')
             li!= t('genesis:::partner_column_1_item_2')
             li!= t('genesis:::partner_column_1_item_3')
-        .col-md-5.list-items
+        .col-sm-5.list-items
           ul
             li!= t('genesis:::partner_column_2_item_1')
             li!= t('genesis:::partner_column_2_item_2')
@@ -68,9 +68,12 @@ html(lang=i18n.lng())
     .img-background
       .container-fluid
         .row
-          .col-md-12.with-background(style='margin-left:-15px')
-            img.img-responsive.pull-left(src='/static/img/bandeau_Projet-en-cours.png')
+          .col-xs-1
+            img(src='/static/img/bandeau_Projet-en-cours.png', style='margin-left:-15px')
+          .col-xs-11.with-background
             h2!= t('genesis:::occi_title')
+        .row
+          .col-md-12
             div.center-block(style='text-align:center')
               img.img-responsive(src='/static/img/occiware.png', style='display:inline; margin-right:2em;')
               img.img-responsive(src='/static/img/logo_pia.png', style='display:inline')
@@ -86,13 +89,13 @@ html(lang=i18n.lng())
           .col-md-12
             h2.soustitre3!= t('genesis:::demonstrator_title')
         .row
-          .col-md-6
+          .col-sm-6
             p.paraHome.black.retrait2!= t('genesis:::demonstrator_column_1_text')
             ul.liensInter.retrait2
               li= t('genesis:::demonstrator_column_1_item_1')
               li= t('genesis:::demonstrator_column_1_item_2')
               li= t('genesis:::demonstrator_column_1_item_3')
-          .col-md-6
+          .col-sm-6
             p.paraHome.black.retrait2li!= t('genesis:::demonstrator_column_2_text')
             ul.liensInter.retrait2
               li= t('genesis:::demonstrator_column_2_item_1')
@@ -102,9 +105,11 @@ html(lang=i18n.lng())
     // Évolution & Développement
     .container.genesis-future
       .row
-        .col-md-12.with-background(style='margin-right:-15px')
-          img.img-responsive.pull-right(src='/static/img/bandeau_Work-in-progress.png')
-          h2.soustitre2!= t('genesis:::evolutions_title')
+        .col-xs-10.with-background  
+          h2!= t('genesis:::evolutions_title')
+        .col-xs-2
+          img.pull-right(src='/static/img/bandeau_Work-in-progress.png', style='margin-right:-15px')
+      .row    
         .col-md-12.list-items
           p= t('genesis:::evolutions_items_title')
           ul
