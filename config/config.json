@@ -406,7 +406,8 @@
   "js": [
     "alert.js",
     "button.js",
-    "dropdown.js"
+    "dropdown.js",
+    "collapse.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=524e49ed8c4e6435aa8efc43ee03318b"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=d3a2b71ba914912cd9c4a728be5b55b3"
 }
