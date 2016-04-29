@@ -11,7 +11,7 @@ html(lang=i18n.lng())
           .col-md-12
             h1= t('community:::main_title')
 
-    .container
+    .container.logos
       .row
         .col-md-12
           p.community-intro= t('community:::introduction')
@@ -30,11 +30,10 @@ html(lang=i18n.lng())
         .col-md-4.col-xs-6
           .thumbnail
             img(src='/static/img/logo_groupe_archer.png', alt='Logo Groupe Archer')
-      .row.flex-row
-        .col-md-6
+        .col-md-4.col-xs-6
           .thumbnail
             img(src='/static/img/logo_pole_numerique.png', alt='Logo Pôle Numérique')
-        .col-md-6
+        .col-md-4.col-xs-6
           .thumbnail
             img(src='/static/img/logo_sictiam.png', alt='Logo SICTIAM')
       .row.with-subtitle
@@ -113,16 +112,15 @@ html(lang=i18n.lng())
         .col-md-3.col-xs-6
           .thumbnail
             img(src='/static/img/logo_Gouv-FR.png', alt='Logo Gouvernement Français')
-      .row.flex-row
-        .col-md-4.col-xs-6
+        .col-md-3.col-xs-6
           .thumbnail
             img(src='/static/img/logo_RRA.png', alt='Logo Région Rhones Alpes')
-        .col-md-4.col-xs-6
+        .col-md-3.col-xs-6
           .thumbnail
             img(src='/static/img/logo_drome_departement.png', alt='Logo Département de la Drôme')
-        .col-md-4.col-xs-6
+        .col-md-3.col-xs-6
           .thumbnail
             img(src='/static/img/Logo_ardeche-le-departement.jpg', alt='Logo Département Ardèche')
 
   include ./footer.jade
-    include ./scripts.jade
+  include ./scripts.jade

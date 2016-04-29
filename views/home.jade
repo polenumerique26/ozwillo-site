@@ -53,7 +53,7 @@ html(lang=i18n.lng())
                 li.gouvernance= t('home:::differentiator_2')
                 li.opensource= t('home:::differentiator_4')
 
-    .container
+    .container.logos
       .row
         .col-md-12
           h2.text-center= t('home:::apps_already_joined')
@@ -66,6 +66,12 @@ html(lang=i18n.lng())
             img(src='/static/img/logo_blau_advisors.png', alt='Logo Blau Adivors')
         .col-md-3.col-xs-6
           .thumbnail
+            img(src='/static/img/logo_openwide.png', alt='Logo Open Wide')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_ibaysoft.png', alt='Logo Ibaysoft')
+        .col-md-3.col-xs-6
+          .thumbnail
             img(src='/static/img/logo_fnccr.png', alt='Logo FNCCR')
         .col-md-3.col-xs-6
           .thumbnail
@@ -75,13 +81,7 @@ html(lang=i18n.lng())
             img(src='/static/img/logo_sictiam.png', alt='Logo SICTIAM')
         .col-md-3.col-xs-6
           .thumbnail
-            img(src='/static/img/logo_openwide.png', alt='Logo Open Wide')
-        .col-md-3.col-xs-6
-          .thumbnail
             img(src='/static/img/logo_david_holding.png', alt='Logo David Holding')
-        .col-md-3.col-xs-6
-          .thumbnail
-            img(src='/static/img/logo_ibaysoft.png', alt='Logo Ibaysoft')
 
     include ./footer.jade
     include ./scripts.jade
