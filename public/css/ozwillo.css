@@ -273,8 +273,15 @@ a.footer-link {
 ******************************************************** Accueil *************************************************
 *****************************************************************************************************************/
 
+.header-home {
+    background: url(/static/img/Bandeau_page_accueil.jpg) no-repeat;
+    min-height: 785px;
+}
+
 h1.home {
     text-align: center;
+    font-size: 4em;
+    line-height: 2em;
 }
 
 .img-offer {

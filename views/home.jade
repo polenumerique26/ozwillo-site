@@ -6,11 +6,11 @@ html(lang=i18n.lng())
     include ./menu.jade
 
     // Titre
-    #content.header
+    #content.header-home
       .container
         .row
-          .col-md-12
-            h1.home= t('home:::main_title')
+          .col-md-8.col-md-offset-2
+            h1.home!= t('home:::main_title')
 
     .container
       .row
