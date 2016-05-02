@@ -42,7 +42,7 @@ html(lang=i18n.lng())
             li!= t('contact:::headquarter_mail')
         // Formulaire de contact
       .row
-        .col-md-6
+        .col-sm-6
           form(onsubmit=getPageLink('contact'), method='POST')
             .row
               .col-md-12
@@ -63,15 +63,15 @@ html(lang=i18n.lng())
                 .form-group
                   textarea.texte(name='message', placeholder= t('contact:::form_message'), required='')
               .col-md-12
-                button.btn.btn-primary.btn-submit(type='submit')= t('contact:::button')
-        .col-md-6
+                button.btn.btn-primary.btn-submit(type='submit', style='margin-bottom:15px')= t('contact:::button')
+        .col-sm-6
           iframe(src= t('contact:::iframe_url'), frameborder="0", style="border:0", allowfullscreen='')
       .row
         .col-md-12
           h2.contact= t('contact:::local_agencies')
       .row
         // Infos contacts secondaire
-        .col-md-6
+        .col-sm-6
           h3= t('contact:::spain_agency')
           ul.infos
             li!= t('contact:::spain_agency_address')
@@ -79,7 +79,7 @@ html(lang=i18n.lng())
             li!= t('contact:::spain_agency_phone')
           ul.infos.mail
             li!= t('contact:::spain_agency_email')
-        .col-md-6
+        .col-sm-6
           iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.9323277467497!2d1.0981553153393406!3d41.397275979263284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a6af01bf6d743f%3A0xebe30a584797f239!2sBlau+Advisors+Strategic+Partners%2CS.L.!5e0!3m2!1sfr!2sus!4v1462195570415", frameborder="0", style="border:0", allowfullscreen="")
     include ./footer.jade
     include ./scripts.jade
