@@ -2,47 +2,23 @@ title: Contactez-nous
 
 headquarter: siège
 
-contact_1_address: <span class="lt">Adresse</span>
+headquarter_address: <span class="lt">Adresse</span>
   Ozwillo
   <br />16 rue Paul Henri Spaak
   <br />26000 Valence
   <br />France</span>
-contact_1_phone: <span class="lt">Téléphone</span>+33 (0)6 53 00 26
-contact_1_mail: <span class="lt">Email</span><a href="mailto:contact@ozwillo.org">contact@ozwillo.org</a>
+headquarter_phone: <span class="lt">Téléphone</span>+33 (0)6 53 00 26
+headquarter_mail: <span class="lt">Email</span><a href="mailto:contact@ozwillo.org">contact@ozwillo.org</a>
 
 local_agencies: contacts locaux
 
-contact_2_address: <span class="lt">Adresse</span>
-  Blau Advisors stactegic parteners
-  <br />10 Planta BJ
+spain_agency: Espagne
+spain_agency_address: <span class="lt">Adresse</span>
+  Blau Advisors
+  <br />C/ Moli de Guasch, 10 baixos 1a
   <br />43440 l'espluga de Francoli - Taragona
-  <br />Spain
-contact_2_phone: <span class="lt">Téléphone</span>+34 977 870 702
-contact_2_mail: <span class="lt">Email</span><a href="mailto:contact@ozwillo.org">info@blauadvisors.com</a>
-
-contact_3_address: <span class="lt">Adresse</span>
-  David Holding AD
-  <br />2 Stara reka dom na kulturata Arsenal
-  <br />6100 Kazanlak
-  <br />Bulgaria
-contact_3_phone: <span class="lt">Téléphone</span>+35 943 162 253
-contact_3_mail: <span class="lt">Email</span><a href="mailto:info@david.bg">info@david.bg</a>
-
-contact_4_address: <span class="lt">Adresse</span>
-  Dogu Marmara Kalkinma Ajansi Baskanligi (EMDA)
-  <br />Yenisehir Mahallesi Demokrasi Bulvari 72 A 1 Kat
-  <br />41050 Izmit Kocaeli
-  <br />Turquie
-contact_4_phone: <span class="lt">Téléphone</span>+90 26 23 32 01 44
-contact_4_mail: <span class="lt">Email</span><a href="mailto:contact@ozwillo.org">contact@ozwillo.org</a>
-
-contact_5_address: <span class="lt">Adresse</span>
-  Citta Metropolitana di Torino
-  <br />Via Maria Vittoria 12
-  <br />10123 Torino
-  <br />Italie
-contact_5_phone: <span class="lt">Téléphone</span>+39
-contact_5_mail: <span class="lt">Email</span><a href="mailto:contact@ozwillo.org">contact@ozwillo.org</a>
+spain_agency_phone: <span class="lt">Téléphone</span>+34 977 870 702
+spain_agency_email: <span class="lt">Email</span><a href="mailto:info@blauadvisors.com">info@blauadvisors.com</a>
 
 form_name: Nom *
 form_phone: Téléphone
