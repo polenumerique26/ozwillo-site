@@ -1,110 +1,26 @@
 <menuset>
 	<menu>
 		<locale>fr</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/fr/store" img_src="/images/ui/apps-on.png">Catalogue</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/fr/" img_src="/images/ui/data-on.png">Données</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=fr">Connexion</item>
-		<item type="locale-switch" />
-		<submenu href="#">
-			<title>Offres</title>
-			<item href="/fr/offre-donnee">Données</item>
-			<item href="/fr/offre-portail">Portail</item>
-			<item href="/fr/offre-incubation">Incubation</item>
-		</submenu>
-		<item href="/fr/qui-sommes-nous">Qui sommes nous ?</item>
-		<item href="/fr/actualites">Actualités</item>
-	</menu>
-	<menu>
-		<locale>en</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/en/store" img_src="/images/ui/apps-on.png">Catalog</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/" img_src="/images/ui/data-on.png">Data
+		<item type="home" img_src="/static/img/logo.png"/>
+		<item type="submenu" label="Qui sommes-nous ?">
+			<item type="menu" href="/fr/association" label="L'association" />
+			<item type="menu" href="/fr/gouvernance" label="La gouvernance" />
+			<item type="menu" href="/fr/communaute" label="La communauté" />
+			<item type="menu" href="/fr/equipe" label="L'équipe" />
 		</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=en">Log in</item>
-		<item type="locale-switch" />
-		<submenu href="#">
-			<title>Discover</title>
-			<item href="/en/offer-data">Data</item>
-			<item href="/en/offer-portal">Portal</item>
-			<item href="/en/offer-incubation">Incubation</item>
-		</submenu>
-		<item href="/en/who-are-we">Who are we ?</item>
-		<item href="/en/news">News</item>
-	</menu>
-	<menu>
-		<locale>es</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/es/store" img_src="/images/ui/apps-on.png">Tienda</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/es/" img_src="/images/ui/data-on.png">Datos
+		<item type="submenu" label="Offres">
+			<item type="menu" href="/fr/offre-donnees" label="Données" />
+			<item type="menu" href="/fr/offre-portail" label="Portail" />
+			<item type="menu" href="/fr/offre-incubation" label="Incubation" />
 		</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=es">Entrar</item>
-		<item type="locale-switch" />
-		<submenu href="/es/descubriendo">
-			<title>Descubriendo</title>
-			<item href="/es/noticias">Noticias</item>
-			<item href="/es/co-construccion">Co-construcción</item>
-			<item href="/es/proyectos">Proyectos</item>
-		</submenu>
-	</menu>
-	<menu>
-		<locale>ca</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/ca/store" img_src="/images/ui/apps-on.png">Botiga</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/ca/" img_src="/images/ui/data-on.png">Dades
+		<item type="submenu" label="Bien commun">
+			<item type="menu" href="/fr/genese" label="Genèse" />
+			<item type="menu" href="/fr/contributions" label="Contributions" />
 		</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=ca">Entrar</item>
+		<item type="menu" href="/fr/actualites" label="Actualités"/>
+		<item type="catalog" href="https://portal.ozwillo.com/fr/store" img_src="/static/img/icone-catalogue-color.png" label="Catalogue" />
+		<item type="opendata" href="https://opendata.ozwillo.com/fr/" img_src="/static/img/data-purple.png" label="Données" />
+		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=fr" img_src="/static/img/connexion-purple.png" label="Connexion" />
 		<item type="locale-switch" />
-		<submenu href="/ca/descobrint">
-			<title>Descobrint</title>
-			<item href="/ca/noticies">Noticies</item>
-			<item href="/ca/co-construccio">Co-construcció</item>
-			<item href="/ca/projectes">Projectes</item>
-		</submenu>
-	</menu>
-	<menu>
-		<locale>it</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/it/store" img_src="/images/ui/apps-on.png">Catalogo</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/it/" img_src="/images/ui/data-on.png">Dati
-		</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=it">Entra</item>
-		<item type="locale-switch" />
-		<submenu href="/it/scoprire">
-			<title>Scoprire</title>
-			<item href="/it/novita">Novità</item>
-			<item href="/it/collaborativamente">Costruire collaborativamente</item>
-			<item href="/it/progetti">Progetti</item>
-		</submenu>
-	</menu>
-	<menu>
-		<locale>bg</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/bg/store" img_src="/images/ui/apps-on.png">Catalog</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/bg/" img_src="/images/ui/data-on.png">данни
-		</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=bg">Вход</item>
-		<item type="locale-switch" />
-		<submenu href="/bg/discover">
-			<title>Изучаване</title>
-			<item href="/bg/novini">Новини</item>
-			<item href="/bg/suvmestna-sgrada">Съвместно изграждане</item>
-			<item href="/bg/pr-ti">Проекти</item>
-		</submenu>
-	</menu>
-	<menu>
-		<locale>tr</locale>
-		<item type="home" img_src="/images/ui/apps-on.png"/>
-		<item type="catalog" href="https://portal.ozwillo.com/tr/store" img_src="/images/ui/apps-on.png">Catalog</item>
-		<item type="opendata" href="https://opendata.ozwillo.com/tr/" img_src="/images/ui/data-on.png">Veri
-		</item>
-		<item type="enter" href="https://portal.ozwillo.com/my?ui_locales=tr">Giriş</item>
-		<item type="locale-switch" />
-		<submenu href="/tr/kesfedin">
-			<title>Keşfedin</title>
-			<item href="/tr/haberler">Haberler</item>
-			<item href="/tr/birlikte-insa-etmek">Birlikte inşa etmek</item>
-			<item href="/tr/projeler">Projeler</item>
-		</submenu>
 	</menu>
 </menuset>
