@@ -1,28 +1,30 @@
 // FOOTER
 footer
-  .container-fluid
+  .container
     .row.footer
       .col-md-12.footer-bordure
         .row.flex-row
-          .col-md-4.col-xs-12
+          .col-md-6.col-xs-12
             .footer-logo
-              img.img-responsive.center-block(src='/static/img/logo-footer.png')
-          .col-xs-6.col-sm-3.col-md-2.text-center
-            a.footer-link(href=getPageLink('association'))= t('menu:::association')
-            a.footer-link(href=getPageLink('governance'))= t('menu:::governance')
-            a.footer-link(href=getPageLink('community'))= t('menu:::community')
-            a.footer-link(href=getPageLink('team'))= t('menu:::team')
-          .col-xs-6.col-sm-3.col-md-2.text-center
-            a.footer-link(href=getPageLink('offer-data'))= t('menu:::offer-data')
-            a.footer-link(href=getPageLink('offer-portal'))= t('menu:::offer-portal')
-            a.footer-link(href=getPageLink('offer-incubation'))= t('menu:::offer-incubation')
-          .col-xs-6.col-sm-3.col-md-2.text-center
-            a.footer-link(href=getPageLink('genesis'))= t('menu:::genesis')
-            a.footer-link(href=getPageLink('contributions'))= t('menu:::contributions')
-          .col-xs-6.col-sm-3.col-md-2.text-center
-            a.footer-link(href=getPageLink('news'))= t('menu:::news')
-            a.footer-link(href=getPageLink('contact'))= t('menu:::contact')
-            a.footer-link(href=getPageLink('legal-notices'))= t('menu:::legal-notices')
+              img.img-responsive(src='/static/img/logo-footer.png')
+          .col-md-6.col-xs-12
+            .row.flex-row.footer-links
+              .col-xs-6.col-sm-3.text-center
+                a.footer-link(href=getPageLink('association'))= t('menu:::association')
+                a.footer-link(href=getPageLink('governance'))= t('menu:::governance')
+                a.footer-link(href=getPageLink('community'))= t('menu:::community')
+                a.footer-link(href=getPageLink('team'))= t('menu:::team')
+              .col-xs-6.col-sm-3.text-center
+                a.footer-link(href=getPageLink('offer-data'))= t('menu:::offer-data')
+                a.footer-link(href=getPageLink('offer-portal'))= t('menu:::offer-portal')
+                a.footer-link(href=getPageLink('offer-incubation'))= t('menu:::offer-incubation')
+              .col-xs-6.col-sm-3.text-center
+                a.footer-link(href=getPageLink('genesis'))= t('menu:::genesis')
+                a.footer-link(href=getPageLink('contributions'))= t('menu:::contributions')
+              .col-xs-6.col-sm-3.text-center
+                a.footer-link(href=getPageLink('news'))= t('menu:::news')
+                a.footer-link(href=getPageLink('contact'))= t('menu:::contact')
+                a.footer-link(href=getPageLink('legal-notices'))= t('menu:::legal-notices')
       .col-md-12
         .row
           .col-sm-3

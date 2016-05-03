@@ -227,10 +227,12 @@ a.btn {
 *************************************************** Footer *******************************************************
 *****************************************************************************************************************/
 
+footer {
+    background: #dfcae2;    
+}
+
 .footer {
-    background: #dfcae2;
     padding-top: 60px;
-    padding-bottom: 30px;
 }
 
 .footer-bordure {
@@ -243,11 +245,21 @@ a.btn {
     margin-bottom: 25px;
 }
 
+@media (max-width: 768px) {
+    .footer-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .footer-logos {
     margin-top: 25px;
     float: right;
 }
 
+.footer-links div {
+    padding-left: 0;
+}
 
 a.footer-link {
     color: #454446;
