@@ -19,14 +19,14 @@ html(lang=i18n.lng())
           h2= t('offer-portal:::community_market_title')
           div.subtitle= t('offer-portal:::community_market_subtitle')
       .row
-        .col-md-6.col-sm-12
+        .col-sm-6.col-xs-12
           div.list-items
             p.items-header= t('offer-portal:::customized_applications')
             != t('offer-portal:::customized_applications_items')
           div.list-items
             p.items-header= t('offer-portal:::customized_data')
             != t('offer-portal:::customized_data_items')
-        .col-md-6.hidden-sm.hidden-xs
+        .col-sm-6.hidden-xs
           img.img-responsive.img-block-illustration(src='/static/img/Image_portail_communautaire.png', alt='Illustration Portail personnalisé')
       .row(style='margin-top:2em')
         .col-md-6.col-sm-12
@@ -42,15 +42,15 @@ html(lang=i18n.lng())
       .container.offer.offer-portal
         .row
           .col-md-12
-            div.portal-type.pull-right= t('offer-portal:::community_apps_portal_type')
-            h2.pull-right= t('offer-portal:::community_apps_title')
+            div.portal-type= t('offer-portal:::community_apps_portal_type')
+            h2= t('offer-portal:::community_apps_title')
         .row
-          .col-md-6.hidden-sm.hidden-xs
+          .col-sm-6.hidden-xs
             img.img-responsive.img-block-illustration(src='/static/img/Image_portail_decouvrir.png', alt='Illustration Portail communautaire')
-          .col-md-5.col-md-offset-1.col-sm-12with-background
+          .col-sm-5.col-sm-offset-1
             div.list-items
               != t('offer-portal:::community_apps_items')
-            a.btn.btn-sm.btn-page.pull-left(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())= t('offer-portal:::go_to_portal')
+            a.btn.btn-sm.btn-page.pull-right(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())= t('offer-portal:::go_to_portal')
 
     .container.offer.offer-portal
       .row
@@ -58,7 +58,7 @@ html(lang=i18n.lng())
           div.portal-type= t('offer-portal:::customized_portal_type')
           h2= t('offer-portal:::customized_title')
       .row
-        .col-md-6.col-sm-12
+        .col-sm-6.col-xs-12
           div.subtitle= t('offer-portal:::customized_subtitle')
           div.list-items
             p.items-header= t('offer-portal:::customized_applications')
@@ -66,7 +66,7 @@ html(lang=i18n.lng())
           div.list-items
             p.items-header= t('offer-portal:::customized_data')
             != t('offer-portal:::customized_data_items')
-        .col-md-6.hidden-sm.hidden-xs
+        .col-sm-6.hidden-xs
           img.img-responsive.img-block-illustration(src='/static/img/Image_portail_personnalise.png', alt='Illustration Portail personnalisé')
       .row
         .col-md-6.col-sm-12

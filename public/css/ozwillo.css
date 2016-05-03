@@ -494,6 +494,15 @@ div.offer-portal div.portal-type {
 
 div.img-background div.offer-portal div.portal-type {
     color: inherit;
+    text-align: right;
+}
+
+div.img-background div.offer-portal h2 {
+    text-align: right;
+}
+
+div.img-background div.offer-portal div.list-items ul {
+    float: right;
 }
 
 div.offer-portal h2 {
