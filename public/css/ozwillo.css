@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -302,6 +303,12 @@ h1.home {
     text-align: center;
     font-size: 4em;
     line-height: 2em;
+}
+
+@media (max-width: 767px) {
+    h1.home {
+        font-size: 2.5em;
+    }
 }
 
 .img-offer {
@@ -627,29 +634,4 @@ ul.infos.mail li {
     background-color: #b30e44;
     border-bottom: 3px solid #b30e44;
     color: #fff;
-}
-
-/* Extra small devices (phones, up to 480px) */
-@media screen and (max-width: 767px) {
-    body {
-        font-size: 10px;
-    }
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-    body {
-        font-size: 12px;
-    }
-}
-/* tablets/desktops and up ----------- */
-@media (min-width: 992px) and (max-width: 1199px) {
-    body {
-        font-size: 14px;
-    }
-}
-/* large desktops and up ----------- */
-@media screen and (min-width: 1200px) {
-    body {
-        font-size: 16px;
-    }
 }
