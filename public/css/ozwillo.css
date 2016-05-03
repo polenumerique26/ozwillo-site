@@ -348,19 +348,19 @@ ul.commitment li {
 }
 
 ul.commitment li.cc {
-    background: url(/static/img/ico_cc.png) no-repeat top left;
+    background: url(/static/img/ico_cc_transp.png) no-repeat top left;
 }
 
 ul.commitment li.gouvernance {
-    background: url(/static/img/ico_gouvernance.png) no-repeat top left;
+    background: url(/static/img/ico_communaute_transp.png) no-repeat top left;
 }
 
 ul.commitment li.tiers-confiance {
-    background: url(/static/img/ico_tiers-confiance.png) no-repeat top left;
+    background: url(/static/img/ico_garant_transp.png) no-repeat top left;
 }
 
 ul.commitment li.opensource {
-    background: url(/static/img/ico_opensource.png) no-repeat top left;
+    background: url(/static/img/ico_code_transp.png) no-repeat top left;
 }
 
 /*****************************************************************************************************************
