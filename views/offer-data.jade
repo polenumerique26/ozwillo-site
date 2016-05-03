@@ -14,23 +14,27 @@ html(lang=i18n.lng())
 
     .container.offer
       .row
-        .col-md-6.col-sm-12
+        .col-md-12
           h2= t('offer-data:::opendata_title')
           div.subtitle= t('offer-data:::opendata_subtitle')
+      .row            
+        .col-md-6.col-xs-12
           div.list-items!= t('offer-data:::opendata_items')
           div.addon= t('offer-data:::opendata_addon_1')
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
-        .col-md-6.hidden-sm.hidden-xs
-          img.img-responsive.img-block-illustration(src='/static/img/Image_opendata.png', alt='Illustration Open Data')
+        .col-md-6.hidden-xs
+          img.img-responsive(src='/static/img/Image_opendata.png', alt='Illustration Open Data')
 
     .img-background
       .container.offer
         .row
-          .col-md-6.hidden-sm.hidden-xs
-            img.img-responsive.img-block-illustration(src='/static/img/Image_bigdata.png', alt='Illustration Open Data')
-          .col-md-6.col-sm-12.with-background
+          .col-md-12
             h2.text-right= t('offer-data:::bigdata_title')
             div.subtitle.text-right= t('offer-data:::bigdata_subtitle')
+        .row
+          .col-sm-6
+            img.img-responsive(src='/static/img/Image_bigdata.png', alt='Illustration Open Data')
+          .col-sm-6.with-background
             div.list-items.pull-right
               != t('offer-data:::bigdata_items')
               div.addon= t('offer-data:::bigdata_addon_1')
@@ -38,14 +42,18 @@ html(lang=i18n.lng())
 
     .container.offer
       .row
-        .col-md-6.col-sm-12
+        .col-md-12
           h2= t('offer-data:::smartdata_title')
           div.subtitle= t('offer-data:::smartdata_subtitle')
+      .row
+        .col-sm-6
           div.list-items!= t('offer-data:::smartdata_items')
           div.addon= t('offer-data:::smartdata_addon_1')
+        .col-sm-6
+          img.img-responsive(src='/static/img/Image_smartdata.png', alt='Illustration Open Data')
+      .row
+        .col-md-12
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
-        .col-md-6.hidden-sm.hidden-xs
-          img.img-responsive.img-block-illustration(src='/static/img/Image_smartdata.png', alt='Illustration Open Data')
 
     include ./footer.jade
     include ./scripts.jade
