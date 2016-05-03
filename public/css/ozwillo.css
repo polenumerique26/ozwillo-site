@@ -274,7 +274,11 @@ a.footer-link {
 *****************************************************************************************************************/
 
 .header-home {
-    background: url(/static/img/Bandeau_page_accueil.jpg) no-repeat;
+    background: url(/static/img/Bandeau_page_accueil.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 785px;
 }
 
