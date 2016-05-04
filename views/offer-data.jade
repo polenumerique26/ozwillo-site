@@ -18,11 +18,11 @@ html(lang=i18n.lng())
           h2= t('offer-data:::opendata_title')
           div.subtitle= t('offer-data:::opendata_subtitle')
       .row            
-        .col-md-6.col-xs-12
+        .col-sm-6.col-xs-12
           p= t('offer-data:::opendata_items_intro')
           div.list-items!= t('offer-data:::opendata_items')
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
-        .col-md-6
+        .col-sm-6
           img.img-responsive(src='/static/img/Image_opendata.png', alt='Illustration Open Data')
 
     .img-background
@@ -34,7 +34,7 @@ html(lang=i18n.lng())
         .row
           .col-sm-6
             img.img-responsive(src='/static/img/Image_bigdata.png', alt='Illustration Big Data')
-          .col-sm-4.col-sm-offset-2.with-background
+          .col-sm-5.col-sm-offset-1
             p= t('offer-data:::bigdata_items_intro')
             div.list-items
               != t('offer-data:::bigdata_items')
