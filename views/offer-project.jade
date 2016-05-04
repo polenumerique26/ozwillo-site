@@ -1,0 +1,58 @@
+- var page = 'offer-project'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+
+    #content.header
+      .container
+        .row
+          .col-md-12
+            h1.with-subtitle= t('offer-project:::main_title')
+            .main-subtitle= t('offer-project:::main_subtitle')
+
+    .container.offer
+      .row
+        .col-md-12
+          h2= t('offer-project:::support_title')
+          div= t('offer-project:::support_subtitle')          
+      .row
+        .col-sm-6
+          div.list-items!= t('offer-project:::support_items')
+          a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-project:::contact_us')
+        .col-sm-6
+          img.img-responsive.img-block-illustration(src='/static/img/Image_projet_accelerer.png', alt='Illustration accélérateur de projets')
+    
+    .img-background
+      .container.offer
+        .row
+          .col-md-12
+            h2.text-right= t('offer-project:::event_title')
+            div.subtitle.text-right= t('offer-project:::event_subtitle')
+        .row    
+          .col-sm-6
+            img.img-responsive(src='/static/img/Image_projet_evenement.png', alt='Illustration support évènements')
+          .col-sm-5.col-sm-offset-1
+            div.list-items
+              p.items-header= t('offer-project:::event_before')
+              != t('offer-project:::event_before_items')
+            div.list-items
+              p.items-header= t('offer-project:::event_after')
+              != t('offer-project:::event_after_items')
+            a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-project:::contact_us')
+
+    .container.offer
+      .row
+        .col-md-12
+          h2= t('offer-project:::partner_title')
+          div= t('offer-project:::partner_subtitle')          
+      .row
+        .col-sm-6
+          div.list-items!= t('offer-project:::partner_items')
+          a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-project:::contact_us')
+        .col-sm-6
+          img.img-responsive.img-block-illustration(src='/static/img/Image_projet_incubateurs.png', alt='Illustration accélérateur de projets')
+
+    include ./footer.jade
+    include ./scripts.jade

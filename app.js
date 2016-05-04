@@ -15,7 +15,7 @@ var option = {
   fallbackLng: 'fr',
   detectLngFromPath: 0,
   ns: {
-    namespaces: ['route', 'menu', 'home', 'offer-data', 'offer-portal', 'offer-incubation', 'news',
+    namespaces: ['route', 'menu', 'home', 'offer-data', 'offer-portal', 'offer-project', 'news',
       'association', 'governance', 'community', 'team', 'common-good', 'technology', 'genesis', 'contributions',
       'legal-notices', 'contact']
   },
@@ -82,9 +82,9 @@ i18n.init(option, function(t) {
     res.locals.host = req.get('host');
     res.render('offer-portal');
   });
-  i18n.addRoute('/:lng/:oz*?/route:::offer-incubation', allLanguages, app, 'get', function(req, res) {
+  i18n.addRoute('/:lng/:oz*?/route:::offer-project', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
-    res.render('offer-incubation');
+    res.render('offer-project');
   });
   i18n.addRoute('/:lng/:oz*?/route:::association', allLanguages, app, 'get', function(req, res) {
     res.locals.host = req.get('host');
