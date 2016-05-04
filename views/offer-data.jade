@@ -19,10 +19,10 @@ html(lang=i18n.lng())
           div.subtitle= t('offer-data:::opendata_subtitle')
       .row            
         .col-md-6.col-xs-12
+          p= t('offer-data:::opendata_items_intro')
           div.list-items!= t('offer-data:::opendata_items')
-          div.addon= t('offer-data:::opendata_addon_1')
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
-        .col-md-6.hidden-xs
+        .col-md-6
           img.img-responsive(src='/static/img/Image_opendata.png', alt='Illustration Open Data')
 
     .img-background
@@ -33,11 +33,11 @@ html(lang=i18n.lng())
             div.subtitle.text-right= t('offer-data:::bigdata_subtitle')
         .row
           .col-sm-6
-            img.img-responsive(src='/static/img/Image_bigdata.png', alt='Illustration Open Data')
-          .col-sm-6.with-background
-            div.list-items.pull-right
+            img.img-responsive(src='/static/img/Image_bigdata.png', alt='Illustration Big Data')
+          .col-sm-4.col-sm-offset-2.with-background
+            p= t('offer-data:::bigdata_items_intro')
+            div.list-items
               != t('offer-data:::bigdata_items')
-              div.addon= t('offer-data:::bigdata_addon_1')
               a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('offer-data:::contact_us')
 
     .container.offer
@@ -47,13 +47,11 @@ html(lang=i18n.lng())
           div.subtitle= t('offer-data:::smartdata_subtitle')
       .row
         .col-sm-6
+          p= t('offer-data:::smartdata_items_intro')
           div.list-items!= t('offer-data:::smartdata_items')
-          div.addon= t('offer-data:::smartdata_addon_1')
-        .col-sm-6
-          img.img-responsive(src='/static/img/Image_smartdata.png', alt='Illustration Open Data')
-      .row
-        .col-md-12
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-data:::contact_us')
+        .col-sm-6
+          img.img-responsive(src='/static/img/Image_smartdata.png', alt='Illustration Smart Data')
 
     include ./footer.jade
     include ./scripts.jade

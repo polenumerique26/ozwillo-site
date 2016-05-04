@@ -1,42 +1,38 @@
 main_title: Les Solutions Data
-main_subtitle: À chaque projet sa solution
+main_subtitle: Valoriser vos données
 
 opendata_title: Open Data
-opendata_subtitle: Publier vos fichiers de données
+opendata_subtitle: Votre plateforme d'OpenData en quelques clics
+opendata_items_intro: "Utilisée par les gouvernements français, britannique et américain, la plateforme Open Source CKAN vous permet :"
 opendata_items:
   "<ul>
-    <li>Plateforme personnalisée en quelques clics</li>
-    <li>Référencement automatique sur Etalab</li>
-    <li>Accueil de tout type de fichier de données</li>
-    <li>Outils variés de visualisation</li>
-    <li>Pas d'installation requise sur vos serveurs</li>
-    <li>APIs pour la réutilisation de vos données</li>
+    <li>Une personnalisation en quelques clics</li>
+    <li>Un référencement automatique de vos jeux de données sur <a href='https://www.etalab.gouv.fr/'>Etalab</a></li>
+    <li>L'accès à des outils variés pour visualiser vos données</li>
+    <li>De bénéficier d'APIs pour la réutilisation de vos données</li>
+    <li>La mise en conformité avec la loi Lemaire</li>
   </ul>"
-opendata_addon_1: Mise en conformité avec la loi Lemaire
 
 bigdata_title: Big Data
-bigdata_subtitle: Stocker et exploiter vos gros volumes de données
+bigdata_subtitle: Unifier vos sources de données pour une exploitation optimale
+bigdata_items_intro: "Une infrastructure de données mutualisée pour le traitement de gros volumes de données :"
 bigdata_items:
   "<ul>
-    <li>Intégration facile de vos données modélisées</li>
+    <li>Intégration facile de tous types de données</li>
     <li>Contrôle de l'accès à vos données</li>
-    <li>API générique de gestion des données</li>
+    <li>API générique pour la réutilisation de vos données</li>
     <li>Exploitation illimitée en temps réel</li>
-    <li>Outils de monitoring de vos données</li>
-    <li>Infrastructure scalable et adaptée à vos besoins</li>
   </ul>"
-bigdata_addon_1: Sanctuariser vos données
 
 smartdata_title: Smart Data
 smartdata_subtitle: Lier et donner du sens à vos données
+smartdata_items_intro: "Créer un écosystème, socle de votre Smart Territoire, en reliant vos applications métiers :" 
 smartdata_items:
   "<ul>
-    <li>Liaison et partage de vos données entre vos applications</li>
-    <li>Liaison de vos données à des référentiels partagés (codes INSEE, NAF, ISO, ...)</li>
-    <li>Création et liaison de vos modèles de données sémantiques</li>
-    <li>Gestion fine des droits sur vos données</li>
-    <li>API générique et outils de requêtes complexes</li>
+    <li>Lier vos données à des référentiels (codes INSEE, NAF, ISO, ...)</li>
+    <li>Créer et lier vos modèles de données sémantiques</li>
+    <li>Gérer finement les droits sur vos données</li>
+    <li>Utiliser l'API générique et les outils de requêtes complexes</li>
   </ul>"
-smartdata_addon_1: Socle de votre Smart Territoire
 
 contact_us: Nous contacter
