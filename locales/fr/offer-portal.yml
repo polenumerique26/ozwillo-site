@@ -1,20 +1,9 @@
 main_title: Les Solutions Portail
-main_subtitle: À chaque projet sa solution
-
-community_market_portal_type: Portail Ozwillo
-community_market_title: Commercialiser vos applications
-community_market_subtitle: Déposez vos applications sur le portail commun et rendez-les communicantes
-community_market_items:
-  "<ul>
-    <li>Un système d'authentification et une gestion unifiée de vos utilisateurs</li>
-    <li>Des données liées partagées et réutilisables sur Ozwillo</li>
-    <li>Publication de votre application dans un catalogue multilingue international</li>
-    <li>Une infrastructure scalable selon vos besoins</li>
-    <li>Des partenaires potentiels pour commercialisation à l'étranger</li>
-  </ul>"
+main_subtitle: Promouvoir vos applications
 
 community_apps_portal_type: Portail Ozwillo
-community_apps_title: Découvrir les applications déjà communicantes
+community_apps_title: Découvrez les applications déjà communicantes
+community_apps_subtitle: Tourisme, environnement, e-administration, relation citoyenne, ... trouvez votre application
 community_apps_items:
   "<ul>
     <li>Des applications utilisables en 3 clics</li>
@@ -24,14 +13,26 @@ community_apps_items:
     <li>Vos données réutilisables sans coût supplémentaire</li>
   </ul>"
 
+community_market_portal_type: Portail Ozwillo
+community_market_title: Commercialisez vos applications
+community_market_subtitle: Déposez vos applications sur le portail commun et rendez-les communicantes
+community_market_items:
+  "<ul>
+    <li>Un système d'authentification et une gestion unifiée de vos utilisateurs</li>
+    <li>Des données liées partagées et réutilisables sur Ozwillo</li>
+    <li>Publication de votre application dans un catalogue multilingue</li>
+    <li>Partenaires potentiels pour commercialisation à l'étranger</li>
+  </ul>"
+
 customized_portal_type: Portail personnalisé
-customized_title: Créer votre propre portail d'applications
-customized_subtitle: Rendez vos applications communicantes
+customized_title: Créez votre propre portail d'applications
+customized_subtitle: Facilitez les relations avec vos usagers
 customized_applications: "Vos applications :"
 customized_applications_items:
   "<ul>
     <li>Regroupées dans un portail dédié personnalisé</li>
     <li>Accessibles à vos utilisateurs en quelques clics et sans installation locale</li>
+    <li>Bénéficiant du système de fédération d'identité</li>
   </ul>"
 customized_data: "Vos données :"
 customized_data_items:
@@ -42,5 +43,3 @@ customized_data_items:
 
 contact_us: Nous contacter
 go_to_portal: Accès au portail
-
-

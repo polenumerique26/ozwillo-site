@@ -106,10 +106,6 @@ div.main-subtitle {
     color: white;
 }
 
-.img-block-illustration {
-    margin: 78px auto 0;
-}
-
 div.list-items {
     margin-top: 1em;
 }
@@ -497,7 +493,7 @@ div.offer div.addon, div.offer div.subtitle {
 }
 
 div.offer-portal div.portal-type {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
     color: #bdbdbd;
@@ -510,10 +506,6 @@ div.img-background div.offer-portal div.portal-type {
 
 div.img-background div.offer-portal h2 {
     text-align: right;
-}
-
-div.img-background div.offer-portal div.list-items ul {
-    float: right;
 }
 
 div.offer-portal h2 {
