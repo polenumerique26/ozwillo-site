@@ -23,7 +23,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    margin: 2em 0 2em 0;
+    margin: 2em 0 1em 0;
     display: block;
     text-transform: uppercase;
     border-bottom: 2px solid #F0EEEF;
@@ -139,17 +139,17 @@ div.list-items ul>li {
 *****************************************************************************************************************/
 
 .btn {
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #fff;
     border-radius: 0;
-    width: 252px;
+    width: 232px;
     display: block;
     margin: auto;
 }
 
 .btn-lg {
-    line-height: 74px;
-    height: 74px;
+    line-height: 64px;
+    height: 64px;
     padding: 0;
 }
 
@@ -325,11 +325,15 @@ h2.title-offer {
 .block-offer {
     color: #6a6767;
     margin: 0 0 7em 0;
-    height: 2em;
+    height: 5em;
+}
+
+.block-offer p.first-line {
+    min-height: 4em;
 }
 
 .icon-offers {
-    margin-top: 5em;
+    margin-top: 2em;
     min-height: 100px;
     max-height: 100px;
 }

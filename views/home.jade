@@ -15,26 +15,38 @@ html(lang=i18n.lng())
     .container
       .row
         .col-md-12
+          h2.text-center= t('home:::offers_schema_title')
+      .row
+        .col-md-12
           img.img-responsive.img-offer(src='/static/img/offres_ozwillo.png')
 
     .container
       .row
+        .col-md-12
+          h2.text-center= t('home:::offers_title')
+      .row
         .col-md-4.col-sm-12
           img.img-responsive.center-block.icon-offers(src='/static/img/ico_Data.png')
-          h2.title-offer.text-center= t('home:::data_title')
-          .block-offer.text-center= t('home:::data_description')
-          .bottom-align-text
+          h3.title-offer.text-center= t('home:::data_title')
+          .block-offer.text-center
+            p.first-line= t('home:::data_description_1')
+            p= t('home:::data_description_2')
+          div
             a.btn.btn-lg.btn-page(href=getPageLink('offer-data'))= t('home:::data_browse')
         .col-md-4.col-sm-12
           img.img-responsive.center-block.icon-offers(src='/static/img/ico_Portail.png')
-          h2.title-offer.text-center= t('home:::portal_title')
-          .block-offer.text-center= t('home:::portal_description')
-          .bottom-align-text
+          h3.title-offer.text-center= t('home:::portal_title')
+          .block-offer.text-center
+            p.first-line= t('home:::portal_description_1')
+            p= t('home:::portal_description_2')
+          div
             a.btn.btn-lg.btn-page(href=getPageLink('offer-portal'))= t('home:::portal_browse')
         .col-md-4.col-sm-12
           img.img-responsive.center-block.icon-offers(src='/static/img/ico_projet.png')
-          h2.title-offer.text-center= t('home:::incubation_title')
-          .block-offer.text-center= t('home:::incubation_description')
+          h3.title-offer.text-center= t('home:::incubation_title')
+          .block-offer.text-center
+            p.first-line= t('home:::incubation_description_1')
+            p= t('home:::incubation_description_2')
           div
             a.btn.btn-lg.btn-page(href=getPageLink('offer-incubation'))= t('home:::incubation_browse')
 
@@ -51,16 +63,16 @@ html(lang=i18n.lng())
             .col-md-6
               ul.commitment
                 li.gouvernance= t('home:::differentiator_2')
-                li.opensource= t('home:::differentiator_4')
+                li.opensource!= t('home:::differentiator_4')
 
     .container.logos
       .row
         .col-md-12
-          h2.text-center= t('home:::apps_already_joined')
+          h2.text-center= t('home:::community_already_joined')
       .row.flex-row
         .col-md-3.col-xs-6
           .thumbnail
-            img(src='/static/img/logo_atol.jpg', alt='Logo Atol C&D')
+            img(src='/static/img/logo_ibaysoft.png', alt='Logo Ibaysoft')
         .col-md-3.col-xs-6
           .thumbnail
             img(src='/static/img/logo_blau_advisors.png', alt='Logo Blau Adivors')
@@ -69,7 +81,7 @@ html(lang=i18n.lng())
             img(src='/static/img/logo_openwide.png', alt='Logo Open Wide')
         .col-md-3.col-xs-6
           .thumbnail
-            img(src='/static/img/logo_ibaysoft.png', alt='Logo Ibaysoft')
+            img(src='/static/img/logo_atol.png', alt='Logo Atol C&D')
         .col-md-3.col-xs-6
           .thumbnail
             img(src='/static/img/logo_fnccr.png', alt='Logo FNCCR')
