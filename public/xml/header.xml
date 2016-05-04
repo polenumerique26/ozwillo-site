@@ -8,10 +8,10 @@
 			<item type="menu" href="/fr/communaute" label="La communauté" />
 			<item type="menu" href="/fr/equipe" label="L'équipe" />
 		</item>
-		<item type="submenu" label="Offres">
+		<item type="submenu" label="Solutions">
 			<item type="menu" href="/fr/offre-donnees" label="Données" />
 			<item type="menu" href="/fr/offre-portail" label="Portail" />
-			<item type="menu" href="/fr/offre-incubation" label="Incubation" />
+			<item type="menu" href="/fr/offre-projets" label="Projets" />
 		</item>
 		<item type="submenu" label="Bien commun">
 			<item type="menu" href="/fr/genese" label="Genèse" />
