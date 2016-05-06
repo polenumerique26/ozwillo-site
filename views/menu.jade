@@ -52,7 +52,9 @@ nav.navbar.navbar-default
             img(src='/static/img/icone-catalogue-color.png', alt='App store icon')
             span= t('menu:::store')
         li
-          a(href=getOzwilloHost('opendata') + '/' + i18n.lng())
+          //- We currently have only one OpenData instance
+          //- a(href=getOzwilloHost('opendata') + '/' + i18n.lng())
+          a(href='https://opendata.ozwillo.com')
             img(src='/static/img/data-purple.png', alt='OpenData icon')
             span= t('menu:::data')
         li
