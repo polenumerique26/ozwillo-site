@@ -1,10 +1,10 @@
 <menuset>
   <menu>
     <locale>fr</locale>
-    <item href="/fr/association" row="0">L'association</item>
-    <item href="/fr/gouvernance" row="0">La gouvernance</item>
-    <item href="/fr/communaute" row="0">La communauté</item>
-    <item href="/fr/equipe" row="0">L'équipe</item>
+    <item href="/fr/association" row="0">Association</item>
+    <item href="/fr/gouvernance" row="0">Gouvernance</item>
+    <item href="/fr/communaute" row="0">Communauté</item>
+    <item href="/fr/equipe" row="0">Équipe</item>
     <item href="/fr/offre-donnes" row="1">Données</item>
     <item href="/fr/offre-portail" row="1">Portail</item>
     <item href="/fr/offre-projets" row="1">Projets</item>
