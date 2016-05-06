@@ -43,5 +43,9 @@ head
   - }
 
   - var getOzwilloHost = function(appName) {
-  -    return 'https://' + host.replace('www', appName);
+  -    if (host.indexOf('www') !== -1) {
+  -        return 'https://' + host.replace('www', appName);
+  -    } else {
+  -        return 'https://' + host.replace('site-demo', appName);
+  -    }
   - }
