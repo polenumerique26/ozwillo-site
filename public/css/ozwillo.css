@@ -79,11 +79,12 @@ dt {
 *****************************************************************************************************************/
 
 .header {
-    background: url(/static/img/Bandeau_H200.png) no-repeat center center fixed; 
+    background: url(/static/img/Bandeau_H200.png) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 200px;
 }
 
 div.with-subtitle {
