@@ -44,15 +44,11 @@ html(lang=i18n.lng())
 
     .container.offer
       .row
-        .col-md-12
-          h2= t('offer-project:::partner_title')
-          div= t('offer-project:::partner_subtitle')          
-      .row
-        .col-sm-6
-          div.list-items!= t('offer-project:::partner_items')
-          a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-project:::contact_us')
-        .col-sm-6
-          img.img-responsive.img-block-illustration(src='/static/img/Image_projet_incubateurs.png', alt='Illustration accélérateur de projets')
+        .col-md-8.col-md-offset-2
+          h2.text-center= t('offer-project:::partner_title')
+          div.text-center= t('offer-project:::partner_subtitle')          
+          div.list-items.centered-list-items!= t('offer-project:::partner_items')
+          a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('offer-project:::contact_us')
 
     include ./footer.jade
     include ./scripts.jade

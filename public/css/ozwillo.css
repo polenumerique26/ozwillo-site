@@ -127,6 +127,11 @@ div.list-items ul>li {
     margin-bottom: 0.8em;
 }
 
+div.centered-list-items ul>li {
+    list-style-position: inside;
+    text-align: center;
+}
+
 .logos .thumbnail {
     margin-bottom: 3em;
 }
