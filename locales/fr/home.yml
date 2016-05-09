@@ -1,34 +1,34 @@
 main_title: L'infrastructure socle<br/> de votre<br/> Smart Territoire
 
-offers_schema_title: Des services modulaires supports de votre innovation
+offers_schema_title: Une solution modulaire support de votre innovation
 
 offers_title: Nos services support de votre innovation
 
 data_title: Valoriser vos données
 data_description_1: La maîtrise et l'exploitation de vos données sont des enjeux cruciaux.
-data_description_2: Qu'elles soient Open, Big, Smart, Shared, nous donnons du sens à vos Data et vous proposons des outils 
+data_description_2: Qu'elles soient Open, Big, Smart, Shared, Linked, nous donnons du sens à vos Data et vous proposons des outils 
   pour les exploiter facilement.
 data_browse: Les solutions Données
 
 portal_title: Promouvoir vos applications
 portal_description_1: La visibilité et l'accès en mobilité de vos applications sont les facteurs clés de leur adoption.
-portal_description_2: Rendez vos applications communicantes et accessibles à vos utilisateurs en quelques clis au travers 
+portal_description_2: Rendez vos applications communicantes et accessibles à vos utilisateurs en quelques clics au travers 
   d'un portail personnalisable.
 portal_browse: Les solutions Portail
 
 incubation_title: Dynamiser vos projets
 incubation_description_1: De l'idée à la commercialisation, accélérer et sécuriser le processus de mise sur le marché.
-incubation_description_2: Bénéficiez d'une équipe d'experts et de données partagées pour développer de nouvelles applications communicantes et d'un accompagnement
+incubation_description_2: Bénéficiez d'une équipe d'experts et de données partagées pour développer de nouvelles applications communicantes avec un accompagnement
   jusqu'à leur commercialisation.
 incubation_browse: Les solutions Projets
 
 differentiator_title: Le + éthique d'Ozwillo
-differentiator_1: Ozwillo crée les conditions pour la constitution d'un bien commun de données partagées et favorise le
-  développement de communautés pouvant réutiliser et collaborer sur ces données
-differentiator_2: Ce bien commun de données est doté d'une gouvernance ouverte dans laquelle sont représentés acteurs
-  publics et privés, citoyens, utilisateurs et fournisseurs de services
-differentiator_3: Ozwillo est un tiers de confiance, garant de l'utilisation du bien commun de données, du respect des
-  droits sur les données et de la libre concurrence des applications proposées
+differentiator_1: Ozwillo est une fabrique de biens communs de données et modèles sémantiques associés, réutilisables, modifiables, par tous.
+  Les modèles sont publiés en LGPL
+differentiator_2: Ozwillo est doté d'une gouvernance ouverte représentant la société, un collectif de personnes publiques, privées
+  et de particuliers, qui permet à chacun de préserver sa liberté, son indépendance, et de contribuer à l'enrichissement de l'infrastructure
+differentiator_3: Ozwillo est un tiers de confiance, garant de l'utilisation du bien commun de données, de leur modèles,
+  ainsi que du respect de la confidentialité des données personnelles et de la libre concurrence des applications proposées
 differentiator_4: La plateforme Ozwillo, constituée du moteur de données, du portail et de son système de sécurité
   est publiée en <a href='https://github.com/ozwillo'>Open Source sur GitHub</a>, ouverte à la contribution
 
