@@ -43,21 +43,17 @@ html(lang=i18n.lng())
 
     .container.offer.offer-portal
       .row
-        .col-md-12
-          div.portal-type= t('offer-portal:::customized_portal_type')
-          h2= t('offer-portal:::customized_title')
-      .row
-        .col-sm-6.col-xs-12
-          p= t('offer-portal:::customized_subtitle')
-          div.list-items
-            p.items-header= t('offer-portal:::customized_applications')
+        .col-md-8.col-md-offset-2
+          div.portal-type.text-center= t('offer-portal:::customized_portal_type')
+          h2.text-center= t('offer-portal:::customized_title')
+          p.text-center= t('offer-portal:::customized_subtitle')
+          div.list-items.centered-list-items
+            p.items-header.text-center= t('offer-portal:::customized_applications')
             != t('offer-portal:::customized_applications_items')
-          div.list-items
-            p.items-header= t('offer-portal:::customized_data')
+          div.list-items.centered-list-items
+            p.items-header.text-center= t('offer-portal:::customized_data')
             != t('offer-portal:::customized_data_items')
-            a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-portal:::contact_us')
-        .col-sm-6.hidden-xs
-          img.img-responsive.img-block-illustration(src='/static/img/Image_portail_personnalise.png', alt='Illustration Portail personnalisé')
+            a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('offer-portal:::contact_us')
 
     include ./footer.jade
     include ./scripts.jade
