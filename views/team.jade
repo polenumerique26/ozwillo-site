@@ -40,6 +40,18 @@ html(lang=i18n.lng())
               p.team-role= t('team:::relations')
               p.team-hashtags
                 | #data, #collectivités
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/Marc_dutoo.jpg', alt='Photo Marc Dutoo', style='width:140px')
+            .caption.text-center
+              p.team-name Marc Dutoo
+              p.team-role= t('team:::marc_dutoo')
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/Thomas_Broyer.jpg', alt='Photo Thomas Broyer', style='width:140px')
+            .caption.text-center
+              p.team-name Thomas Broyer
+              p.team-role= t('team:::thomas_broyer')
 
     include ./footer.jade
     include ./scripts.jade
