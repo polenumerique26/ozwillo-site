@@ -25,7 +25,7 @@ form_phone: Téléphone
 form_email: Email *
 form_subject: Sujet *
 form_message: Description *
-form_required_notice: Tous les champs précédés d'un * sont obligatoires.
+form_required_notice: Tous les champs suivis d'un * sont obligatoires.
 
 iframe_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.99010839015!2d4.928447715457548!3d44.92353667909843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f557af9a791903%3A0xf38155b64a5143ea!2s16+Rue+Paul+Henri+Charles+Spaak%2C+26000+Valence%2C+France!5e0!3m2!1sfr!2sus!4v1458239017205"
 
