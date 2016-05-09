@@ -3,7 +3,7 @@ main_subtitle: De l'ouverture à la création d'un bien commun
 
 oasis_title: Oasis - Le projet européen socle de la plateforme Ozwillo
 
-oasis_origin_title: "L'origine du projet :"
+oasis_origin_title: L'origine du projet
 oasis_text_1: Ozwillo est issu du projet européen OASIS, qui a permis de créer les premières briques techniques et juridiques
   de cette plateforme.
 oasis_text_2: "Le projet européen OASIS a été retenu en 2011 par la Commission Européenne dans le cadre du programme de
@@ -11,20 +11,21 @@ oasis_text_2: "Le projet européen OASIS a été retenu en 2011 par la Commissio
 oasis_text_3: L'enjeu est le développement de services publics plus efficients en accompagnant les collectivités à
   basculer vers des services en mode hébergé, interopérables.
 
-oasis_pillars_title: "Les piliers de l'appel à projets :"
+oasis_pillars_title: Les piliers de l'appel à projets
 oasis_pillars_item_1: Casser les silos de données
 oasis_pillars_item_2: Ouvrir et réutiliser les services
 oasis_pillars_item_3: Déploiement de nouvelles architectures
 oasis_pillars_item_4: Démonstration à grande échelle
 
-oasis_results_title: "Les résultats du projet :"
-oasis_results_item_1: "Une architecture Web ou plateforme de données liées (Linked Data) publiée en
+oasis_results_title: Les résultats du projet
+oasis_results_item_1: "Une plateforme Web sécurisée de données liées (Linked Data) publiée en
   <a href='https://github.com/ozwillo'>Open Source sur GitHub</a>"
-oasis_results_item_2: 23 applications métiers ou grand public basculées en mode SaaS et partageant de la donnée au
+oasis_results_item_2: Une architecture sécurisée validée par un cabinet spécialisé
+oasis_results_item_3: 23 applications métiers ou grand public basculées en mode SaaS et partageant de la donnée au
   travers de la plateforme
-oasis_results_item_3: Plus de 1800 organisations utilisatrices des applications, soit plus de 2700 utilisateurs
+oasis_results_item_4: Plus de 1800 organisations utilisatrices des applications, soit plus de 2700 utilisateurs
   partageant plus de 615 000 données
-oasis_results_item_4: Un modèle économique
+oasis_results_item_5: Un modèle économique
 
 map_title: Ce projet, unique en Europe, a associé 6 pays (Angleterre, Espagne, Italie, Bulgarie, Turquie et France),
   dont 5 sites pilotes
@@ -90,4 +91,4 @@ evolutions_item_3: Étendre la plateforme à d’autres territoires européens
 evolutions_item_4: Développer de nouveaux outils pour optimiser la liaison de données et leur réutilisation (OCCIware)
 evolutions_item_5: Améliorer l’ergonomie, l'accès et la compréhension intuitive des fonctionnalités
 evolutions_item_6: Industrialiser la plateforme pour faciliter la venue de nouveaux fournisseurs de services
-evolutions_item_7: Créer la gouvernance la plus adaptée pour la préservation du "bien commun" de données fabriqué au quotidien
+evolutions_item_7: Faire évoluer la gouvernance pour la préservation du "bien commun" de données fabriqué au quotidien

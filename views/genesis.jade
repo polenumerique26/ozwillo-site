@@ -18,13 +18,13 @@ html(lang=i18n.lng())
           h2= t('genesis:::oasis_title')
           img.img-responsive.center-block(src='/static/img/oasis.jpg')
       .row(style='margin-top:2em')
-        .col-sm-5.col-sm-offset-1
+        .col-sm-4
           div.list-items
             p.items-header= t('genesis:::oasis_origin_title')
           p= t('genesis:::oasis_text_1')
           p!= t('genesis:::oasis_text_2')
           p= t('genesis:::oasis_text_3')
-        .col-sm-5
+        .col-sm-4  
           div.list-items
             p.items-header!= t('genesis:::oasis_pillars_title')
             ul
@@ -32,6 +32,7 @@ html(lang=i18n.lng())
               li= t('genesis:::oasis_pillars_item_2')
               li= t('genesis:::oasis_pillars_item_3')
               li= t('genesis:::oasis_pillars_item_4')
+        .col-sm-4
           div.list-items
             p.items-header!= t('genesis:::oasis_results_title')
             ul
@@ -39,6 +40,7 @@ html(lang=i18n.lng())
               li= t('genesis:::oasis_results_item_2')
               li= t('genesis:::oasis_results_item_3')
               li= t('genesis:::oasis_results_item_4')
+              li= t('genesis:::oasis_results_item_5')
 
     .map
       .container
@@ -66,11 +68,10 @@ html(lang=i18n.lng())
 
     // OCCIWare
     .img-background
-      .container-fluid
+      img.pull-left(src='/static/img/bandeau_Projet-en-cours.png', style='margin-bottom:-80px')
+      .container
         .row
-          .col-xs-1
-            img(src='/static/img/bandeau_Projet-en-cours.png', style='margin-left:-15px')
-          .col-xs-11.with-background
+          .col-xs-12.with-background
             h2!= t('genesis:::occi_title')
         .row
           .col-md-12
@@ -103,23 +104,23 @@ html(lang=i18n.lng())
               li= t('genesis:::demonstrator_column_2_item_3')
 
     // Évolution & Développement
-    .container.genesis-future
-      .row
-        .col-xs-10.with-background  
-          h2!= t('genesis:::evolutions_title')
-        .col-xs-2
-          img.pull-right(src='/static/img/bandeau_Work-in-progress.png', style='margin-right:-15px')
-      .row    
-        .col-md-12.list-items
-          p= t('genesis:::evolutions_items_title')
-          ul
-            li= t('genesis:::evolutions_item_1')
-            li= t('genesis:::evolutions_item_2')
-            li= t('genesis:::evolutions_item_3')
-            li= t('genesis:::evolutions_item_4')
-            li= t('genesis:::evolutions_item_5')
-            li= t('genesis:::evolutions_item_6')
-            li= t('genesis:::evolutions_item_7')
+    .img-background
+      img.pull-right(src='/static/img/bandeau_Work-in-progress.png', style='margin-bottom:-80px')      
+      .container
+        .row
+          .col-xs-12.with-background  
+            h2!= t('genesis:::evolutions_title')
+        .row
+          .col-md-12.list-items
+            p= t('genesis:::evolutions_items_title')
+            ul
+              li= t('genesis:::evolutions_item_1')
+              li= t('genesis:::evolutions_item_2')
+              li= t('genesis:::evolutions_item_3')
+              li= t('genesis:::evolutions_item_4')
+              li= t('genesis:::evolutions_item_5')
+              li= t('genesis:::evolutions_item_6')
+              li= t('genesis:::evolutions_item_7')
 
     include ./footer.jade
     include ./scripts.jade
