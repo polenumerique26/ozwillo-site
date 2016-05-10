@@ -132,7 +132,7 @@
     "@screen-md-max": "(@screen-lg-min - 1)",
     "@grid-columns": "12",
     "@grid-gutter-width": "30px",
-    "@grid-float-breakpoint": "1024px",
+    "@grid-float-breakpoint": "1200px",
     "@grid-float-breakpoint-max": "(@grid-float-breakpoint - 1)",
     "@container-tablet": "(720px + @grid-gutter-width)",
     "@container-sm": "@container-tablet",
@@ -409,5 +409,5 @@
     "dropdown.js",
     "collapse.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=d3a2b71ba914912cd9c4a728be5b55b3"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=6b33e0b59d19b456657d145944b272a8"
 }
