@@ -1,0 +1,53 @@
+- var page = 'association'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+      
+    #content.header
+      .container
+        .row
+          .col-md-12
+            h1= t('association:::main_title')
+
+    .container
+      .row
+        .col-md-12
+          h2= t('association:::community_title')
+      .row
+        .col-md-9
+          div!= t('association:::community_desc', {postProcess: "jade"})
+        .col-md-3
+          a.btn.btn-sm.btn-file(href='/static/pdf/Statuts_Association_Ozwillo.pdf')= t('association:::ozwillo_status')
+          a.btn.btn-sm.btn-page(href=getPageLink('members'))= t('association:::governance_members')
+          .side-pane!= t('association:::why_ozwillo')
+
+    .container
+      .row
+        .col-md-12
+          h2= t('association:::governance_title')
+      .row
+        .col-md-9
+          div!= t('association:::governance_desc_part1', {postProcess: "jade"})
+          blockquote.governance
+            div= t('association:::governance_desc_quote')
+            footer
+              cite= t('association:::governance_desc_quote_cite')
+          div!= t('association:::governance_desc_part2', {postProcess: "jade"})
+        .col-md-3
+          a.btn.btn-sm.btn-file(href='/static/pdf/Ozwillo_Membership_Fee_2016.xlsx')= t('association:::ozwillo_membership_grid')
+          a.btn.btn-sm.btn-file(href='/static/pdf/Bulletin_Adhesion_Ozwillo.pdf')= t('association:::governance_membership_bulletin')
+
+    .container
+      .row
+        .col-md-12
+          h2= t('association:::cooperative_title')
+      .row
+        .col-md-9
+          div!= t('association:::cooperative_desc', {postProcess: "jade"})
+        .col-md-3
+          a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('association:::cooperative_contact')
+
+    include ./footer.jade
+    include ./scripts.jade

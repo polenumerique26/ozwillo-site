@@ -1,0 +1,31 @@
+main_title: Contributions au bien commun
+
+code_title: Contribution au code
+code_subtitle: Rejoignez la communauté de développeurs
+code_items_intro: Développée initialement dans le cadre du projet européen OASIS par les entreprises françaises Atol C&D et Open Wide, 
+  le code de la plate-forme Ozwillo est publié en Open Source, ouvert à la contribution, pour la constitution d’un bien commun numérique.
+code_items:
+  "<ul>
+    <li>Le code source est disponible sur <a href='https://github.com/ozwillo'>GitHub</a></li>
+    <li>Le code source est publié sous licence AGPL v3, les librairies à disposition des développeurs sont publiées sous licence LGPL v3</li>
+    <li>Les contributions sont évaluées et validées par l’association Ozwillo avec le concours des entreprises Atol C&D et Open Wide</li>
+    <li>Consultez l’accord de contribution qui permet de garantir la libre exploitation du code et son maintien en Open Source</li>
+  </ul>"
+
+data_title: Contribution sur les données
+data_subtitle: Participer à l’enrichissement d’un bien commun de données et de leurs modèles
+data_items:
+  "<ul>
+    <li>Vous détenez des données métiers, des référentiels que vous souhaitez voir partagés et réutilisés, devenez fournisseur de données en publiant vos jeux de données sur la plateforme d’Open Data d’Ozwillo, nous les valoriserons en Linked Data accessibles via API</li>
+    <li>En contribuant par de nouveaux jeux de données, vous participez également à l’enrichissement des modèles de données</li>
+    <li>L’ensemble des modèles de données créés ou proposés sont publiés sur la plateforme d’Open Data d’Ozwillo sous licence libre</li>
+  </ul>"
+
+governance_title: Contribution à la gouvernance
+governance_subtitle: Rejoignez la gouvernance de biens communs numériques
+governance_desc: La gouvernance de ces biens communs créés est ouverte et représente l’ensemble de la société (un collectif de 
+  personnes publiques et privées, particuliers) qui permet à chacun de préserver sa liberté, son indépendance, et de contribuer 
+  à l’enrichissement de ce patrimoine numérique
+go_to_governance: Voir la gouvernance
+
+contact_us: Nous contacter

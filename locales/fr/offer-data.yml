@@ -1,0 +1,38 @@
+main_title: Les solutions Données
+main_subtitle: Valoriser vos données
+
+opendata_title: Open Data
+opendata_subtitle: Votre plateforme d'OpenData en quelques clics
+opendata_items_intro: "Utilisée par les gouvernements français, britannique et américain, la plateforme Open Source CKAN vous permet :"
+opendata_items:
+  "<ul>
+    <li>Une personnalisation en quelques clics</li>
+    <li>Un référencement automatique de vos jeux de données sur <a href='https://www.etalab.gouv.fr/'>Etalab</a></li>
+    <li>L'accès à des outils variés pour visualiser vos données</li>
+    <li>De bénéficier d'APIs pour la réutilisation de vos données</li>
+    <li>La mise en conformité avec la loi Lemaire</li>
+  </ul>"
+
+bigdata_title: Big Data
+bigdata_subtitle: Unifier vos sources de données pour une exploitation optimale
+bigdata_items_intro: "Une infrastructure de données mutualisée pour le traitement de gros volumes de données :"
+bigdata_items:
+  "<ul>
+    <li>Intégration facile de tous types de données</li>
+    <li>Contrôle de l'accès à vos données</li>
+    <li>API générique pour la réutilisation de vos données</li>
+    <li>Exploitation illimitée en temps réel</li>
+  </ul>"
+
+smartdata_title: Smart Data
+smartdata_subtitle: Lier et donner du sens à vos données
+smartdata_items_intro: "Créer un écosystème, socle de votre Smart Territoire, en reliant vos applications métiers :" 
+smartdata_items:
+  "<ul>
+    <li>Lier vos données à des référentiels (codes INSEE, NAF, ISO, ...)</li>
+    <li>Créer et lier vos modèles de données sémantiques</li>
+    <li>Gérer finement les droits sur vos données</li>
+    <li>Utiliser l'API générique et les outils de requêtes complexes</li>
+  </ul>"
+
+contact_us: Nous contacter

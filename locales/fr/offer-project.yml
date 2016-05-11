@@ -1,0 +1,47 @@
+main_title: Les solutions Projets
+main_subtitle: Accompagner l'innovation
+
+support_title: De l'idée à la commercialisation
+support_subtitle: "Vous avez un projet d'application, nous vous proposons :"
+support_items:
+  "<ul>
+     <li>Des données APIsées</li>
+     <li>Un environnement de développement et de test</li>
+     <li>Une méthodologie d'accompagnement (recherche de partenaire technique, aide à la définition du projet, accompagnement au développement en mode agile, appui au modèle économique)</li>
+     <li>Une communauté de béta-testeurs</li>
+   </ul>
+  "
+
+event_title: Support de vos évènements
+event_subtitle: "Favorisez les conditions de l'innovation sur votre territoire"
+event_before: "Support technique de vos hackatons, cartoparties, ..."
+event_before_items:
+  "<ul>
+     <li>Intégration rapide et à la demande de tout nouveau jeu de données</li>
+     <li>Mise à disposition d'une infrastructure de données</li>
+     <li>Interfaces développeurs avec outils de requêtes</li>
+     <li>Support technique pendant l'évènement</li>
+   </ul>
+  "
+event_after: "Suivi et accompagnement de vos lauréats"
+event_after_items:
+  "<ul>
+     <li>Conseil et industralisation techniques</li>
+     <li>Liaison des données à des référentiels</li>
+     <li>Publication d'applications sur le catalogue Ozwillo</li>
+   </ul>
+  "
+
+partner_title: Vous incubez et accélérez des projets
+partner_subtitle: Devenez partenaire pour lancer vos innovateurs
+partner_items:
+  "<ul>
+     <li>Une vitrine pour leurs applications Web</li>
+     <li>Un réseau de partenaires étrangers pour leur commercialisation</li>
+     <li>Un club d'éditeurs d'applications pour réaliser des partenariats</li>
+   </ul>
+  "
+
+contact_us: Nous contacter
+
+

@@ -1,0 +1,67 @@
+main_title: L'association
+
+community_title: Une communauté d'acteurs représentative de la société civile
+community_desc: "<p>À l'issue du projet Européen au cours duquel a été développée la plateforme, utilisateurs, développeurs, fournisseurs
+  de services et nouveaux partenaires se sont regroupés en association pour lui conférer une gouvernance neutre et ouverte.</p>
+  <p>Créée le 5 février 2016, l'association a vocation à valoriser la plateforme Ozwillo, à promouvoir les applications
+  communicantes qui la rejoignent et à créer les conditions favorables à l'innovation.</p>
+  <p>Elle vise le partage des connaissances en permettant la liaison de tous types de modèles de données et de données
+  au profit de ses membres et de ses non-membres.</p>
+  <p>Elle garantit une exploitation neutre et loyale de la plate-forme Ozwillo, et favorise le développement de liens
+  entre tous les utilisateurs et contributeurs.</p>
+  <p>Véritable tiers de confiance, elle vise à la préservation de biens communs numériques, selon les fondements suivants,
+  propres à engager un cercle très vertueux :</p>
+  <ul>
+    <li>Une fabrique à biens communs, neutre, loyale, favorisant la créativité, l'innovation (système);</li>
+    <li>Une gouvernance garante des biens communs et favorisant l'auto-organisation du système;</li>
+    <li>Inspire la confiance car la gouvernance est un ensemble représentant la société;</li>
+    <li>Reste à but d'intérêt collectif et enclenche un cercle très vertueux;</li>
+    <li>Reconnait toutes formes de contributions;</li>
+  </ul>
+  <p>Ozwillo est une association de préfiguration, qui a vocation dans un délai donné à réunir les conditions de mise
+      en place d'une structure juridique pérenne destinée à valoriser ses acquis.</p>"
+
+ozwillo_status: Statuts de l'association
+ozwillo_membership_grid: Grille d'adhésion
+why_ozwillo: "<p><strong>Pourquoi « Ozwillo » ?</strong></p>
+  <ul>
+    <li>Un nom prononçable dans toutes les langues;</li>
+    <li>« Oz » pour oser le partage de données, oser le bien commun;</li>
+    <li>« will » pour évoquer notre volonté, notre futur;</li>
+    <li>Le dernier «o» pour signifier l'ouverture.</li>
+  </ul>
+  <p>Ozwillo c'est la magie d'un nouveau monde qui s'ouvre à vous !</p>"
+
+governance_title: Rejoindre la gouvernance
+governance_desc_part1: "<p>Peuvent être admises au sein de l'association en qualité de membres, les personnes physiques
+  en leur nom, ou au titre de la représentation d'une personne morale, dès lors qu'elles partagent les valeurs de
+  l'association et qu'elles apportent une compétence avérée au fonctionnement de l'association.</p>
+  <p>L'association représente l'ensemble de la société civile et est garante d'un projet de société basé sur la création
+  de biens communs numériques, réutilisables, dans une optique d'accessibilité et de préservation des richesses numériques.</p>"
+governance_desc_quote: "« Les biens numériques ne sont plus soustractibles. L'usage par l'un ne remet nullement en cause
+  l'usage par l'autre, car la reproduction d'un bien numérique (un fichier de musique, un document sur le réseau, une
+  page web, ...) a un coût marginal qui tend vers zéro. On pourrait en déduire que ces Communs sont « inépuisables »,
+  et qu'une abondance numérique est venue. Or si l'on considère les Communs comme un espace de gouvernance, on remarque
+  au contraire que ces nouveaux Communs de la connaissance sont fragiles »"
+governance_desc_quote_cite: "Source : Gouvernance des biens communs, pour une nouvelle approche des ressources naturelles,
+  Elinor Osrom"
+governance_desc_part2: "<p>Le fonctionnement de l'association est basé sur les valeurs qui caractérisent la Société des
+  Connaissances :</p>
+  <ul>
+    <li>L'humain est au cœur du système;</li>
+    <li>L'ouverture devient une clé fondamentale pour créer, innover;</li>
+    <li>Les formes de management et de gouvernance deviennent transversales;</li>
+    <li>Les modèles économiques évoluent vers des modes « gagnant-gagnant», circulaires, ...</li>
+  </ul>
+  <p>En conséquence, l'association Ozwillo ne favorise aucune forme de prosélytisme politique et ne peut être présidée
+  par un élu dans le cadre de ses fonctions électives.</p>"
+governance_members: Les membres
+governance_membership_bulletin: Bulletin d'adhésion
+
+cooperative_title: Vers la création d'une coopérative d'intérêt collectif (SCIC)
+cooperative_desc: "<p>L'association, tout en assurant l'exploitation de la plateforme Ozwillo, prépare sa transformation
+  en Société Coopérative d'Intérêt Collectif (S.C.I.C) dans les meilleurs délais.</p>
+  <p>L'association se transformera en société coopérative sans changement de personne morale.</p>
+  <p>Vous êtes investisseurs, donateurs, vous pouvez d'ores et déjà contribuer à la constitution du capital de la SCIC,
+  investir dans des titres participatifs.</p>"
+cooperative_contact: Contactez-nous

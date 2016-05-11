@@ -1,10 +1,20 @@
 # page names as used in URLs
 home: accueil
-discover: decouvrir
+
+offer-data: offre-donnees
+offer-portal: offre-portail
+offer-project: offre-projets
+
+association: association
+governance: gouvernance
+community: communaute
+team: equipe
+
+common-good: bien-commun
+technology: technologie
+genesis: genese
+contributions: contributions
+
 news: actualites
-co-construct: co-construire
-projects: projets
 contact: contact
 legal-notices: mentions-legales
-terms: cgu
-

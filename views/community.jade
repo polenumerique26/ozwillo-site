@@ -1,0 +1,126 @@
+- var page = 'community'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+
+    #content.header
+      .container
+        .row
+          .col-md-12
+            h1= t('community:::main_title')
+
+    .container.logos
+      .row
+        .col-md-12
+          p.community-intro= t('community:::introduction')
+      .row.with-subtitle
+        .col-md-12
+          h2= t('community:::users_title')
+        .col-md-12
+          span= t('community:::users_subtitle')
+      .row.flex-row
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_valaurie.png', alt='Logo Valaurie')
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_utilisateur_Marka.jpg', alt='Logo Marka')
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_utilisateur_rozovatadolina_Kazanlak-bg.jpg', alt='Logo Rozovatadolina Kazanlak')
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/Logo_utilisateur_Torino_Metropolitana.png', alt='Logo Torino Metropolitana')
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_utilisateur_pays_de_saint_marcellin.png', alt='Logo Pays de Saint Marcellin')
+      .row.with-subtitle
+        .col-md-12
+          h2= t('community:::service_providers_title')
+        .col-md-12
+          span= t('community:::service_providers_subtitle')
+      .row.flex-row
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_atreal.png', alt='Logo AtReal')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_asso_agrilocal.gif', alt='Logo Association Agrilocal')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_blau_advisors.png', alt='Logo Blau Adivors')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_david_holding.png', alt='Logo David Holding')
+      .row.flex-row
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_ibaysoft.png', alt='Logo Ibaysoft')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/idnext.jpg', alt='Logo Idnext')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_kapt.png', alt='Logo Kapt')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_Yziact.png', alt='Logo Yziact')
+      .row.with-subtitle
+        .col-md-12
+          h2= t('community:::contributors_title')
+        .col-md-12
+          span= t('community:::contributors_subtitle')
+      .row.flex-row
+        .col-md-6
+          .thumbnail
+            img(src='/static/img/logo_atol.png', alt='Logo Atol C&D')
+        .col-md-6
+          .thumbnail
+            img(src='/static/img/logo_openwide.png', alt='Logo Open Wide')
+      .row.with-subtitle
+        .col-md-12
+          h2= t('community:::partners_title')
+        .col-md-12
+          span= t('community:::partners_subtitle')
+      .row.flex-row
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/Logo_ipgarde.png', alt='Logo IP Garde')
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_shift.png', alt='Logo Shift')
+        .col-md-4.col-xs-6
+          .thumbnail
+            img(src='/static/img/parme-avocats.jpg', alt='Logo Parme Avocats')
+      .row.with-subtitle
+        .col-md-12
+          h2= t('community:::public_funding_title')
+        .col-md-12
+          span= t('community:::public_funding_subtitle')
+      .row.flex-row
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_ICT-PSP.fw.png', alt='Logo ICT PSP')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/Logo_EU.jpg', alt='Logo EU')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_pia.png', alt='Logo Programme Investissement Avenir')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_Gouv-FR.png', alt='Logo Gouvernement Français')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_RRA.png', alt='Logo Région Rhones Alpes')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/logo_drome_departement.png', alt='Logo Département de la Drôme')
+        .col-md-3.col-xs-6
+          .thumbnail
+            img(src='/static/img/ardeche.png', alt='Logo Département Ardèche')
+
+  include ./footer.jade
+  include ./scripts.jade

@@ -1,0 +1,50 @@
+- var page = 'contributions'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+    
+    // page content goes here
+    #content.header
+      .container
+        .row
+          .col-md-12
+            h1.with-subtitle= t('contributions:::main_title')
+
+    .container.offer
+      .row
+        .col-md-12
+          h2= t('contributions:::code_title')
+          div.subtitle= t('contributions:::code_subtitle')
+      .row            
+        .col-sm-6.col-xs-12
+          p= t('contributions:::code_items_intro')
+          div.list-items!= t('contributions:::code_items')
+        .col-sm-6
+          img.img-responsive(src='/static/img/Image_contribution_code.png', alt='Illustration Contribution au code')
+      
+    .img-background
+      .container.offer
+        .row
+          .col-md-12
+            h2= t('contributions:::data_title')
+            div.subtitle= t('contributions:::data_subtitle')
+        .row
+          .col-sm-6.col-xs-12
+            div.list-items
+              != t('contributions:::data_items')
+              a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('contributions:::contact_us')
+          .col-sm-6
+            img.img-responsive.center-block(src='/static/img/Image_contribution_data.png', alt='Illustration Contribution aux données')
+
+    .container.offer
+      .row
+        .col-sm-8
+          h2= t('contributions:::governance_title')
+          div.subtitle= t('contributions:::governance_subtitle')
+          p(style='margin-bottom:2em')= t('contributions:::governance_desc')
+          a.btn.btn-sm.btn-page.pull-left(href=getPageLink('governance'))= t('contributions:::go_to_governance')
+
+  include ./footer.jade
+  include ./scripts.jade

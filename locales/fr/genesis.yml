@@ -1,0 +1,94 @@
+main_title: Genèse d'un bien commun
+main_subtitle: De l'ouverture à la création d'un bien commun
+
+oasis_title: Oasis - Le projet européen socle de la plateforme Ozwillo
+
+oasis_origin_title: L'origine du projet
+oasis_text_1: Ozwillo est issu du projet européen OASIS, qui a permis de créer les premières briques techniques et juridiques
+  de cette plateforme.
+oasis_text_2: "Le projet européen OASIS a été retenu en 2011 par la Commission Européenne dans le cadre du programme de
+  Compétitivité et d’Innovation 2007-2013, sur l’Appel à Projets : <i>Towards a cloud of public services</i> (vers un nuage de services publics)."
+oasis_text_3: L'enjeu est le développement de services publics plus efficients en accompagnant les collectivités à
+  basculer vers des services en mode hébergé, interopérables.
+
+oasis_pillars_title: Les piliers de l'appel à projets
+oasis_pillars_item_1: Casser les silos de données
+oasis_pillars_item_2: Ouvrir et réutiliser les services
+oasis_pillars_item_3: Déploiement de nouvelles architectures
+oasis_pillars_item_4: Démonstration à grande échelle
+
+oasis_results_title: Les résultats du projet
+oasis_results_item_1: "Une plateforme Web sécurisée de données liées (Linked Data) publiée en
+  <a href='https://github.com/ozwillo'>Open Source sur GitHub</a>"
+oasis_results_item_2: Une architecture sécurisée validée par un cabinet spécialisé
+oasis_results_item_3: 23 applications métiers ou grand public basculées en mode SaaS et partageant de la donnée au
+  travers de la plateforme
+oasis_results_item_4: Plus de 1800 organisations utilisatrices des applications, soit plus de 2700 utilisateurs
+  partageant plus de 615 000 données
+oasis_results_item_5: Un modèle économique
+
+map_title: Ce projet, unique en Europe, a associé 6 pays (Angleterre, Espagne, Italie, Bulgarie, Turquie et France),
+  dont 5 sites pilotes
+
+partner_title: Les partenaires du projet
+partner_column_1_item_1: "L'association Pôle Numérique, France<br/><i>Conception et coordination du projet</i>"
+partner_column_1_item_2: "L’Université Polytechnique de Turin, Italie<br/><i>Architecture de la plate-forme</i>"
+partner_column_1_item_3: "Les sociétés françaises Atol C&D et Open Wide<br/><i>Architecture et développement de la plate-forme</i>"
+
+partner_column_2_item_1: "Les entreprises atReal (France), David Holding (Bulgarie) et Blau Advisors (Espagne)<br/>
+  <i>Fournisseurs de servies</i>"
+partner_column_2_item_2: "La Province de Turin (France) et l'Agence de Développement Économique de la Région East Marmara
+  (Turquie)<br/><i>Sites pilotes</i>"
+partner_column_2_item_3: "L'Université de Brunel, Angleterre<br/><i>Expertise juridique et données personnelles</i>"
+
+########################################################################################################################
+#OCCIWare
+
+occi_title: OCCIware - Poursuivre l'innovation avec un projet d'état
+occi_text_1: "Le projet <a href='http://www.occiware.org'>OCCIware</a> a été retenu en 2014 au 4ème appel à projets « Cloud
+  Computing et Big Data », Coeur de filière numérique, Investissements d’Avenir – Développement de l’Economie Numérique."
+occi_text_2: "L’objectif d’OCCIware est de proposer un cadre formel et outillé pour la gestion de tous types de ressources
+  “dans le nuage” : modélisation, conception, déploiement et exécution de toutes ressources informatiques sous forme de
+  service en ligne."
+
+########################################################################################################################
+#Démonstrateur
+demonstrator_title: <span>Ozwillo sera un <strong>démonstrateur</strong> d'OCCIware</span>
+
+demonstrator_column_1_text: "<strong>Qu'est-ce qu'un démonstrateur à l’échelle 1 ?</strong>
+  <br />
+  <br />
+  Un démonstrateur à l’échelle 1 se situe après la phase de recherche en laboratoire et avant la phase d’industrialisation et de commercialisation dont une première étape est en général la réalisation d’un prototype.
+  <br />
+  <br />
+  <strong>La réalisation d’un démonstrateur se justifie pour :</strong>"
+demonstrator_column_1_item_1: Valider à l’échelle réelle, les solutions de conception retenues en R&D sur « la paillasse » ou sur des équipements tests ou sur des démonstrateurs à l’échelle réduite
+demonstrator_column_1_item_2: Evaluer les performances dans un environnement proche d’une situation réelle et à la bonne échelle
+demonstrator_column_1_item_3: Démontrer la pertinence de l’innovation et ses avantages concurrentiels dans une perspective d’innovation par les usages, de plus en plus souvent.
+
+demonstrator_column_2_text: "<span>
+  Le démonstrateur est donc un lieu qui permet de réaliser et d’expérimenter des technologies afin de les optimiser,
+  de valider la faisabilité et les performances. Il doit associer des partenaires économiques, des laboratoires, plusieurs
+  industriels et des territoires pour la mise en oeuvre.
+  <br/><br/><strong>On peut distinguer trois grandes catégories de démonstrateurs :</strong>
+  </span>"
+demonstrator_column_2_item_1: Démonstrateur Produit
+demonstrator_column_2_item_2: Démonstrateur Procédé / Process
+demonstrator_column_2_item_3: "Démonstrateur de Systèmes complexes pouvant lui-même être un terrain d'évaluation des deux premiers types"
+
+########################################################################################################################
+# Évolution & Développement
+
+evolutions_title: Les évolutions et axes de développement d'Ozwillo
+
+evolutions_items_title: Au delà des projets, la platefome Ozwillo est en perpétuelle évolution par souci de procurer la meilleure
+  expérience utilisateur possible et de s'adapter aux besoins exprimés
+evolutions_item_1: Enrichir le panel d'applications afin que l'utilisateur final retrouve la liberté de choisir et garde
+  son indépendance vis-à-vis de tout éditeur de logiciels
+evolutions_item_2: Développer la participation citoyenne pour une meilleure gestion du domaine public et favoriser la
+  reconnaissance des citoyens contributeurs
+evolutions_item_3: Étendre la plateforme à d’autres territoires européens
+evolutions_item_4: Développer de nouveaux outils pour optimiser la liaison de données et leur réutilisation (OCCIware)
+evolutions_item_5: Améliorer l’ergonomie, l'accès et la compréhension intuitive des fonctionnalités
+evolutions_item_6: Industrialiser la plateforme pour faciliter la venue de nouveaux fournisseurs de services
+evolutions_item_7: Faire évoluer la gouvernance pour la préservation du "bien commun" de données fabriqué au quotidien

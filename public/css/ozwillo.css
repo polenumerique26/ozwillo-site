@@ -1,0 +1,639 @@
+/*****************************************************************************************************************
+********************************* HTML elements and utilities styles *********************************************
+*****************************************************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin: 60px 0 60px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 2em 0 1em 0;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F0EEEF;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 39px 0 28px 0;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+}
+
+dt {
+    margin-top: 0.5em;
+}
+
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/*****************************************************************************************************************
+*********************************************** TWBS overrides ***************************************************
+*****************************************************************************************************************/
+
+.container {
+    padding-bottom: 2em;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.caret {
+    margin-left: 5px;
+}
+
+/*****************************************************************************************************************
+********************************************* Common site styles *************************************************
+*****************************************************************************************************************/
+
+.header {
+    background: url(/static/img/Bandeau_H200.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 200px;
+}
+
+div.with-subtitle {
+    margin-bottom: 50px;
+}
+
+div.with-subtitle h2 {
+    margin-bottom: 5px;
+}
+
+div.with-background h2 {
+    border: none;
+}
+
+h1.with-subtitle {
+    margin-bottom: 20px;
+}
+
+div.main-subtitle {
+    color: white;
+}
+
+div.list-items {
+    margin-top: 1em;
+}
+
+div.list-items p.items-header {
+    font-weight: bold;
+    color: #6f438e;
+    margin-bottom: 1em;
+}
+
+div.list-items ul {
+    padding-left: 16px;
+    margin-bottom: 2em;
+}
+
+div.list-items ul>li {
+    list-style-image: url(/static/img/arrow.png);
+    margin-bottom: 0.8em;
+}
+
+div.centered-list-items ul>li {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.logos .thumbnail {
+    margin-bottom: 3em;
+}
+
+/*****************************************************************************************************************
+************************************************** Buttons *******************************************************
+*****************************************************************************************************************/
+
+.btn {
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 0;
+    width: 232px;
+    display: block;
+    margin: auto;
+}
+
+.btn-lg {
+    line-height: 64px;
+    height: 64px;
+    padding: 0;
+}
+
+a.btn {
+    margin-bottom: 15px;
+}
+
+.btn-page {
+    background-color: #e8165b;
+    border-bottom: 3px solid #b30e44;
+}
+
+.btn-page:hover, .btn-page:focus {
+    color: #fff;
+    background-color: #b30e44;
+    border-bottom: 3px solid #b30e44;
+}
+
+.btn-file {
+    background-color: #337ab7;
+    border-bottom: 3px solid #2e6da4;
+}
+
+.btn-file:hover, .btn-file:focus {
+    color: #fff;
+    background-color: #2e6da4;
+    border-bottom: 3px solid #2e6da4;
+}
+
+/*****************************************************************************************************************
+************************************************** Navbar ********************************************************
+*****************************************************************************************************************/
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-brand > img {
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+#ozwillo-navbar {
+    margin-top: 10px;
+}
+
+#ozwillo-navbar ul.dropdown-menu > li > .gris {
+    color: #666 !important;
+}
+
+#ozwillo-navbar ul.dropdown-menu > li > .gris:hover {
+    color: #333 !important;
+}
+
+#ozwillo-navbar a {
+    color: #6f438e !important;
+    font-weight: 300;
+}
+
+#ozwillo-navbar a > img {
+    margin: 0 5px 0 0;
+}
+
+#ozwillo-navbar a:hover, a:focus {
+    color: #6f438e !important;
+}
+
+/*****************************************************************************************************************
+*************************************************** Footer *******************************************************
+*****************************************************************************************************************/
+
+footer {
+    background: #dfcae2;    
+}
+
+.footer {
+    padding-top: 60px;
+}
+
+.footer-bordure {
+    border-bottom: 1px solid #b294c0;
+}
+
+.footer-logo {
+    width: auto;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .footer-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer-logos {
+    margin-top: 25px;
+    float: right;
+}
+
+.footer-links div {
+    padding-left: 0;
+}
+
+a.footer-link {
+    color: #454446;
+    font-size: 0.8em;
+    margin: 0 0 5px 25px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    a.footer-link {
+        font-size: 1em;
+        line-height: 25px;
+    }
+}
+
+.logo-twitter {
+    width: auto;
+    height: auto;
+    margin: 25px 0 0 0;
+}
+
+/*****************************************************************************************************************
+******************************************************** Accueil *************************************************
+*****************************************************************************************************************/
+
+.header-home {
+    background: url(/static/img/Bandeau_page_accueil.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 785px;
+}
+
+h1.home {
+    text-align: center;
+    font-size: 4em;
+    line-height: 2em;
+}
+
+@media (max-width: 767px) {
+    h1.home {
+        font-size: 2.5em;
+    }
+}
+
+.img-offer {
+    margin: 78px 0 0 0;
+}
+
+h2.title-offer {
+    margin: 40px 0 0 0;
+    border: none;
+    text-transform: none;
+    height: 3em;
+}
+
+.block-offer {
+    color: #6a6767;
+    margin: 0 0 7em 0;
+    height: 6em;
+}
+
+.block-offer p.first-line {
+    min-height: 4em;
+}
+
+.icon-offers {
+    margin-top: 2em;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+ul.commitment {
+    padding-left: 20px;
+    margin-bottom: 39px;
+}
+
+ul.commitment li {
+    color: #6a6767;
+    margin: 0 0 30px 0;
+    list-style-type: none;
+    padding: 0 50px 10px 50px;
+    vertical-align: middle;
+}
+
+ul.commitment li.cc {
+    background: url(/static/img/ico_cc_transp.png) no-repeat top left;
+}
+
+ul.commitment li.gouvernance {
+    background: url(/static/img/ico_communaute_transp.png) no-repeat top left;
+}
+
+ul.commitment li.tiers-confiance {
+    background: url(/static/img/ico_garant_transp.png) no-repeat top left;
+}
+
+ul.commitment li.opensource {
+    background: url(/static/img/ico_code_transp.png) no-repeat top left;
+}
+
+/*****************************************************************************************************************
+******************************************************** News ****************************************************
+*****************************************************************************************************************/
+
+h2.news {
+    font-size: 2em;
+    color: #6f438e;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+
+h2.news-column {
+    font-size: 1.5em;
+    color: #6f438e;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+
+div.news {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3dfdf;
+}
+
+p.news-date {
+    font-size: 0.8em;
+    color: #a39f9f;
+    margin: 0 0 15px 0;
+}
+
+p.news-desc {
+    color: #524d4d;
+    margin: 15px 0 15px 0;
+}
+
+div.grey {
+    background-color: #faf8f8;
+}
+
+/*****************************************************************************************************************
+*************************************************** Association **************************************************
+*****************************************************************************************************************/
+
+div.side-pane {
+    background-color: #F9F8F7;
+    border: 2px solid #F0EEEF;
+    padding: 5px;
+}
+
+blockquote.governance {
+    margin: 2em;
+    font-size: 1em;
+    background-color: #F9F8F7;
+    border: 2px solid #F0EEEF;
+    font-style: italic;
+}
+
+/*****************************************************************************************************************
+****************************************************** Community *************************************************
+*****************************************************************************************************************/
+
+p.community-intro {
+    margin-top: 2em;
+}
+
+/*****************************************************************************************************************
+***************************************************** Governance *************************************************
+*****************************************************************************************************************/
+
+.governance .thumbnail.right-caption > img {
+    float: left;
+    margin-right: 9px;
+}
+
+.governance .thumbnail.right-caption {
+    float: left;
+}
+
+.governance .thumbnail.right-caption > .caption {
+    padding: 4px;
+}
+
+.governance-name {
+    font-weight: bold;
+}
+
+.governance-title {
+    font-style: italic;
+}
+
+.governance .caption p {
+    margin-bottom: 0;
+}
+
+/*****************************************************************************************************************
+***************************************************** Team *******************************************************
+*****************************************************************************************************************/
+
+.team-name {
+    font-weight: bold;
+}
+
+.team-hashtags {
+    font-style: italic;
+}
+
+/*****************************************************************************************************************
+**************************************************** Offers ******************************************************
+*****************************************************************************************************************/
+
+div.offer h2 {
+    margin-bottom: 0;
+    border: none;
+}
+
+div.offer div.offer-right {
+    text-align: right;
+}
+
+div.offer div.addon, div.offer div.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.img-background {
+    background: url(/static/img/block-background.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+}
+
+div.offer-portal div.portal-type {
+    margin-top: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #bdbdbd;
+}
+
+div.img-background div.offer-portal div.portal-type {
+    color: inherit;
+    text-align: right;
+}
+
+div.img-background div.offer-portal h2 {
+    text-align: right;
+}
+
+div.offer-portal h2 {
+    margin-top: 0;
+}
+
+div.offer-portal img.img-block-illustration {
+    margin-top: 0;
+}
+
+div.offer-portal img.country-icon {
+    margin-left: 2em;
+}
+
+/*****************************************************************************************************************
+*************************************************** Genesis ******************************************************
+*****************************************************************************************************************/
+
+.map {
+    background: url(/static/img/map.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+}
+
+div.map-title {
+    color: white;
+    font-size: 2em;
+    margin: 1em 2em 2em;
+}
+
+.genesis-future {
+    background: #dfcae2;
+    margin-bottom: 2em;
+}
+
+/*****************************************************************************************************************
+*************************************************** Contact ******************************************************
+*****************************************************************************************************************/
+
+h2.contact {
+    margin: 39px 0 28px 0;
+}
+
+.mail-result-message {
+    margin-top: 20px;
+}
+
+.infos {
+    color: #6a6767;
+    margin: 30px 0 75px 0;
+    display: block;
+}
+
+ul.infos {
+    padding-left: 20px;
+    margin-bottom: 39px;
+}
+
+span.lt {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    clear: both;
+    display: block;
+}
+
+ul.infos li {
+    padding-left: 30px;
+    list-style: none;
+    background: url(/static/img/marker.jpg) no-repeat top left;
+}
+
+ul.infos li a {
+    color: #8765ac;
+}
+
+ul.infos.phone li {
+    background: url(/static/img/phone.jpg) no-repeat top left;
+}
+
+ul.infos.mail li {
+    background: url(/static/img/mail.jpg) no-repeat top left;
+}
+
+.champ {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #eeebeb;
+    background: #f9f9f9;
+    color: #646262;
+    border-radius: 0;
+    margin: 0 20px 0 0;
+    display: block;
+    padding: 0 0 0 20px;
+}
+
+.texte {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #eeebeb;
+    background: #f9f9f9;
+    color: #646262;
+    border-radius: 0;
+    margin: 0 20px 0 0;
+    display: block;
+    clear: both;
+    padding: 10px 0 0 20px;
+}
+
+.btn-submit {
+    background-color: #e8165b;
+    border-bottom: 3px solid #b30e44;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+    background-color: #b30e44;
+    border-bottom: 3px solid #b30e44;
+    color: #fff;
+}

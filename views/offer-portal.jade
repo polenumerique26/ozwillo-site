@@ -1,0 +1,59 @@
+- var page = 'offer-portal'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+
+    #content.header
+      .container
+        .row
+          .col-md-12
+            h1.with-subtitle= t('offer-portal:::main_title')
+            .main-subtitle= t('offer-portal:::main_subtitle')
+    
+    .container.offer.offer-portal
+      .row
+        .col-md-12
+          div.portal-type= t('offer-portal:::community_apps_portal_type')
+          h2= t('offer-portal:::community_apps_title')
+      .row
+        .col-sm-6
+          p= t('offer-portal:::community_apps_subtitle')
+          div.list-items
+            != t('offer-portal:::community_apps_items')
+          a.btn.btn-sm.btn-page.pull-left(href=getOzwilloHost('portal') + '/' + i18n.lng() + '/store?ui_locales=' + i18n.lng())= t('offer-portal:::go_to_portal')
+        .col-sm-6
+          img.img-responsive.img-block-illustration(src='/static/img/Image_portail_decouvrir.png', alt='Illustration Portail communautaire')
+
+    .img-background
+      .container.offer.offer-portal
+        .row
+          .col-md-12
+            div.portal-type= t('offer-portal:::community_market_portal_type')
+            h2= t('offer-portal:::community_market_title')
+        .row
+          .col-sm-6
+            img.img-responsive.img-block-illustration(src='/static/img/Image_portail_commercialiser.png', alt='Illustration Portail commercialisé')
+          .col-sm-5.col-sm-offset-1
+            p= t('offer-portal:::community_market_subtitle')
+            div.list-items
+              != t('offer-portal:::community_market_items')
+              a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('offer-portal:::contact_us')
+
+    .container.offer.offer-portal
+      .row
+        .col-md-8.col-md-offset-2
+          div.portal-type.text-center= t('offer-portal:::customized_portal_type')
+          h2.text-center= t('offer-portal:::customized_title')
+          p.text-center= t('offer-portal:::customized_subtitle')
+          div.list-items.centered-list-items
+            p.items-header.text-center= t('offer-portal:::customized_applications')
+            != t('offer-portal:::customized_applications_items')
+          div.list-items.centered-list-items
+            p.items-header.text-center= t('offer-portal:::customized_data')
+            != t('offer-portal:::customized_data_items')
+            a.btn.btn-sm.btn-page(href=getPageLink('contact'))= t('offer-portal:::contact_us')
+
+    include ./footer.jade
+    include ./scripts.jade

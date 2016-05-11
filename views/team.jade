@@ -1,0 +1,57 @@
+- var page = 'team'
+doctype html
+html(lang=i18n.lng())
+  include ./header.jade
+  body
+    include ./menu.jade
+
+    #content.header
+      .container
+        .row
+          .col-md-12
+            h1= t('team:::main_title')
+
+    .container
+      .row
+        .col-md-12
+          h2= t('team:::internal')
+      .row.flex-row.governance
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/sophie_Houzet_def.jpg', alt='Photo Sophie Houzet')
+            .caption.text-center
+              p.team-name Sophie Houzet
+              p.team-role= t('team:::executive_officer')
+              p.team-hashtags
+                | #projets, #communication
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/benoit.jpg', alt='Photo Benoit Orihuela')
+            .caption.text-center
+              p.team-name Benoit Orihuela
+              p.team-role= t('team:::technical_coordinator')
+              p.team-hashtags
+                | #development, #editors
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/photo_bthuillier.png', alt='Photo Bruno Thuillier')
+            .caption.text-center
+              p.team-name Bruno Thuillier
+              p.team-role= t('team:::relations')
+              p.team-hashtags
+                | #data, #collectivités
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/Marc_dutoo.jpg', alt='Photo Marc Dutoo', style='width:140px')
+            .caption.text-center
+              p.team-name Marc Dutoo
+              p.team-role= t('team:::marc_dutoo')
+        .col-md-4
+          .thumbnail
+            img(src='/static/img/Thomas_Broyer.jpg', alt='Photo Thomas Broyer', style='width:140px')
+            .caption.text-center
+              p.team-name Thomas Broyer
+              p.team-role= t('team:::thomas_broyer')
+
+    include ./footer.jade
+    include ./scripts.jade

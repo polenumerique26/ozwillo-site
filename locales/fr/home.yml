@@ -1,25 +1,49 @@
-main_title: Ozwillo est une plate-forme d'applications interactives grâce au partage de données.
+main_title: L'infrastructure socle<br/> de votre<br/> Smart Territoire
 
-professional_title: span Vous êtes un <strong>professionnel</strong> d’une organisation publique ou privée ?
-professional_subtitle: Vous trouverez ici, des services citoyens et des applications qui vous sont destinés.
-professional_financialapp: Logiciels de gestion financière
-professional_eservices: Gestionnaires de démarches en ligne
-professional_hotspotwifi: Hotspot Wifi
-professional_cartography: Cartographie participative
+offers_schema_title: Une solution modulaire support de votre innovation
 
-apps_already_joined: Ils ont déjà rejoint
-apps_discover: Découvrir
-apps_inprogress: En cours
-apps_opendata: Publiez et hébergez vos données en Open Data sur Ozwillo
-apps_fluxdemat: Application de dématérialisation des flux financiers (PESV2) et des actes pour contrôle de légalité
-apps_zimbra: Application open source de collaboration (messagerie-mail, partage de documents)
-apps_dokuwiki: Application de wiki open source
-apps_agrilocal: Plateforme d'achats de denrées locales pour les cantines et établissements publics
-apps_10tts: Un guide communautaire des lieux incontournables à voir dans une ville ou près d’une destination touristique
+offers_title: Nos services support de votre innovation
 
-store_title: span Vous êtes éditeur et voulez commercialiser <strong>votre application</strong> ?
-store_subtitle: Les librairies et outils permettant d'utiliser plus facilement la plateforme sont publiés en licence Lesser GPL.
+data_title: Valoriser vos données
+data_description_1: La maîtrise et l'exploitation de vos données sont des enjeux cruciaux.
+data_description_2: Qu'elles soient Open, Big, Smart, Shared, Linked, nous donnons du sens à vos Data et vous proposons des outils 
+  pour les exploiter facilement.
+data_browse: Les solutions Données
 
-developer_title: span Vous êtes <srong>développeur</strong> ? Ozwillo vous permet de <strong>lancer</strong> votre application
-developer_subtitle: Basé sur un modèle ouvert (code source), et permettant la réutilisation des données produites par l'ensemble des applications, vos capacités seront comme décuplées.
+portal_title: Promouvoir vos applications
+portal_description_1: La visibilité et l'accès en mobilité de vos applications sont les facteurs clés de leur adoption.
+portal_description_2: Rendez vos applications communicantes et accessibles à vos utilisateurs en quelques clics au travers 
+  d'un portail personnalisable.
+portal_browse: Les solutions Portail
+
+incubation_title: Dynamiser vos projets
+incubation_description_1: De l'idée à la commercialisation, accélérer et sécuriser le processus de mise sur le marché.
+incubation_description_2: Bénéficiez d'une équipe d'experts et de données partagées pour développer de nouvelles applications communicantes avec un accompagnement
+  jusqu'à leur commercialisation.
+incubation_browse: Les solutions Projets
+
+differentiator_title: Le + éthique d'Ozwillo
+differentiator_1: Ozwillo est une fabrique de biens communs de données et modèles sémantiques associés, réutilisables, modifiables, par tous.
+  Les modèles sont publiés en LGPL
+differentiator_2: Ozwillo est doté d'une gouvernance ouverte représentant la société, un collectif de personnes publiques, privées
+  et de particuliers, qui permet à chacun de préserver sa liberté, son indépendance, et de contribuer à l'enrichissement de l'infrastructure
+differentiator_3: Ozwillo est un tiers de confiance, garant de l'utilisation du bien commun de données, de leur modèles,
+  ainsi que du respect de la confidentialité des données personnelles et de la libre concurrence des applications proposées
+differentiator_4: La plateforme Ozwillo, constituée du moteur de données, du portail et de son système de sécurité
+  est publiée en <a href='https://github.com/ozwillo'>Open Source sur GitHub</a>, ouverte à la contribution
+
+store_title: span Un catalogue riche d'applications pour tous les publics
+store_professional: Pour les professionels d’une organisation publique ou privée
+store_professional_description: Vous trouverez ici des services citoyens et des applications qui vous sont destinés. De quoi
+  simplifier vos processus et vos tâches professionnelles. Avec Ozwillo vous adoptez une nouvelle manière de rendre les
+  services publics et de favoriser la participation citoyenne.
+store_personal: Pour vos usages personnels
+store_personal_description: Vous trouverez ici des services citoyens et des applications qui vous sont destinés (par
+  exemple une carte de déclaration d’incidents proposés par votre commune, ou bien encore un formulaire de demande
+  d’inscription sur la liste électorale de votre commune, ou un formulaire d’inscription et de paiement à la cantine
+  pour vos enfants ou encore des outils pour vos travaux collaboratifs ...
+store_discover: Découvrir le catalogue
+
+community_already_joined: Une communauté pour démultiplier la créativité
+
 

@@ -1,0 +1,44 @@
+main_title: Les solutions Portail
+main_subtitle: Promouvoir vos applications
+
+community_apps_portal_type: Portail Ozwillo
+community_apps_title: Découvrez les applications déjà communicantes
+community_apps_subtitle: Tourisme, environnement, e-administration, relation citoyenne, ... trouvez votre application
+community_apps_items:
+  "<ul>
+    <li>Des applications utilisables en 3 clics</li>
+    <li>Un espace personnel pour gérer vos applications</li>
+    <li>Une période d'essai gratuite de 30 jours</li>
+    <li>Vos données réutilisables sans coût supplémentaire</li>
+  </ul>"
+
+community_market_portal_type: Portail Ozwillo
+community_market_title: Commercialisez vos applications
+community_market_subtitle: Déposez vos applications sur le portail commun et rendez-les communicantes
+community_market_items:
+  "<ul>
+    <li>Un système d'authentification et une gestion unifiée de vos utilisateurs</li>
+    <li>Des données liées partagées et réutilisables</li>
+    <li>Publication de votre application dans un catalogue multilingue</li>
+    <li>Partenaires potentiels pour commercialiser à l'étranger</li>
+  </ul>"
+
+customized_portal_type: Portail personnalisé
+customized_title: Créez votre propre portail d'applications
+customized_subtitle: Facilitez la relation avec vos usagers
+customized_applications: "Vos applications :"
+customized_applications_items:
+  "<ul>
+    <li>Regroupées dans un portail dédié personnalisé</li>
+    <li>Accessibles à vos utilisateurs en quelques clics et sans installation locale</li>
+    <li>Bénéficiaires du système de fédération d'identité</li>
+  </ul>"
+customized_data: "Vos données :"
+customized_data_items:
+  "<ul>
+    <li>Modélisées pour être liables entre elles</li>
+    <li>Réutilisables par toute nouvelle application</li>
+  </ul>"
+
+contact_us: Nous contacter
+go_to_portal: Accès au portail
