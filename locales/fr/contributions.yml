@@ -17,13 +17,12 @@ data_subtitle: Participer à l’enrichissement d’un bien commun de données e
 data_items:
   "<ul>
     <li>Vous détenez des données métiers, des référentiels que vous souhaitez voir partagés et réutilisés, devenez fournisseur de données en publiant vos jeux de données sur la plateforme d’Open Data d’Ozwillo, nous les valoriserons en Linked Data accessibles via API</li>
-    <li>En contribuant par de nouveaux jeux de données, vous participez également à l’enrichissement des modèles de données</li>
-    <li>L’ensemble des modèles de données créés ou proposés sont publiés sur la plateforme d’Open Data d’Ozwillo sous licence libre</li>
+    <li>En modélisant vos données, vous participez à l’enrichissement des modèles de données</li>
   </ul>"
 
 governance_title: Contribution à la gouvernance
 governance_subtitle: Rejoignez la gouvernance de biens communs numériques
-governance_desc: La gouvernance de ces biens communs créés est ouverte et représente l’ensemble de la société (un collectif de 
+governance_desc: La gouvernance de ces biens communs numériques est ouverte et représente l’ensemble de la société (un collectif de 
   personnes publiques et privées, particuliers) qui permet à chacun de préserver sa liberté, son indépendance, et de contribuer 
   à l’enrichissement de ce patrimoine numérique
 go_to_governance: Voir la gouvernance
