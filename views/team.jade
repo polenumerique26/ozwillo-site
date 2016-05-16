@@ -22,24 +22,21 @@ html(lang=i18n.lng())
             .caption.text-center
               p.team-name Sophie Houzet
               p.team-role= t('team:::executive_officer')
-              p.team-hashtags
-                | #projets, #communication
+              p.team-hashtags= t('team:::executive_officer_hashtags')
         .col-md-4
           .thumbnail
             img(src='/static/img/benoit.jpg', alt='Photo Benoit Orihuela')
             .caption.text-center
               p.team-name Benoit Orihuela
               p.team-role= t('team:::technical_coordinator')
-              p.team-hashtags
-                | #development, #editors
+              p.team-hashtags= t('team:::technical_coordinator_hashtags')
         .col-md-4
           .thumbnail
             img(src='/static/img/photo_bthuillier.png', alt='Photo Bruno Thuillier')
             .caption.text-center
               p.team-name Bruno Thuillier
               p.team-role= t('team:::relations')
-              p.team-hashtags
-                | #data, #collectivités
+              p.team-hashtags= t('team:::relations_hashtags')
         .col-md-4
           .thumbnail
             img(src='/static/img/Marc_dutoo.jpg', alt='Photo Marc Dutoo', style='width:140px')

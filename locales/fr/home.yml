@@ -2,8 +2,6 @@ main_title: L'infrastructure socle<br/> de votre<br/> Smart Territoire
 
 offers_schema_title: Une solution modulaire support de votre innovation
 
-offers_title: Nos services support de votre innovation
-
 data_title: Valoriser vos données
 data_description_1: La maîtrise et l'exploitation de vos données sont des enjeux cruciaux.
 data_description_2: Qu'elles soient Open, Big, Smart, Shared, Linked, nous donnons du sens à vos Data et vous proposons des outils 
@@ -31,18 +29,6 @@ differentiator_3: Ozwillo est un tiers de confiance, garant de l'utilisation du 
   ainsi que du respect de la confidentialité des données personnelles et de la libre concurrence des applications proposées
 differentiator_4: La plateforme Ozwillo, constituée du moteur de données, du portail et de son système de sécurité
   est publiée en <a href='https://github.com/ozwillo'>Open Source sur GitHub</a>, ouverte à la contribution
-
-store_title: span Un catalogue riche d'applications pour tous les publics
-store_professional: Pour les professionels d’une organisation publique ou privée
-store_professional_description: Vous trouverez ici des services citoyens et des applications qui vous sont destinés. De quoi
-  simplifier vos processus et vos tâches professionnelles. Avec Ozwillo vous adoptez une nouvelle manière de rendre les
-  services publics et de favoriser la participation citoyenne.
-store_personal: Pour vos usages personnels
-store_personal_description: Vous trouverez ici des services citoyens et des applications qui vous sont destinés (par
-  exemple une carte de déclaration d’incidents proposés par votre commune, ou bien encore un formulaire de demande
-  d’inscription sur la liste électorale de votre commune, ou un formulaire d’inscription et de paiement à la cantine
-  pour vos enfants ou encore des outils pour vos travaux collaboratifs ...
-store_discover: Découvrir le catalogue
 
 community_already_joined: Une communauté pour démultiplier la créativité
 

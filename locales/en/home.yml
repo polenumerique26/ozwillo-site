@@ -1,24 +1,33 @@
-main_title: Ozwillo is a platform of interactive applications through the sharing of data.
+main_title: The infrastructure foundation of <br/>your<br/> Smart Territory
 
-professional_title: span You are a <strong>professional</strong> from a public or private organization ?
-professional_subtitle: You will find here e-services and applications intended for you.
-professional_financialapp: Financial management software
-professional_eservices: E-services for public bodies
-professional_hotspotwifi: Hotspot Wifi
-professional_cartography: Participatory mapping
+offers_schema_title: A modular solution support of your innovation
 
-apps_already_joined: They already joined
-apps_discover: Discover
-apps_inprogress: In progress
-apps_opendata: Publish and host your Open Data
-apps_fluxdemat: Financial flows and control of legality acts dematerialization (PESV2)
-apps_zimbra: Open Source collaboration application (e-mail, calendar, ...)
-apps_dokuwiki: Open Source wiki application
-apps_agrilocal: Platform for local food purchases for the canteens and public institutions
-apps_10tts: Online travel guide for finding things to see and vote for your favorite places or share must-see experience.
+data_title: Value you data
+data_description_1: The control and exploitation of your data are key issues.
+data_description_2: Whether Open, Big, Smart, Shared, Linked, we give sense to your Data and propose you tools to exploit them easily.
+data_browse: Data solutions
 
-store_title: span You are an editor and want to market your <strong>application</strong> ?
-store_subtitle: Libraries and tools to more easily use the platform are published under the LGPL licence.
+portal_title: Promote you applications
+portal_description_1: Visibility and access in mobility to your applications are key factors for their adoption.
+portal_description_2: Make your applications communicating and accessible to your users in a few clicks through a customizable portal.
+portal_browse: Portal solutions
 
-developer_title: span You are a <srong>developer</strong> ? Ozwillo allows you to <strong>launch</strong> your application
-developer_subtitle: Based on an open model (source code), allowing reuse of data produced by all applications, your abilities will be increased tenfold.
+incubation_title: Boost your projects
+incubation_description_1: From idea to commercialization, accelerate and secure the placing on the market process.
+incubation_description_2: Benefit from shared data to develop new communicating applications, and a support to marketing.
+incubation_browse: Projects solutions
+
+differentiator_title: The ethics + of Ozwillo
+differentiator_1: Ozwillo is a common good factory of semantic data models and reusable data editable by all.
+  Data models are published under LGPL licence.
+differentiator_2: Ozwillo has an open governance representing the society, a collective of public and private organisations
+  and individuals, allowing everyone to preserve its freedom, independence, and to contribute to the infrastructure enrichment.
+differentiator_3: Ozwillo is a trusted third party, guarantor of the fair use of the common good of data and their models
+  as well as the confidentiality of personal data and the free competition of proposed applications
+differentiator_4: The ozwillo infrastructure, composed of the data engine, portal and its security system is published
+  in <a href='https://github.com/ozwillo'>Open Source on Github</a>, open to contribution.
+
+community_already_joined: A community to leverage creativity
+
+
+

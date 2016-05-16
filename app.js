@@ -8,11 +8,11 @@ var express = require('express'),
 
 /* i18n initialization */
 
-var allLanguages = ['fr'];
+var allLanguages = ['fr', 'en'];
 var option = {
   supportedLngs: allLanguages,
   preload: allLanguages,
-  fallbackLng: 'fr',
+  fallbackLng: 'en',
   detectLngFromPath: 0,
   ns: {
     namespaces: ['route', 'menu', 'home', 'offer-data', 'offer-portal', 'offer-project', 'news',

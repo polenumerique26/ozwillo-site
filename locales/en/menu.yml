@@ -1,18 +1,30 @@
+skip_to_content: Go to content
 toggle_navigation: Toggle navigation
 
 offers: Offers
 offer-data: Data
 offer-portal: Portal
-offer-incubation: Incubation
+offer-project: Projects
+
 who-are-we: Who are we ?
 association: Association
+governance: Governance
+community: Community
+team: Team
+
+common-good-menu: Common good
+common-good: Common good
+technology: Technology
+genesis: Genesis
+contributions: Contributions
+
 news: News
-co-construct: Co-construct
-projects: Projects
+contact: Contact
+legal-notices: Legal notices
 
 store: Catalog
 data: Data
 connexion: Log in
 
-lang_fr: Français
-lang_en: English
+lang_fr: FR
+lang_en: EN

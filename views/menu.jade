@@ -61,3 +61,12 @@ nav.navbar.navbar-default
           a(href=getOzwilloHost('portal') + '/my?ui_locales=' + i18n.lng())
             img(src='/static/img/connexion-purple.png', alt='Connexion icon')
             span= t('menu:::connexion')
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            span= t('menu:::lang_' + (['fr', 'en'].indexOf(i18n.lng()) > -1 ? i18n.lng() : 'en'))
+            i.caret
+          ul.dropdown-menu
+            li
+              a.gris(href='/fr/' + t('route:::' + page, {lng: "fr"}))= t('menu:::lang_fr')
+              a.gris(href='/en/' + t('route:::' + page, {lng: "en"}))= t('menu:::lang_en')
+

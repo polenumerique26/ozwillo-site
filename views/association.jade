@@ -20,7 +20,7 @@ html(lang=i18n.lng())
           div!= t('association:::community_desc', {postProcess: "jade"})
         .col-md-3
           a.btn.btn-sm.btn-file(href='/static/pdf/Statuts_Association_Ozwillo.pdf')= t('association:::ozwillo_status')
-          a.btn.btn-sm.btn-page(href=getPageLink('members'))= t('association:::governance_members')
+          a.btn.btn-sm.btn-page(href=getPageLink('governance'))= t('association:::governance_members')
           .side-pane!= t('association:::why_ozwillo')
 
     .container
