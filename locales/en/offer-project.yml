@@ -1,0 +1,46 @@
+main_title: Project solutions
+main_subtitle: Boost your projects
+
+support_title: From idea to market
+support_subtitle: "You have an application project, we propose you :"
+support_items:
+  "<ul>
+     <li>Data accessible via APIs</li>
+     <li>A development and test environment</li>
+     <li>An attendant methodology (search of a technical partner, support to the definition of the project and development
+      in agile mode, support for business model)</li>
+     <li>A beta-testing community</li>
+   </ul>
+  "
+
+event_title: Supporting your events
+event_subtitle: "Promote the conditions for innovation in your territory"
+event_before: "Technical support of your hackatons, mapping parties, ..."
+event_before_items:
+  "<ul>
+     <li>Easy and on demand integration of any new dataset</li>
+     <li>Availability of a data infrastructure</li>
+     <li>Developers interfaces with query tools</li>
+     <li>Technical support during the event</li>
+   </ul>
+  "
+event_after: "Support of your prize winners"
+event_after_items:
+  "<ul>
+     <li>Technical advice and industralization</li>
+     <li>Link data to repositories</li>
+     <li>Publishing applications on the Ozwillo store</li>
+   </ul>
+  "
+
+partner_title: You incubate and accelerate projects
+partner_subtitle: Become a partner to launch your innovators
+partner_items:
+  "<ul>
+     <li>Showcase their web applications</li>
+     <li>A network of foreign partners for marketing abroad</li>
+     <li>A club of application vendors to form partnerships</li>
+   </ul>
+  "
+
+contact_us: Contact us

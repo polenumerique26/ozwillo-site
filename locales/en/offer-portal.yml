@@ -1,0 +1,44 @@
+main_title: Portal solutions
+main_subtitle: Promote your applications
+
+community_apps_portal_type: Ozwillo portal
+community_apps_title: Discover the communicating applications
+community_apps_subtitle: Tourism, environment, e-government, citizen relationship, … find your application
+community_apps_items:
+  "<ul>
+    <li>Applications accessible in few clicks</li>
+    <li>A personal environment to manage your application</li>
+    <li>A free trial period of 30 days</li>
+    <li>Your data reusable without additional cost</li>
+  </ul>"
+
+community_market_portal_type: Ozwillo portal
+community_market_title: Market your application
+community_market_subtitle: Publish your application on the common portal and turn it into a communicating one
+community_market_items:
+  "<ul>
+    <li>An authentication system and an unified management of your users</li>
+    <li>Linked and shared reusable data</li>
+    <li>Publication of your application on a multilingual store</li>
+    <li>Potential partners to market abroad your application</li>
+  </ul>"
+
+customized_portal_type: Customized portal
+customized_title: Create your own application portal
+customized_subtitle: Ease the relationship with your users
+customized_applications: "Your applications :"
+customized_applications_items:
+  "<ul>
+    <li>Gather your applications in a dedicated and customized portal</li>
+    <li>Accessible to your users in few clicks without local installation</li>
+    <li>Beneficiaries of the identity federation system</li>
+  </ul>"
+customized_data: "Your data :"
+customized_data_items:
+  "<ul>
+    <li>Modeled to be linked together</li>
+    <li>Reusable by any new application</li>
+  </ul>"
+
+contact_us: Contact us
+go_to_portal: Access to the portal

@@ -1,0 +1,91 @@
+main_title: Genesis of a commons
+main_subtitle: From openness to the creation of a commons
+
+oasis_title: Oasis - The European project foundation of the Ozwillo platform
+
+oasis_origin_title: The origin of the project
+oasis_text_1: Ozwillo is the outcome of OASIS European project which allowed to create the first technical and legal
+  elements of Ozwillo infrastructure.
+oasis_text_2: "The European OASIS project was selected in 2011 by the European Commission under the Competitiveness and
+  Innovation Programme 2007-2013 on the Call for Proposal: <i>Towards a cloud of public services</i>."
+oasis_text_3: The issue was to develop more efficient public services by supporting public authorities to switch to cloud
+  and interoperable services.
+
+oasis_pillars_title: The pilars of the call for proposal
+oasis_pillars_item_1: Breaking silos
+oasis_pillars_item_2: Opening and reuse of services
+oasis_pillars_item_3: Deployment of a new architecture
+oasis_pillars_item_4: Large scale demonstrator
+
+oasis_results_title: Outcomes of the project
+oasis_results_item_1: "A Web and secured infrastructure of linked data, released as an <a href='https://github.com/ozwillo'>Open Source project on Github</a>"
+oasis_results_item_2: A secured infrastructure tested by a specialized firm
+oasis_results_item_3: 23 applications, whether business or for citizens, turned in SaaS mode, sharing data thanks to the
+  infrastructure
+oasis_results_item_4: More than 1800 registered organisations use the applications representing more than 2700 users sharing
+  more than 615000 data
+oasis_results_item_5: A business model
+
+map_title: The project unique in Europe, has combined 6 countries (England, Spain, Italy, Bulgaria, Turkey and France) with 5 pilot sites
+
+partner_title:  Partners of the project
+partner_column_1_item_1: "Pôle Numérique association, France<br/><i>Conception and coordination of the project</i>"
+partner_column_1_item_2: "Polytechnic University of Torino, Italy<br/><i>Architecture of the infrastructure</i>"
+partner_column_1_item_3: "Atol C&D et Open Wide companies<br/><i>Architecture and développement of the infrastructure</i>"
+
+partner_column_2_item_1: "The companies atReal (France), David Holding (Bulgaria), and Blau Advisors (Spain)<br/>
+  <i>Applications providers</i>"
+partner_column_2_item_2: "The Torino Province (Italy), and the east Maramara Development Agency (Turkey)<br/><i>Pilot sites</i>"
+partner_column_2_item_3: "Brunel University (UK)<br/><i>Legal expertise on privacy and personal data</i>"
+
+########################################################################################################################
+#OCCIWare
+
+occi_title: OCCIware - Pursue innovation thanks to a national project
+occi_text_1: "The <a href='http://www.occiware.org'>OCCIware project</a> was selected in the 4th call for projects
+  « Cloud Computing and Big Data » Heart of digital industry, Investments for the Future - Development of the Digital Economy"
+occi_text_2: "The objective of OCCIware is to provide a formal framework and equipped to manage all types of resources « in the cloud ».
+  The OCCIware project aims to develop a formal framework and tools for modeling, design, deployment and execution of all
+  IT resources as an online service"
+
+########################################################################################################################
+#Démonstrateur
+demonstrator_title: <span>Ozwillo will be one of OCCIware <strong>demonstrators</strong></span>
+
+demonstrator_column_1_text: "<strong>What is a demonstrator scale 1?</strong>
+  <br />
+  <br />
+  A demonstrator scale 1 is after the laboratory research phase, before the industrialization phase and marketing which first step is usually the realization of a prototype  <br />
+  <br />
+  <strong>The realization of a demonstrator is necessary to :</strong>"
+demonstrator_column_1_item_1: Validate at real scale, design solutions used in R & D on « the bench » or test equipment
+  or on demonstrators at reduced scale
+demonstrator_column_1_item_2: Evaluate performance in an environment close to a real situation and at the right scale
+demonstrator_column_1_item_3: Demonstrate the relevance of innovation and competitive advantages in the perspective of
+  innovation by usage
+
+demonstrator_column_2_text: "<span>
+  So the demonstrator is a place to perform and experiment technologies to optimize and validate the feasibility and performance.
+  It must involve economic partners, laboratories, several industrials and territories for the implementation.
+  <br/><br/><strong>There are three main categories of demonstrators :</strong>
+  </span>"
+demonstrator_column_2_item_1: Product Demonstrator
+demonstrator_column_2_item_2: Process Demonstrator
+demonstrator_column_2_item_3: Complex systems Demonstrator may itself be an evaluation field of the first two types
+
+########################################################################################################################
+# Évolution & Développement
+
+evolutions_title: Trends and Ozwillo development axes
+
+evolutions_items_title: Beyond projects, the Ozwillo infrastructure is ever-changing to meet user needs and provide the
+  best user experience as possible
+evolutions_item_1: Enrich the application panel so that the end user finds the freedom to choose and keeps his
+  independence from any software company
+evolutions_item_2: Developing citizen participation for better management of the public and promote the recognition of
+  contributors
+evolutions_item_3: Extend the infrastructure to other European countries
+evolutions_item_4: Develop new tools to ease data linking and their reuse (OCCIware)
+evolutions_item_5: Improve user experience
+evolutions_item_6: Industrialize the infrastructure to ease the arrival of new service providers
+evolutions_item_7: Create the most appropriate governance for the preservation of a "common good" of data produced every day

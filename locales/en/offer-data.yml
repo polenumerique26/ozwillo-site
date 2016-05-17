@@ -1,0 +1,39 @@
+main_title: Data solutions
+main_subtitle: Value your data
+
+opendata_title: Open Data
+opendata_subtitle: Your own Open Data platform in few clicks
+opendata_items_intro: "Used by the British, American and French governments, the CKAN Open Source platform allows you :"
+opendata_items:
+  "<ul>
+    <li>A personnalization in few clicks</li>
+    <li>An automatic referencing of your datasets on <a href='https://www.etalab.gouv.fr/'>Etalab</a> (French Open Data platform)</li>
+    <li>To access various data visualization tools</li>
+    <li>To benefit from APIs for the reuse of your data</li>
+    <li>To comply to the European Directive on the re-use of public sector information (Directive 2003/98/EC, known as the 'PSI Directive')</li>
+  </ul>"
+
+bigdata_title: Big Data
+bigdata_subtitle: Unify your data sources for optimal exploitation
+bigdata_items_intro: "A pooling data infrastructure to process big data volumes :"
+bigdata_items:
+  "<ul>
+    <li>Easy integration of all type of data</li>
+    <li>Controlling access to your data</li>
+    <li>Generic API to reuse your data</li>
+    <li>Unlimited real-time operating</li>
+  </ul>"
+
+smartdata_title: Smart Data
+smartdata_subtitle: Link and give sense to your data
+smartdata_items_intro: "Create an ecosystem, basis of your Smart Territory by linking your business applications :"
+smartdata_items:
+  "<ul>
+    <li>Link your data to national, european and international repositories (ISO, Eurostat, INSEE …)</li>
+    <li>Create and link your semantic data models</li>
+    <li>Finely manage the access rights to your data</li>
+    <li>Use the generic API and complex query tools</li>
+  </ul>"
+
+contact_us: Contact us
+
