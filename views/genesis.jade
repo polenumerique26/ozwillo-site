@@ -47,7 +47,7 @@ html(lang=i18n.lng())
         .row
           .col-md-12
             div.map-title.text-center!= t('genesis:::map_title')
-            img.img-responsive.center-block(src='/static/img/carte.png')
+            img.img-responsive.center-block(src='/static/img/carte_' + i18n.lng() + '.png')
 
     // Partenaire
     .container
@@ -68,7 +68,7 @@ html(lang=i18n.lng())
 
     // OCCIWare
     .img-background
-      img.pull-left(src='/static/img/bandeau_Projet-en-cours.png', style='margin-bottom:-80px')
+      img.pull-left(src='/static/img/bandeau_Projet-en-cours_' + i18n.lng() + '.png', style='margin-bottom:-80px')
       .container
         .row
           .col-xs-12.with-background

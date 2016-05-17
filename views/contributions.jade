@@ -36,7 +36,7 @@ html(lang=i18n.lng())
               != t('contributions:::data_items')
               a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('contributions:::contact_us')
           .col-sm-6
-            img.img-responsive.center-block(src='/static/img/Image_contribution_data.png', alt='Illustration Contribution aux données')
+            img.img-responsive.center-block(src='/static/img/Image_contribution_data_' + i18n.lng() + '.png', alt='Illustration Contribution aux données')
 
     .container.offer
       .row

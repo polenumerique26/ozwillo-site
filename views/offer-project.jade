@@ -22,7 +22,7 @@ html(lang=i18n.lng())
           div.list-items!= t('offer-project:::support_items')
           a.btn.btn-sm.btn-page.pull-left(href=getPageLink('contact'))= t('offer-project:::contact_us')
         .col-sm-6
-          img.img-responsive.img-block-illustration(src='/static/img/Image_projet_accelerer.png', alt='Illustration accélérateur de projets')
+          img.img-responsive.img-block-illustration(src='/static/img/Image_projet_accelerer_' + i18n.lng() + '.png', alt='Illustration accélérateur de projets')
     
     .img-background
       .container.offer
@@ -32,7 +32,7 @@ html(lang=i18n.lng())
             div.subtitle.text-right= t('offer-project:::event_subtitle')
         .row    
           .col-sm-6
-            img.img-responsive(src='/static/img/Image_projet_evenement.png', alt='Illustration support évènements')
+            img.img-responsive(src='/static/img/Image_projet_evenement_' + i18n.lng() + '.png', alt='Illustration support évènements')
           .col-sm-5.col-sm-offset-1
             div.list-items
               p.items-header= t('offer-project:::event_before')
