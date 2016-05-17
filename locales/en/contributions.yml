@@ -1,0 +1,33 @@
+main_title: Contribution to the commons
+
+code_title: Contribution to the source code
+code_subtitle: Join the developers community
+code_items_intro: Originally developed in the European OASIS project by French companies Atol C&D and Open Wide, the code
+  of Ozwillo infrastructure is released as open source, open to contribution for the creation of a digital commons
+code_items:
+  "<ul>
+    <li>The source code is available on <a href='https://github.com/ozwillo'>GitHub</a></li>
+    <li>The source code is released under AGPL v3 license, libraries available to developers are published under LGPL v3 license</li>
+    <li>Contributions are assessed and validated by Ozwillo association with the support of Atol C&D and Open Wide companies</li>
+    <li>See the contributive license agreement that guarantees the free use of the code and its maintenance in open source</li>
+  </ul>"
+
+data_title: Contribution on data
+data_subtitle: Participate to the enrichment of a commons of data and their models
+data_items:
+  "<ul>
+    <li>You hold business data, repositories that you want shared and reused, become a data provider by publishing your
+    datasets on the Ozwillo Open Data platform, we will value them in Linked Data accessible via API</li>
+    <li>Contributing with new datasets, you also participate in the enrichment of data models</li>
+    <li>All created or proposed data models are published on the Ozwillo platform of Open Data under free license</li>
+  </ul>"
+
+governance_title: Contribution to the governance
+governance_subtitle: Become part of the governance of a digital commons
+governance_desc: The governance of these commons is open and represent the whole civil society (a collective of public
+  and private organizations and individuals) allowing everyone to preserve its freedom, independance, and to contribute
+  to the enrichment of this digital patrimony
+go_to_governance: See the governance
+
+contact_us: Contact us
+
