@@ -29,4 +29,79 @@
     <item href="/en/contact" row="3">Contact</item>
     <item href="/en/legal-notices" row="3">Legal notices</item>
   </menu>
+  <menu>
+    <locale>bg</locale>
+    <item href="/en/association" row="0">Association</item>
+    <item href="/en/governance" row="0">Governance</item>
+    <item href="/en/community" row="0">Community</item>
+    <item href="/en/team" row="0">Team</item>
+    <item href="/en/offer-data" row="1">Data</item>
+    <item href="/en/offer-portal" row="1">Portal</item>
+    <item href="/en/offer-projects" row="1">Projects</item>
+    <item href="/en/genesis" row="2">Genesis</item>
+    <item href="/en/contributions" row="2">Contributions</item>
+    <item href="/en/news" row="3">News</item>
+    <item href="/en/contact" row="3">Contact</item>
+    <item href="/en/legal-notices" row="3">Legal notices</item>
+  </menu>
+  <menu>
+    <locale>ca</locale>
+    <item href="/en/association" row="0">Association</item>
+    <item href="/en/governance" row="0">Governance</item>
+    <item href="/en/community" row="0">Community</item>
+    <item href="/en/team" row="0">Team</item>
+    <item href="/en/offer-data" row="1">Data</item>
+    <item href="/en/offer-portal" row="1">Portal</item>
+    <item href="/en/offer-projects" row="1">Projects</item>
+    <item href="/en/genesis" row="2">Genesis</item>
+    <item href="/en/contributions" row="2">Contributions</item>
+    <item href="/en/news" row="3">News</item>
+    <item href="/en/contact" row="3">Contact</item>
+    <item href="/en/legal-notices" row="3">Legal notices</item>
+  </menu>
+  <menu>
+    <locale>es</locale>
+    <item href="/en/association" row="0">Association</item>
+    <item href="/en/governance" row="0">Governance</item>
+    <item href="/en/community" row="0">Community</item>
+    <item href="/en/team" row="0">Team</item>
+    <item href="/en/offer-data" row="1">Data</item>
+    <item href="/en/offer-portal" row="1">Portal</item>
+    <item href="/en/offer-projects" row="1">Projects</item>
+    <item href="/en/genesis" row="2">Genesis</item>
+    <item href="/en/contributions" row="2">Contributions</item>
+    <item href="/en/news" row="3">News</item>
+    <item href="/en/contact" row="3">Contact</item>
+    <item href="/en/legal-notices" row="3">Legal notices</item>
+  </menu>
+  <menu>
+    <locale>it</locale>
+    <item href="/en/association" row="0">Association</item>
+    <item href="/en/governance" row="0">Governance</item>
+    <item href="/en/community" row="0">Community</item>
+    <item href="/en/team" row="0">Team</item>
+    <item href="/en/offer-data" row="1">Data</item>
+    <item href="/en/offer-portal" row="1">Portal</item>
+    <item href="/en/offer-projects" row="1">Projects</item>
+    <item href="/en/genesis" row="2">Genesis</item>
+    <item href="/en/contributions" row="2">Contributions</item>
+    <item href="/en/news" row="3">News</item>
+    <item href="/en/contact" row="3">Contact</item>
+    <item href="/en/legal-notices" row="3">Legal notices</item>
+  </menu>
+  <menu>
+    <locale>tr</locale>
+    <item href="/en/association" row="0">Association</item>
+    <item href="/en/governance" row="0">Governance</item>
+    <item href="/en/community" row="0">Community</item>
+    <item href="/en/team" row="0">Team</item>
+    <item href="/en/offer-data" row="1">Data</item>
+    <item href="/en/offer-portal" row="1">Portal</item>
+    <item href="/en/offer-projects" row="1">Projects</item>
+    <item href="/en/genesis" row="2">Genesis</item>
+    <item href="/en/contributions" row="2">Contributions</item>
+    <item href="/en/news" row="3">News</item>
+    <item href="/en/contact" row="3">Contact</item>
+    <item href="/en/legal-notices" row="3">Legal notices</item>
+  </menu>
 </menuset>
