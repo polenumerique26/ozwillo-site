@@ -2,3 +2,5 @@ node_modules
 *.iml
 .idea
 .DS_Store
+.vscode
+jsconfig.json
