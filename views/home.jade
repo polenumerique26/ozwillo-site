@@ -51,16 +51,20 @@ html(lang=i18n.lng())
       .row
         .col-md-12
           h2.text-center= t('home:::differentiator_title')
-        .col-md-12
-          .row
-            .col-md-6
-              ul.commitment
-                li.cc= t('home:::differentiator_1')
-                li.tiers-confiance= t('home:::differentiator_3')
-            .col-md-6
-              ul.commitment
-                li.gouvernance= t('home:::differentiator_2')
-                li.opensource!= t('home:::differentiator_4')
+      .row
+        .col-md-6
+          ul.commitment
+            li.cc= t('home:::differentiator_1')
+        .col-md-6
+          ul.commitment
+            li.gouvernance= t('home:::differentiator_2')
+      .row
+        .col-md-6
+          ul.commitment                
+            li.tiers-confiance= t('home:::differentiator_3')
+        .col-md-6
+          ul.commitment
+            li.opensource!= t('home:::differentiator_4')
 
     .container.logos
       .row
